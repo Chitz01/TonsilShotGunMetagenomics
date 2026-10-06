@@ -1,0 +1,13 @@
+# Conda environment for the BINP52 pipeline (gtdbtk).
+# Only needed if the group environment (supervisor's gtdbtk2) is not usable.
+# Create on COSMOS (after loading your conda module):
+#   conda env create -f envs/gtdbtk.yml
+# Versions are not pinned here; after creating it, record the exact
+# versions for your thesis with:
+#   conda env export -n binp52_gtdbtk > docs/binp52_gtdbtk.lock.yml
+name: binp52_gtdbtk
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - gtdbtk>=2.4.1   # GTDB release 226 needs GTDB-Tk >= 2.4.1

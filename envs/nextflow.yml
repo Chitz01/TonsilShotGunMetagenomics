@@ -1,0 +1,10 @@
+# Conda environment for running nf-core/mag (Nextflow + Java).
+# Pipeline tools themselves come as containers (Apptainer/Singularity).
+#   conda env create -f envs/nextflow.yml
+name: binp52_nextflow
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - nextflow
+  - openjdk=17

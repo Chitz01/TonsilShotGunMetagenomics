@@ -1,0 +1,46 @@
+Selection label : tonsil
+Regex           : /tonsil/i
+Strategies kept : WGS
+Min bases/run   : 0
+
+One per subject : yes
+Samples matched : 25
+Samples removed : 2 (see tonsil_excluded_samples.tsv)
+    - SRS019126 (subject 241750; kept SRS013947): repeat sample of subject 241750; no visit number in metadata; kept earliest-registered sample (lowest SRS)
+    - SRS015061 (subject 241822; kept SRS014474): repeat sample of subject 241822; no visit number in metadata; kept earliest-registered sample (lowest SRS)
+Runs selected   : 32
+Samples         : 23
+Subjects        : 23
+Total size      : 254.76 Gbases
+Library layouts : {'PAIRED': 32}
+
+Distinct matched values (CHECK THESE ARE ALL TONSIL):
+     36  BioSample:isolation_source = G_DNA_Palatine Tonsils
+     36  BioSample:analyte_type = G_DNA_Palatine Tonsils
+     19  BioSample:title = Human metagenome sample from G_DNA_Palatine Tonsils of a female participant in the dbGaP study "HMP Core Microbiome Sampling Protocol A (HMP-A)"
+     17  BioSample:title = Human metagenome sample from G_DNA_Palatine Tonsils of a male participant in the dbGaP study "HMP Core Microbiome Sampling Protocol A (HMP-A)"
+
+Per sample (runs, Gbases):
+  SRS013947	2	12.23
+  SRS014474	2	12.70
+  SRS019026	2	10.18
+  SRS063351	2	14.99
+  SRS063621	1	5.01
+  SRS064022	1	5.74
+  SRS064482	2	4.63
+  SRS064831	1	4.69
+  SRS065306	2	3.73
+  SRS077308	1	18.36
+  SRS098620	2	11.70
+  SRS104287	2	17.47
+  SRS142973	1	1.65
+  SRS143062	1	15.06
+  SRS143210	1	19.55
+  SRS143537	1	0.56
+  SRS143756	1	23.00
+  SRS144376	1	11.16
+  SRS144424	1	9.35
+  SRS144674	1	18.07
+  SRS146746	2	1.78
+  SRS147149	1	16.61
+  SRS148284	1	16.56

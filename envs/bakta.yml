@@ -1,0 +1,13 @@
+# Conda environment for the BINP52 pipeline (bakta).
+# Only needed if the group environment (supervisor's gtdbtk2) is not usable.
+# Create on COSMOS (after loading your conda module):
+#   conda env create -f envs/bakta.yml
+# Versions are not pinned here; after creating it, record the exact
+# versions for your thesis with:
+#   conda env export -n binp52_bakta > docs/binp52_bakta.lock.yml
+name: binp52_bakta
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bakta

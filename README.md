@@ -1,72 +1,189 @@
-## Proposed analysis pipeline
-Phase 1: dataset identification and metadata <source sourceId="302-309" title="" sourceType="library" />
+# TonsilShotGunMetagenomics
 
-1. Search curated human microbiome resources, SRA and ENA for tonsil tissue, saliva, oral rinse, plaque, buccal, tongue and oropharyngeal shotgun metagenomes.
+Mining the human tonsil and oral microbiomes for microbial enzymes with
+potential to degrade tire-derived micro- and nanoplastics.
+BINP52 MSc project, Lund University — Chetana Varada (supervisor: Ghjuvan Grimaud).
+Runs on LUNARC COSMOS with SLURM.
 
-2. Record study accession, sample ID, body site, disease state, age, sex, smoking, antibiotic exposure, sequencing platform, read type, read length, depth and host-depletion method.
+**Data:** HMP shotgun metagenomes, BioProject PRJNA48479. Only tonsil samples
+are used: 25 samples from 23 people matched; one sample per person is kept
+(23 samples), see [Sample selection](#sample-selection).
 
-3. Exclude datasets without adequate metadata or with unsuitable sequencing depth for the proposed analysis.
+## Workflow
 
-4. Separate tonsil tissue from other oral niches rather than pooling them immediately.
+```text
+            01_metadata ──> 02_download ──> 03_preprocessing (KneadData + pair repair)
+                                                     │
+                     ┌───────────────────────────────┴──────────────────────────────┐
+     TAXONOMY BRANCH │                                                   MAG BRANCH │
+                     ▼                                                              ▼
+            04_taxonomy (MetaPhlAn 4)                      05_assembly (nf-core/mag 2.5.1:
+            -> species / genus tables                       MEGAHIT, MetaBAT2 + MaxBin2,
+                                                            DAS Tool, CheckM)
+                                                                    │
+                                                                    ▼
+                                                           07_mags: filter 50/10
+                                                           -> GTDB-Tk (R226) -> Bakta
+                     └───────────────────────┬──────────────────────────────────────┘
+                                             ▼
+                      06_genes, 08_enzyme_discovery, 09_integration (planned)
+```
 
-Phase 2: read processing and profiling <source sourceId="311-317" title="" sourceType="library" />
+The two branches are independent after 03: either can be run, rerun or
+changed without touching the other.
 
-1. Run FastQC and adapter or quality trimming.
+## Repository layout
 
-2. Remove human reads using an appropriate host-reference procedure and document the reference version.
+```text
+TonsilShotGunMetagenomics/
+├── config.sh                  all paths, account, databases, parameters + helpers
+├── submit.sh                  sbatch wrapper for ARRAY jobs (counts the samples for you)
+├── setup/                     check_config.sh, create_directories.sh
+├── envs/                      conda environments (sra, kneaddata, metaphlan, nextflow, gtdbtk, bakta)
+├── workflow/
+│   ├── 01_metadata/           find tonsil samples (+ one per person)
+│   ├── 02_download/           download selected runs
+│   ├── 03_preprocessing/      KneadData + repair.sh, summary
+│   ├── 04_taxonomy/           MetaPhlAn 4 + merged tables          (taxonomy branch)
+│   ├── 05_assembly/           nf-core/mag launcher + COSMOS config (MAG branch)
+│   ├── 07_mags/               filter_mags, gtdbtk, bakta           (MAG branch)
+│   └── 06_genes/ 08_enzyme_discovery/ 09_integration/   (planned)
+├── metadata/                  reviewed sample tables (committed)
+├── docs/                      notes, exported environment versions
+└── logs/                      SLURM .out/.err (not committed)
+```
 
-3. Profile taxonomy using MetaPhlAn 4.
+On COSMOS the code lives in `ANALYSIS/scripts/TonsilShotGunMetagenomics/`, and
+all results go to the numbered folders directly under
+`/lunarc/nobackup/projects/lu2025-12-46/CHETANA/ANALYSIS/`. `DATA/` is never
+written to.
 
-4. Record sample-level read counts, retained bases, taxonomic profiles and batch variables.
+## How to submit jobs
 
-5. Apply prevalence and coverage filters before comparing candidate taxa or genes.
+Always work from the repository folder. Account (`lu2026-2-117`), e-mail,
+walltime and log paths are in each script's `#SBATCH` header, as in CRASH and
+the supervisor's scripts.
 
-Phase 3: assembly and functional annotation <source sourceId="319-326" title="" sourceType="library" />
+```bash
+cd /lunarc/nobackup/projects/lu2025-12-46/CHETANA/ANALYSIS/scripts/TonsilShotGunMetagenomics
+sbatch workflow/04_taxonomy/merge_metaphlan.sh                           # single job
+./submit.sh --array-samples workflow/03_preprocessing/kneaddata.sh       # one task per sample
+./submit.sh --dry-run --array-runs workflow/02_download/download_runs.sh # show, don't submit
+```
 
-1. Assemble reads with MEGAHIT, initially using individual assemblies for straightforward interpretation.
+If the account ever changes, update all headers and `config.sh` at once:
 
-2. Consider co-assembly only for related samples with sufficient coverage and compatible biological design.
+```bash
+grep -rl "lu2026-2-117" config.sh workflow | xargs sed -i 's/lu2026-2-117/NEW-ACCOUNT/g'
+```
 
-3. Predict genes and proteins from contigs.
+## Running the pipeline
 
-4. Annotate with eggNOG-mapper, KofamKOALA and targeted enzyme databases.
+```bash
+# 01  metadata + selection (login node)
+bash workflow/01_metadata/run_metadata.sh            # or --select to redo only the selection
+# 02  download
+./submit.sh --array-runs workflow/02_download/download_runs.sh
+# 03  KneadData (trim, remove human reads, re-pair reads)
+./submit.sh --array-samples workflow/03_preprocessing/kneaddata.sh
+sbatch workflow/03_preprocessing/kneaddata_summary.sh
 
-5. Search specifically for Lcp, RoxA, RoxB, oxidoreductase, esterase and hydrolase candidates using homology and profile-HMM approaches.
+# TAXONOMY BRANCH
+./submit.sh --array-samples workflow/04_taxonomy/metaphlan.sh
+sbatch workflow/04_taxonomy/merge_metaphlan.sh
 
-6. Track whether each candidate is assembled from a contig, located in a MAG, supported by coverage and assigned to a taxon.
+# MAG BRANCH
+bash   workflow/05_assembly/make_samplesheet.sh
+sbatch workflow/05_assembly/run_nfcore_mag.sh test    # first: nf-core test dataset
+sbatch workflow/05_assembly/run_nfcore_mag.sh         # then: your samples
+bash   workflow/07_mags/filter_mags.sh
+sbatch workflow/07_mags/gtdbtk.sh
+sbatch workflow/07_mags/bakta.sh
+```
 
-Phase 4: MAG reconstruction <source sourceId="328-336" title="" sourceType="library" />
+Every step skips finished samples, so a failed job can simply be resubmitted;
+nf-core/mag continues with `-resume`.
 
-1. Map reads back to contigs to estimate coverage.
+## Sample selection
 
-2. Bin contigs with MetaBAT 2 and consider a second binner for comparison.
+`01_metadata` searches SRA RunInfo and BioSample attributes for "tonsil" and
+keeps WGS runs. All matches had `isolation_source = G_DNA_Palatine Tonsils`.
 
-3. Dereplicate bins with dRep or an equivalent genome-comparison method.
+**One sample per person** (`ONE_SAMPLE_PER_SUBJECT=true`). HMP re-sampled some
+people at a later visit; two subjects had two tonsil samples. Keeping both
+would count those people twice, so one is removed. The rule was fixed before
+looking at any results, so it cannot bias them:
 
-4. Assess completeness and contamination with CheckM.
+1. keep the earliest visit, if a visit number is in the BioSample metadata;
+2. otherwise keep the earliest-registered sample (lowest SRS accession).
 
-5. Classify acceptable MAGs with GTDB-Tk.
+The two pairs have almost identical depth (about 12 Gbases each), so the
+choice does not trade away data. Removed samples and the reason are written to
+`01_metadata/selected/tonsil_excluded_samples.tsv` and the selection report.
 
-6. Annotate each MAG and link candidate enzyme genes to MAG, taxonomy and sample prevalence.
+## MAG branch: nf-core/mag settings
 
-7. Report MAG quality according to MIMAG-style fields.
+nf-core/mag 2.5.1, run with Nextflow 23.10.1 (pinned in `config.sh`) and
+Singularity/Apptainer containers. Non-default choices, written to
+`05_assembly/params_nfcore_mag.yaml` at each run:
 
-Phase 5: candidate enzyme ranking <source sourceId="338-348" title="" sourceType="library" />
+| Setting | Why |
+| --- | --- |
+| `skip_clipping`, no host removal | already done by KneadData |
+| MEGAHIT only (`NFMAG_ASSEMBLER`) | one assembler avoids duplicate MAGs; faster; to confirm with supervisor |
+| `binning_map_mode: group`, all samples group 0 | co-abundance from all samples improves binning |
+| MetaBAT2 + MaxBin2, `skip_concoct` | same binners as the supervisor's metaWRAP script |
+| `refine_bins_dastool`, `postbinning_input: refined_bins_only` | bin refinement, like metaWRAP `bin_refinement` |
+| `binqc_tool: checkm` | CheckM, as in the supervisor's script |
+| `skip_gtdbtk` | nf-core/mag 2.5.1 contains GTDB-Tk 2.3.2 (GTDB R214 only); GTDB-Tk runs separately with R226 |
+| `skip_prokka` | annotation with Bakta instead |
 
-1. Build the positive reference set from experimentally characterised enzymes.
+After nf-core, `filter_mags.sh` keeps MAGs with ≥ 50 % completeness and
+< 10 % contamination (as `metawrap bin_refinement -c 50 -x 10`).
 
-2. Keep Lcp, RoxA and RoxB as separate enzyme families rather than assuming they are interchangeable.
+### Mapping to the supervisor's scripts
 
-3. Generate candidate sequences from all oral and tonsil metagenomes and MAGs.
+| Supervisor script | Here |
+| --- | --- |
+| `Assembly_CRA007433.sh` (KneadData, repair.sh, metaSPAdes/MEGAHIT, metaWRAP binning + refinement, CheckM) | `03_preprocessing/kneaddata.sh` (KneadData + repair.sh), `05_assembly/run_nfcore_mag.sh` (nf-core/mag), `07_mags/filter_mags.sh` |
+| `GTDB_CRA009581.sh` | `07_mags/gtdbtk.sh` (same command, `--skip_ani_screen`, 25 cores, R226) |
+| `Bakta_CRA007433.sh` | `07_mags/bakta.sh` (same options, skips finished MAGs) |
 
-4. Remove fragments, duplicates, host proteins and sequences with inadequate quality.
+## Comparison with CRASH
 
-5. Run homology, profile-HMM and domain searches before ML.
+Adapted from CRASH (https://github.com/vikkxtar123/CRASH; Natarajan J., MSc
+thesis, Lund University).
 
-6. Generate sequence embeddings and train simple baseline classifiers before more complex models.
+| Aspect | CRASH | This repository |
+| --- | --- | --- |
+| Central `config.sh` sourced by every script | yes | yes |
+| `#SBATCH -A`, mail, `logs/%x_%j` in headers; plain `sbatch` | yes | yes |
+| One conda env per tool (YAML files) | `Environments/` | `envs/` |
+| KneadData → MetaPhlAn 4 (`mpa_vJun23_CHOCOPhlAnSGB_202403`, `--offline`) | yes | yes (MetaPhlAn ≥ 4.2 flag names detected) |
+| Node-local scratch `$SNIC_TMP`, verify outputs before copying back | yes | yes |
+| Parallelism | one node, worker farm | SLURM job arrays (one task per sample) |
+| Sample selection from metadata | — | yes |
+| Assembly / MAGs | — | nf-core/mag + GTDB-Tk + Bakta |
 
-7. Use strict separation of training and test data to reduce homolog leakage.
+## Values still to obtain/check on COSMOS
 
-8. Use masked-reference recovery, cross-validation and negative controls to test whether the model can recover known enzymes.
+Run `bash setup/check_config.sh` to see what is missing.
 
-9. Rank candidates using model score, uncertainty, sequence evidence, active-site evidence, structural plausibility, taxonomic origin, MAG quality and sample prevalence.
+| Variable | What | Where to look |
+| --- | --- | --- |
+| `KNEADDATA_DB` | human Bowtie2 index | ask supervisor for a readable copy (his script uses one in his home), or `kneaddata_database --download human_genome bowtie2 <dir>` |
+| `METAPHLAN_DB_DIR` | MetaPhlAn 4 database | shared group copy, or `metaphlan --install` |
+| `ENV_GTDBTK`, `ENV_BAKTA` | GTDB-Tk / Bakta environment | supervisor's `/lunarc/nobackup/projects/lu2025-12-46/util/gtdbtk2` (check access), or `envs/gtdbtk.yml`, `envs/bakta.yml` |
+| `GTDBTK_DATA_PATH` | GTDB release 226 | supervisor's `.../lu2024-12-47/util/GTDB/release226` (check access) |
+| `BAKTA_DB` | Bakta database | supervisor's `.../lu2025-12-46/util/util_12-47/BAKTA/db` (check access) |
+| `NFMAG_MAX_CPUS`, `NFMAG_MAX_MEMORY` | largest single nf-core task | `sinfo -o "%P %c %m"` |
+
+Already set: account `lu2026-2-117`, e-mail, `Miniforge3/25.3.0-3`.
+
+## Notes
+
+- HMP removed human DNA before uploading to SRA; KneadData is still run for
+  trimming, uniform QC and as a check. Human reads are never stored.
+- An HMP sample (SRS) can have several runs (SRR); runs are merged per sample in 03.
+- Three samples are shallow (< 2 Gbases): fine for taxonomy, few MAGs expected.
+- Record exact tool versions: `conda env export -n <env> > docs/<env>.lock.yml`.

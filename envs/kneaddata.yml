@@ -1,0 +1,18 @@
+# Conda environment for the BINP52 pipeline (kneaddata).
+# Create on COSMOS (after loading your conda module):
+#   conda env create -f envs/kneaddata.yml
+# Versions are not pinned here; after creating it, record the exact
+# versions for your thesis with:
+#   conda env export -n binp52_kneaddata > docs/binp52_kneaddata.lock.yml
+name: binp52_kneaddata
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - kneaddata
+  - trimmomatic
+  - bowtie2
+  - fastqc
+  - multiqc
+  - pigz
+  - bbmap

@@ -1,0 +1,13 @@
+# Conda environment for the BINP52 pipeline (sra).
+# Create on COSMOS (after loading your conda module):
+#   conda env create -f envs/sra.yml
+# Versions are not pinned here; after creating it, record the exact
+# versions for your thesis with:
+#   conda env export -n binp52_sra > docs/binp52_sra.lock.yml
+name: binp52_sra
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sra-tools
+  - pigz

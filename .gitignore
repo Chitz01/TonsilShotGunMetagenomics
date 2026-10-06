@@ -1,0 +1,28 @@
+# Large or regenerable data never goes into git
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.sralite
+*.bam
+*.bai
+*.sam
+*.bz2
+*.dmnd
+logs/*
+!logs/.gitkeep
+.nextflow*
+work/
+tmp/
+results/
+data/
+
+# OS / editor clutter
+.DS_Store
+*.swp
+.ipynb_checkpoints/
+
+# Papers: published PDFs are usually copyrighted. If this repository will be
+# public on GitHub, uncomment the next line so your papers stay local only.
+# *.pdf
