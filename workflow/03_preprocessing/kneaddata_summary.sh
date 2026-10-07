@@ -39,5 +39,5 @@ fi
 
 # Expected sample count vs. completed
 n_exp="$(count_items "${SELECTED_SAMPLES_FILE}")"
-n_done="$(find "${KNEADDATA_DIR}/.done" -name '*.done' 2>/dev/null | wc -l)"
+n_done="$(find "${KNEADDATA_DIR}/.done" -type f -name '*.done' 2>/dev/null | wc -l)"
 log "Samples completed: ${n_done}/${n_exp}"
