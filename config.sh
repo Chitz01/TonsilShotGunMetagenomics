@@ -167,8 +167,8 @@ export ENV_NEXTFLOW="binp52_nextflow"    # Nextflow (runs nf-core/mag; tools com
 # by path. Set the path once confirmed (candidate seen in his scripts:
 # /lunarc/nobackup/projects/lu2025-12-46/util/gtdbtk2). If it is not usable,
 # create your own from envs/gtdbtk.yml / envs/bakta.yml and put the env NAME here.
-export ENV_GTDBTK="${PLACEHOLDER}"
-export ENV_BAKTA="${PLACEHOLDER}"
+export ENV_GTDBTK="/lunarc/nobackup/projects/lu2025-12-46/util/gtdbtk2"
+export ENV_BAKTA="/lunarc/nobackup/projects/lu2025-12-46/util/gtdbtk2"
 
 # nf-core/mag version (as advised) and the Nextflow version used to run it.
 # 2.5.1 is an older release (2023); a Nextflow version from that period is
@@ -187,20 +187,20 @@ export NXF_VER="23.10.1"
 # (e.g. from `kneaddata_database --download human_genome bowtie2 <dir>`).
 # The supervisor's script uses $HOME/util/KD_HOMO in his home folder; ask
 # whether a copy readable by you exists (e.g. under lu2025-12-46/util).
-export KNEADDATA_DB="${PLACEHOLDER}"
+export KNEADDATA_DB="/lunarc/nobackup/projects/lu2025-12-46/Vik/Util/kneaddata_db"
 
 # MetaPhlAn 4 database directory and index name.
-export METAPHLAN_DB_DIR="${PLACEHOLDER}"
+export METAPHLAN_DB_DIR="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/metaphlan_db_202403"
 export METAPHLAN_INDEX="mpa_vJun23_CHOCOPhlAnSGB_202403"  # change if you install another version
 
 # GTDB-Tk reference data directory. The supervisor uses GTDB release 226
 # (needs GTDB-Tk >= 2.4.1). Candidate seen in his scripts (check access):
 # /lunarc/nobackup/projects/lu2024-12-47/util/GTDB/release226
-export GTDBTK_DATA_PATH="${PLACEHOLDER}"
+export GTDBTK_DATA_PATH="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/GTDB/release226"
 
 # Bakta database directory. Candidate seen in his scripts (check access):
 # /lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/BAKTA/db
-export BAKTA_DB="${PLACEHOLDER}"
+export BAKTA_DB="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/BAKTA/db"
 
 # -----------------------------------------------------------------------------
 # 7. Tool parameters (scientific choices; adjust and record in your thesis)
