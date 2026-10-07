@@ -232,8 +232,8 @@ export NFMAG_ASSEMBLER="megahit"
 export NFMAG_BINNING_MAP_MODE="group"
 # Largest single task nf-core may request. Check node sizes with:
 #   sinfo -o "%P %c %m"     (cores, memory in MB per node)
-export NFMAG_MAX_CPUS="${PLACEHOLDER}"      # e.g. the core count of one node
-export NFMAG_MAX_MEMORY="${PLACEHOLDER}"    # e.g. "180.GB" (leave some headroom)
+export NFMAG_MAX_CPUS="48"
+export NFMAG_MAX_MEMORY="240.GB"
 export NFMAG_MAX_TIME="160.h"               # same walltime the supervisor uses
 export NFMAG_QUEUE_SIZE="20"                # max nf-core jobs in the queue at once
 
