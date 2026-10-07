@@ -62,6 +62,11 @@ if [[ "${MODE}" == "test" ]]; then
 outdir: "${OUT}"
 busco_db: ""
 binqc_tool: "checkm"
+skip_prokka: true
+skip_spades: true
+refine_bins_dastool: true
+refine_bins_dastool_threshold: 0
+postbinning_input: "refined_bins_only"
 YAML
     cd "${ASSEMBLY_DIR}"
     nextflow run nf-core/mag -r "${NFMAG_VERSION}" \
