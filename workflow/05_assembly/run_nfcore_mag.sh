@@ -55,11 +55,20 @@ CONF="${PIPELINE_DIR}/workflow/05_assembly/cosmos.config"
 if [[ "${MODE}" == "test" ]]; then
     OUT="${ASSEMBLY_DIR}/nfcore_mag_test"
     make_out_dirs "${OUT}"
+    # The 2.5.1 test profile points to a BUSCO database URL that no longer
+    # exists, so bin QC is switched to CheckM (as in the real run).
+    TEST_PARAMS="${ASSEMBLY_DIR}/params_nfcore_mag_test.yaml"
+    cat > "${TEST_PARAMS}" <<YAML
+outdir: "${OUT}"
+busco_db: ""
+binqc_tool: "checkm"
+YAML
     cd "${ASSEMBLY_DIR}"
     nextflow run nf-core/mag -r "${NFMAG_VERSION}" \
         -profile test,singularity -c "${CONF}" \
+        -params-file "${TEST_PARAMS}" \
         -work-dir "${ASSEMBLY_DIR}/nf_work_test" \
-        --outdir "${OUT}" -resume
+        -resume
     log "Test finished: ${OUT}"
     exit 0
 fi
@@ -92,6 +101,7 @@ postbinning_input: "refined_bins_only"
 binqc_tool: "checkm"
 save_checkm_data: true
 skip_gtdbtk: true
+gtdb_db: ""
 skip_prokka: true
 skip_krona: true
 max_cpus: ${NFMAG_MAX_CPUS}
