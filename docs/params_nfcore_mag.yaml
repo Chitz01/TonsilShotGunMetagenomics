@@ -1,0 +1,20 @@
+# Written by run_nfcore_mag.sh on 2026-10-08 09:32:15 — keep with the results.
+input: "/lunarc/nobackup/projects/lu2025-12-46/CHETANA/ANALYSIS/05_assembly/samplesheet.csv"
+outdir: "/lunarc/nobackup/projects/lu2025-12-46/CHETANA/ANALYSIS/05_assembly/nfcore_mag"
+skip_clipping: true
+skip_megahit: false
+skip_spades: true
+skip_spadeshybrid: true
+binning_map_mode: "group"
+skip_concoct: true
+refine_bins_dastool: true
+postbinning_input: "refined_bins_only"
+binqc_tool: "checkm"
+save_checkm_data: true
+skip_gtdbtk: true
+gtdb_db: ""
+skip_prokka: true
+skip_krona: true
+max_cpus: 48
+max_memory: "240.GB"
+max_time: "160.h"
