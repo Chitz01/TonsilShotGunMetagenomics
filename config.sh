@@ -237,9 +237,9 @@ export NFMAG_MAX_MEMORY="240.GB"
 export NFMAG_MAX_TIME="160.h"               # same walltime the supervisor uses
 export NFMAG_QUEUE_SIZE="20"                # max nf-core jobs in the queue at once
 
-# MAG quality thresholds (same as the supervisor's metaWRAP refinement -c 50 -x 10)
+# MAG quality thresholds (supervisor, Oct 2026): completeness > 50 %, contamination <= 5 %
 export MAG_MIN_COMPLETENESS="50"
-export MAG_MAX_CONTAMINATION="10"
+export MAG_MAX_CONTAMINATION="5"
 
 # =============================================================================
 # 8. Helper functions (used by every script)
