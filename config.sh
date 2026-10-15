@@ -44,33 +44,44 @@ export DATA_ROOT="${LUNARC_PROJECT_ROOT}/DATA"
 # Project output directory: the stage folders (01_metadata ... 09_integration)
 # live directly inside ANALYSIS, matching the folders already created on COSMOS.
 # The pipeline code itself lives in ANALYSIS/scripts/.
-export PROJECT_DIR="${ANALYSIS_ROOT}"
+# Which dataset to work on. Choose BEFORE running anything:
+#     export DATASET=oral     (PRJEB36291 -> ANALYSIS/oral_PRJEB36291/...)
+#     export DATASET=tonsil   (PRJNA48479 -> ANALYSIS/..., the default)
+# Each dataset's BioProject, sample selection and PROJECT_DIR are in datasets/.
+export DATASET="${DATASET:-tonsil}"
+if [[ ! -f "${PIPELINE_DIR}/datasets/${DATASET}.sh" ]]; then
+    echo "ERROR: unknown DATASET='${DATASET}' (no datasets/${DATASET}.sh)" >&2
+    # shellcheck disable=SC2317
+    return 1 2>/dev/null || exit 1
+fi
+# shellcheck source=datasets/tonsil.sh
+source "${PIPELINE_DIR}/datasets/${DATASET}.sh"
 
 # -----------------------------------------------------------------------------
 # 2. Dataset selection
 # -----------------------------------------------------------------------------
 # Public BioProject: HMP WGS Production Phase (healthy human subjects).
-export BIOPROJECT="PRJNA48479"
+# now in datasets/<name>.sh:  export BIOPROJECT="PRJNA48479"
 
 # Short label for the body site being analysed; used in output file names.
-export TARGET_LABEL="tonsil"
+# now in datasets/<name>.sh:  export TARGET_LABEL="tonsil"
 
 # Case-insensitive regular expression matched against SRA/BioSample body-site
 # metadata to pick the samples. Check the report from 01_metadata to confirm it
 # only matches what you intend (e.g. "Palatine Tonsils").
 # Later, for oral-niche comparisons, change TARGET_LABEL and this regex
 # (e.g. "tongue", "buccal", "supragingival") and rerun 01_metadata.
-export TARGET_BODY_SITE_REGEX="tonsil"
+# now in datasets/<name>.sh:  export TARGET_BODY_SITE_REGEX="tonsil"
 
 # Keep only shotgun metagenomes (excludes any amplicon runs).
-export LIBRARY_STRATEGY_KEEP="WGS"
+# now in datasets/<name>.sh:  export LIBRARY_STRATEGY_KEEP="WGS"
 
 # Keep ONE sample per person (HMP re-sampled some people at a later visit).
 # Rule, fixed before any results are seen: keep the earliest visit if a visit
 # number is in the BioSample metadata, otherwise the earliest-registered sample
 # (lowest SRS accession). Removed samples are listed with the reason in
 # 01_metadata/selected/<label>_excluded_samples.tsv. Set "false" to keep all.
-export ONE_SAMPLE_PER_SUBJECT="true"
+# now in datasets/<name>.sh:  export ONE_SAMPLE_PER_SUBJECT="true"
 
 # -----------------------------------------------------------------------------
 # 3. Stage directories (all under PROJECT_DIR, i.e. inside ANALYSIS)
@@ -108,7 +119,7 @@ export ASSEMBLY_DIR="${PROJECT_DIR}/05_assembly"
 export NFMAG_SAMPLESHEET="${ASSEMBLY_DIR}/samplesheet.csv"   # made by make_samplesheet.sh
 export NFMAG_OUTDIR="${ASSEMBLY_DIR}/nfcore_mag"              # nf-core/mag results
 export NFMAG_WORKDIR="${ASSEMBLY_DIR}/nf_work"                # Nextflow work dir (large, temporary)
-export NXF_CACHE_DIR="${ASSEMBLY_DIR}/nf_cache"               # Nextflow home + container images
+export NXF_CACHE_DIR="${ANALYSIS_ROOT}/05_assembly/nf_cache"   # shared by all datasets
 
 # 06 — genes (planned)
 export GENES_DIR="${PROJECT_DIR}/06_genes"
@@ -376,3 +387,8 @@ nonempty_gz() { [[ -s "$1" ]] && [[ -n "$(gzip -cd "$1" 2>/dev/null | head -c 1)
 done_marker() { echo "$1/.done/$2.done"; }
 mark_done() { mkdir -p "$1/.done"; date '+%F %T' > "$(done_marker "$1" "$2")"; }
 is_done() { [[ -f "$(done_marker "$1" "$2")" ]]; }
+
+# State the dataset in every SLURM job log.
+if [[ -n "${SLURM_JOB_ID:-}" ]]; then
+    log "Dataset: ${DATASET} (${BIOPROJECT}) -> ${PROJECT_DIR}"
+fi
