@@ -1,0 +1,15 @@
+attribute	why_left_out	value
+sra_librarylayout	same in all samples	SINGLE
+sra_platform	same in all samples	ION_TORRENT
+sra_model	same in all samples	Ion Torrent S5
+sra_centername	same in all samples	UNIVERSITA' DEGLI STUDI DI FERRARA
+sra_scientificname	same in all samples	human oral metagenome
+ENA-CHECKLIST	database bookkeeping	ERC000011
+ENA-FIRST-PUBLIC	database bookkeeping	2020-04-22T17:06:37Z
+ENA-LAST-UPDATE	database bookkeeping	varies
+INSDC center name	database bookkeeping	UNIVERSITA' DEGLI STUDI DI FERRARA
+INSDC first public	database bookkeeping	2020-04-22T17:06:37Z
+INSDC last update	database bookkeeping	varies
+INSDC status	database bookkeeping	public
+host	same in all samples	Homo sapiens
+scientific_name	same in all samples	human oral metagenome

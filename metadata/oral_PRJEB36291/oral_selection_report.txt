@@ -1,0 +1,840 @@
+Selection label : oral
+Regex           : /./i
+Strategies kept : WGS
+Min bases/run   : 0
+
+One per subject : yes
+Samples matched : 160
+Samples removed : 0 (see oral_excluded_samples.tsv)
+Runs selected   : 160
+Samples         : 160
+Subjects        : not reported
+Total size      : 104.77 Gbases
+Library layouts : {'SINGLE': 160}
+
+Distinct matched values (CHECK THESE ARE ALL TONSIL):
+    160  BioSample:ENA-CHECKLIST = ERC000011
+    160  BioSample:ENA-FIRST-PUBLIC = 2020-04-22T17:06:37Z
+    160  BioSample:INSDC center name = UNIVERSITA' DEGLI STUDI DI FERRARA
+    160  BioSample:INSDC first public = 2020-04-22T17:06:37Z
+    160  BioSample:INSDC status = public
+    160  BioSample:host = Homo sapiens
+    160  BioSample:scientific_name = human oral metagenome
+    106  BioSample:ENA-LAST-UPDATE = 2020-01-17T15:18:11Z
+    106  BioSample:INSDC last update = 2020-01-17T15:18:11Z
+     80  BioSample:sex = male
+     80  BioSample:sex = female
+     52  BioSample:ENA-LAST-UPDATE = 2020-01-17T15:18:12Z
+     52  BioSample:INSDC last update = 2020-01-17T15:18:12Z
+     20  BioSample:tissue = Mucosa
+     20  BioSample:tissue = Keratinized gingiva
+     20  BioSample:tissue = Supragingival plaque
+     20  BioSample:tissue = Subgingival plaque
+     20  BioSample:tissue = Saliva
+     20  BioSample:tissue = Oral rinse
+     20  BioSample:tissue = Tongue
+     20  BioSample:tissue = Hard palate
+      2  BioSample:ENA-LAST-UPDATE = 2020-01-17T15:18:10Z
+      2  BioSample:INSDC last update = 2020-01-17T15:18:10Z
+      1  BioSample:title = 13E.IonXpress_076
+      1  BioSample:External Id = SAMEA6489142
+      1  BioSample:Submitter Id = 13E.IonXpress_076
+      1  BioSample:sample_name = 13E.IonXpress_076
+      1  BioSample:title = 13F.IonXpress_077
+      1  BioSample:External Id = SAMEA6489143
+      1  BioSample:Submitter Id = 13F.IonXpress_077
+      1  BioSample:sample_name = 13F.IonXpress_077
+      1  BioSample:title = 13G.IonXpress_078
+      1  BioSample:External Id = SAMEA6489144
+      1  BioSample:Submitter Id = 13G.IonXpress_078
+      1  BioSample:sample_name = 13G.IonXpress_078
+      1  BioSample:title = 13H.IonXpress_079
+      1  BioSample:External Id = SAMEA6489145
+      1  BioSample:Submitter Id = 13H.IonXpress_079
+      1  BioSample:sample_name = 13H.IonXpress_079
+      1  BioSample:title = 14A.IonXpress_080
+      1  BioSample:External Id = SAMEA6489146
+      1  BioSample:Submitter Id = 14A.IonXpress_080
+      1  BioSample:sample_name = 14A.IonXpress_080
+      1  BioSample:title = 14B.IonXpress_001
+      1  BioSample:External Id = SAMEA6489147
+      1  BioSample:Submitter Id = 14B.IonXpress_001
+      1  BioSample:sample_name = 14B.IonXpress_001
+      1  BioSample:title = 14C.IonXpress_002
+      1  BioSample:External Id = SAMEA6489148
+      1  BioSample:Submitter Id = 14C.IonXpress_002
+      1  BioSample:sample_name = 14C.IonXpress_002
+      1  BioSample:title = 14D.IonXpress_003
+      1  BioSample:External Id = SAMEA6489149
+      1  BioSample:Submitter Id = 14D.IonXpress_003
+      1  BioSample:sample_name = 14D.IonXpress_003
+      1  BioSample:title = 14E.IonXpress_004
+      1  BioSample:External Id = SAMEA6489150
+      1  BioSample:Submitter Id = 14E.IonXpress_004
+      1  BioSample:sample_name = 14E.IonXpress_004
+      1  BioSample:title = 14F.IonXpress_005
+      1  BioSample:External Id = SAMEA6489151
+      1  BioSample:Submitter Id = 14F.IonXpress_005
+      1  BioSample:sample_name = 14F.IonXpress_005
+      1  BioSample:title = 14G.IonXpress_006
+      1  BioSample:External Id = SAMEA6489152
+      1  BioSample:Submitter Id = 14G.IonXpress_006
+      1  BioSample:sample_name = 14G.IonXpress_006
+      1  BioSample:title = 14H.IonXpress_007
+      1  BioSample:External Id = SAMEA6489153
+      1  BioSample:Submitter Id = 14H.IonXpress_007
+      1  BioSample:sample_name = 14H.IonXpress_007
+      1  BioSample:title = 15A.IonXpress_008
+      1  BioSample:External Id = SAMEA6489154
+      1  BioSample:Submitter Id = 15A.IonXpress_008
+      1  BioSample:sample_name = 15A.IonXpress_008
+      1  BioSample:title = 15B.IonXpress_009
+      1  BioSample:External Id = SAMEA6489155
+      1  BioSample:Submitter Id = 15B.IonXpress_009
+      1  BioSample:sample_name = 15B.IonXpress_009
+      1  BioSample:title = 15C.IonXpress_010
+      1  BioSample:External Id = SAMEA6489156
+      1  BioSample:Submitter Id = 15C.IonXpress_010
+      1  BioSample:sample_name = 15C.IonXpress_010
+      1  BioSample:title = 15D.IonXpress_011
+      1  BioSample:External Id = SAMEA6489157
+      1  BioSample:Submitter Id = 15D.IonXpress_011
+      1  BioSample:sample_name = 15D.IonXpress_011
+      1  BioSample:title = 15E.IonXpress_012
+      1  BioSample:External Id = SAMEA6489158
+      1  BioSample:Submitter Id = 15E.IonXpress_012
+      1  BioSample:sample_name = 15E.IonXpress_012
+      1  BioSample:title = 15F.IonXpress_013
+      1  BioSample:External Id = SAMEA6489159
+      1  BioSample:Submitter Id = 15F.IonXpress_013
+      1  BioSample:sample_name = 15F.IonXpress_013
+      1  BioSample:title = 15G.IonXpress_014
+      1  BioSample:External Id = SAMEA6489160
+      1  BioSample:Submitter Id = 15G.IonXpress_014
+      1  BioSample:sample_name = 15G.IonXpress_014
+      1  BioSample:title = 15H.IonXpress_015
+      1  BioSample:External Id = SAMEA6489161
+      1  BioSample:Submitter Id = 15H.IonXpress_015
+      1  BioSample:sample_name = 15H.IonXpress_015
+      1  BioSample:title = 16A.IonXpress_016
+      1  BioSample:External Id = SAMEA6489162
+      1  BioSample:Submitter Id = 16A.IonXpress_016
+      1  BioSample:sample_name = 16A.IonXpress_016
+      1  BioSample:title = 16B.IonXpress_017
+      1  BioSample:External Id = SAMEA6489163
+      1  BioSample:Submitter Id = 16B.IonXpress_017
+      1  BioSample:sample_name = 16B.IonXpress_017
+      1  BioSample:title = 16C.IonXpress_018
+      1  BioSample:External Id = SAMEA6489164
+      1  BioSample:Submitter Id = 16C.IonXpress_018
+      1  BioSample:sample_name = 16C.IonXpress_018
+      1  BioSample:title = 16D.IonXpress_019
+      1  BioSample:External Id = SAMEA6489165
+      1  BioSample:Submitter Id = 16D.IonXpress_019
+      1  BioSample:sample_name = 16D.IonXpress_019
+      1  BioSample:title = 16E.IonXpress_020
+      1  BioSample:External Id = SAMEA6489166
+      1  BioSample:Submitter Id = 16E.IonXpress_020
+      1  BioSample:sample_name = 16E.IonXpress_020
+      1  BioSample:title = 16F.IonXpress_021
+      1  BioSample:External Id = SAMEA6489167
+      1  BioSample:Submitter Id = 16F.IonXpress_021
+      1  BioSample:sample_name = 16F.IonXpress_021
+      1  BioSample:title = 16G.IonXpress_022
+      1  BioSample:External Id = SAMEA6489168
+      1  BioSample:Submitter Id = 16G.IonXpress_022
+      1  BioSample:sample_name = 16G.IonXpress_022
+      1  BioSample:title = 16H.IonXpress_023
+      1  BioSample:External Id = SAMEA6489169
+      1  BioSample:Submitter Id = 16H.IonXpress_023
+      1  BioSample:sample_name = 16H.IonXpress_023
+      1  BioSample:title = 17A.IonXpress_024
+      1  BioSample:External Id = SAMEA6489170
+      1  BioSample:Submitter Id = 17A.IonXpress_024
+      1  BioSample:sample_name = 17A.IonXpress_024
+      1  BioSample:title = 17B.IonXpress_025
+      1  BioSample:External Id = SAMEA6489171
+      1  BioSample:Submitter Id = 17B.IonXpress_025
+      1  BioSample:sample_name = 17B.IonXpress_025
+      1  BioSample:title = 17C.IonXpress_026
+      1  BioSample:External Id = SAMEA6489172
+      1  BioSample:Submitter Id = 17C.IonXpress_026
+      1  BioSample:sample_name = 17C.IonXpress_026
+      1  BioSample:title = 17D.IonXpress_027
+      1  BioSample:External Id = SAMEA6489173
+      1  BioSample:Submitter Id = 17D.IonXpress_027
+      1  BioSample:sample_name = 17D.IonXpress_027
+      1  BioSample:title = 17E.IonXpress_028
+      1  BioSample:External Id = SAMEA6489174
+      1  BioSample:Submitter Id = 17E.IonXpress_028
+      1  BioSample:sample_name = 17E.IonXpress_028
+      1  BioSample:title = 17F.IonXpress_029
+      1  BioSample:External Id = SAMEA6489175
+      1  BioSample:Submitter Id = 17F.IonXpress_029
+      1  BioSample:sample_name = 17F.IonXpress_029
+      1  BioSample:title = 17G.IonXpress_030
+      1  BioSample:External Id = SAMEA6489176
+      1  BioSample:Submitter Id = 17G.IonXpress_030
+      1  BioSample:sample_name = 17G.IonXpress_030
+      1  BioSample:title = 17H.IonXpress_031
+      1  BioSample:External Id = SAMEA6489177
+      1  BioSample:Submitter Id = 17H.IonXpress_031
+      1  BioSample:sample_name = 17H.IonXpress_031
+      1  BioSample:title = 18A.IonXpress_032
+      1  BioSample:External Id = SAMEA6489178
+      1  BioSample:Submitter Id = 18A.IonXpress_032
+      1  BioSample:sample_name = 18A.IonXpress_032
+      1  BioSample:title = 18B.IonXpress_033
+      1  BioSample:External Id = SAMEA6489179
+      1  BioSample:Submitter Id = 18B.IonXpress_033
+      1  BioSample:sample_name = 18B.IonXpress_033
+      1  BioSample:title = 18C.IonXpress_034
+      1  BioSample:External Id = SAMEA6489180
+      1  BioSample:Submitter Id = 18C.IonXpress_034
+      1  BioSample:sample_name = 18C.IonXpress_034
+      1  BioSample:title = 18D.IonXpress_035
+      1  BioSample:External Id = SAMEA6489181
+      1  BioSample:Submitter Id = 18D.IonXpress_035
+      1  BioSample:sample_name = 18D.IonXpress_035
+      1  BioSample:title = 18E.IonXpress_036
+      1  BioSample:External Id = SAMEA6489182
+      1  BioSample:Submitter Id = 18E.IonXpress_036
+      1  BioSample:sample_name = 18E.IonXpress_036
+      1  BioSample:title = 18F.IonXpress_037
+      1  BioSample:External Id = SAMEA6489183
+      1  BioSample:Submitter Id = 18F.IonXpress_037
+      1  BioSample:sample_name = 18F.IonXpress_037
+      1  BioSample:title = 18G.IonXpress_038
+      1  BioSample:External Id = SAMEA6489184
+      1  BioSample:Submitter Id = 18G.IonXpress_038
+      1  BioSample:sample_name = 18G.IonXpress_038
+      1  BioSample:title = 18H.IonXpress_039
+      1  BioSample:External Id = SAMEA6489185
+      1  BioSample:Submitter Id = 18H.IonXpress_039
+      1  BioSample:sample_name = 18H.IonXpress_039
+      1  BioSample:title = 19A.IonXpress_040
+      1  BioSample:External Id = SAMEA6489186
+      1  BioSample:Submitter Id = 19A.IonXpress_040
+      1  BioSample:sample_name = 19A.IonXpress_040
+      1  BioSample:title = 19B.IonXpress_041
+      1  BioSample:External Id = SAMEA6489187
+      1  BioSample:Submitter Id = 19B.IonXpress_041
+      1  BioSample:sample_name = 19B.IonXpress_041
+      1  BioSample:title = 19C.IonXpress_042
+      1  BioSample:External Id = SAMEA6489188
+      1  BioSample:Submitter Id = 19C.IonXpress_042
+      1  BioSample:sample_name = 19C.IonXpress_042
+      1  BioSample:title = 19D.IonXpress_043
+      1  BioSample:External Id = SAMEA6489189
+      1  BioSample:Submitter Id = 19D.IonXpress_043
+      1  BioSample:sample_name = 19D.IonXpress_043
+      1  BioSample:title = 19E.IonXpress_044
+      1  BioSample:External Id = SAMEA6489190
+      1  BioSample:Submitter Id = 19E.IonXpress_044
+      1  BioSample:sample_name = 19E.IonXpress_044
+      1  BioSample:title = 19F.IonXpress_045
+      1  BioSample:External Id = SAMEA6489191
+      1  BioSample:Submitter Id = 19F.IonXpress_045
+      1  BioSample:sample_name = 19F.IonXpress_045
+      1  BioSample:title = 19G.IonXpress_046
+      1  BioSample:External Id = SAMEA6489192
+      1  BioSample:Submitter Id = 19G.IonXpress_046
+      1  BioSample:sample_name = 19G.IonXpress_046
+      1  BioSample:title = 19H.IonXpress_047
+      1  BioSample:External Id = SAMEA6489193
+      1  BioSample:Submitter Id = 19H.IonXpress_047
+      1  BioSample:sample_name = 19H.IonXpress_047
+      1  BioSample:title = 20A.IonXpress_048
+      1  BioSample:External Id = SAMEA6489194
+      1  BioSample:Submitter Id = 20A.IonXpress_048
+      1  BioSample:sample_name = 20A.IonXpress_048
+      1  BioSample:title = 20B.IonXpress_049
+      1  BioSample:External Id = SAMEA6489195
+      1  BioSample:Submitter Id = 20B.IonXpress_049
+      1  BioSample:sample_name = 20B.IonXpress_049
+      1  BioSample:title = 20C.IonXpress_050
+      1  BioSample:External Id = SAMEA6489196
+      1  BioSample:Submitter Id = 20C.IonXpress_050
+      1  BioSample:sample_name = 20C.IonXpress_050
+      1  BioSample:title = 20D.IonXpress_051
+      1  BioSample:External Id = SAMEA6489197
+      1  BioSample:Submitter Id = 20D.IonXpress_051
+      1  BioSample:sample_name = 20D.IonXpress_051
+      1  BioSample:title = 20E.IonXpress_052
+      1  BioSample:External Id = SAMEA6489198
+      1  BioSample:Submitter Id = 20E.IonXpress_052
+      1  BioSample:sample_name = 20E.IonXpress_052
+      1  BioSample:title = 20F.IonXpress_053
+      1  BioSample:External Id = SAMEA6489199
+      1  BioSample:Submitter Id = 20F.IonXpress_053
+      1  BioSample:sample_name = 20F.IonXpress_053
+      1  BioSample:title = 20G.IonXpress_054
+      1  BioSample:External Id = SAMEA6489200
+      1  BioSample:Submitter Id = 20G.IonXpress_054
+      1  BioSample:sample_name = 20G.IonXpress_054
+      1  BioSample:title = 20H.IonXpress_055
+      1  BioSample:External Id = SAMEA6489201
+      1  BioSample:Submitter Id = 20H.IonXpress_055
+      1  BioSample:sample_name = 20H.IonXpress_055
+      1  BioSample:title = 6A.IonXpress_016
+      1  BioSample:External Id = SAMEA6489082
+      1  BioSample:Submitter Id = 6A.IonXpress_016
+      1  BioSample:sample_name = 6A.IonXpress_016
+      1  BioSample:title = 6B.IonXpress_017
+      1  BioSample:External Id = SAMEA6489083
+      1  BioSample:Submitter Id = 6B.IonXpress_017
+      1  BioSample:sample_name = 6B.IonXpress_017
+      1  BioSample:title = 6C.IonXpress_018
+      1  BioSample:External Id = SAMEA6489084
+      1  BioSample:Submitter Id = 6C.IonXpress_018
+      1  BioSample:sample_name = 6C.IonXpress_018
+      1  BioSample:title = 6D.IonXpress_019
+      1  BioSample:External Id = SAMEA6489085
+      1  BioSample:Submitter Id = 6D.IonXpress_019
+      1  BioSample:sample_name = 6D.IonXpress_019
+      1  BioSample:title = 6E.IonXpress_020
+      1  BioSample:External Id = SAMEA6489086
+      1  BioSample:Submitter Id = 6E.IonXpress_020
+      1  BioSample:sample_name = 6E.IonXpress_020
+      1  BioSample:title = 6F.IonXpress_021
+      1  BioSample:External Id = SAMEA6489087
+      1  BioSample:Submitter Id = 6F.IonXpress_021
+      1  BioSample:sample_name = 6F.IonXpress_021
+      1  BioSample:title = 6G.IonXpress_022
+      1  BioSample:External Id = SAMEA6489088
+      1  BioSample:Submitter Id = 6G.IonXpress_022
+      1  BioSample:sample_name = 6G.IonXpress_022
+      1  BioSample:title = 6H.IonXpress_023
+      1  BioSample:External Id = SAMEA6489089
+      1  BioSample:Submitter Id = 6H.IonXpress_023
+      1  BioSample:sample_name = 6H.IonXpress_023
+      1  BioSample:title = 7A.IonXpress_024
+      1  BioSample:External Id = SAMEA6489090
+      1  BioSample:Submitter Id = 7A.IonXpress_024
+      1  BioSample:sample_name = 7A.IonXpress_024
+      1  BioSample:title = 7B.IonXpress_025
+      1  BioSample:External Id = SAMEA6489091
+      1  BioSample:Submitter Id = 7B.IonXpress_025
+      1  BioSample:sample_name = 7B.IonXpress_025
+      1  BioSample:title = 7C.IonXpress_026
+      1  BioSample:External Id = SAMEA6489092
+      1  BioSample:Submitter Id = 7C.IonXpress_026
+      1  BioSample:sample_name = 7C.IonXpress_026
+      1  BioSample:title = 7D.IonXpress_027
+      1  BioSample:External Id = SAMEA6489093
+      1  BioSample:Submitter Id = 7D.IonXpress_027
+      1  BioSample:sample_name = 7D.IonXpress_027
+      1  BioSample:title = 7E.IonXpress_028
+      1  BioSample:External Id = SAMEA6489094
+      1  BioSample:Submitter Id = 7E.IonXpress_028
+      1  BioSample:sample_name = 7E.IonXpress_028
+      1  BioSample:title = 7F.IonXpress_029
+      1  BioSample:External Id = SAMEA6489095
+      1  BioSample:Submitter Id = 7F.IonXpress_029
+      1  BioSample:sample_name = 7F.IonXpress_029
+      1  BioSample:title = 7G.IonXpress_030
+      1  BioSample:External Id = SAMEA6489096
+      1  BioSample:Submitter Id = 7G.IonXpress_030
+      1  BioSample:sample_name = 7G.IonXpress_030
+      1  BioSample:title = 7H.IonXpress_031
+      1  BioSample:External Id = SAMEA6489097
+      1  BioSample:Submitter Id = 7H.IonXpress_031
+      1  BioSample:sample_name = 7H.IonXpress_031
+      1  BioSample:title = 8A.IonXpress_032
+      1  BioSample:External Id = SAMEA6489098
+      1  BioSample:Submitter Id = 8A.IonXpress_032
+      1  BioSample:sample_name = 8A.IonXpress_032
+      1  BioSample:title = 8B.IonXpress_033
+      1  BioSample:External Id = SAMEA6489099
+      1  BioSample:Submitter Id = 8B.IonXpress_033
+      1  BioSample:sample_name = 8B.IonXpress_033
+      1  BioSample:title = 8C.IonXpress_034
+      1  BioSample:External Id = SAMEA6489100
+      1  BioSample:Submitter Id = 8C.IonXpress_034
+      1  BioSample:sample_name = 8C.IonXpress_034
+      1  BioSample:title = 8D.IonXpress_035
+      1  BioSample:External Id = SAMEA6489101
+      1  BioSample:Submitter Id = 8D.IonXpress_035
+      1  BioSample:sample_name = 8D.IonXpress_035
+      1  BioSample:title = 8E.IonXpress_036
+      1  BioSample:External Id = SAMEA6489102
+      1  BioSample:Submitter Id = 8E.IonXpress_036
+      1  BioSample:sample_name = 8E.IonXpress_036
+      1  BioSample:title = 8F.IonXpress_037
+      1  BioSample:External Id = SAMEA6489103
+      1  BioSample:Submitter Id = 8F.IonXpress_037
+      1  BioSample:sample_name = 8F.IonXpress_037
+      1  BioSample:title = 8G.IonXpress_038
+      1  BioSample:External Id = SAMEA6489104
+      1  BioSample:Submitter Id = 8G.IonXpress_038
+      1  BioSample:sample_name = 8G.IonXpress_038
+      1  BioSample:title = 8H.IonXpress_039
+      1  BioSample:External Id = SAMEA6489105
+      1  BioSample:Submitter Id = 8H.IonXpress_039
+      1  BioSample:sample_name = 8H.IonXpress_039
+      1  BioSample:title = 9A.IonXpress_040
+      1  BioSample:External Id = SAMEA6489106
+      1  BioSample:Submitter Id = 9A.IonXpress_040
+      1  BioSample:sample_name = 9A.IonXpress_040
+      1  BioSample:title = 9B.IonXpress_041
+      1  BioSample:External Id = SAMEA6489107
+      1  BioSample:Submitter Id = 9B.IonXpress_041
+      1  BioSample:sample_name = 9B.IonXpress_041
+      1  BioSample:title = 9C.IonXpress_042
+      1  BioSample:External Id = SAMEA6489108
+      1  BioSample:Submitter Id = 9C.IonXpress_042
+      1  BioSample:sample_name = 9C.IonXpress_042
+      1  BioSample:title = 9D.IonXpress_043
+      1  BioSample:External Id = SAMEA6489109
+      1  BioSample:Submitter Id = 9D.IonXpress_043
+      1  BioSample:sample_name = 9D.IonXpress_043
+      1  BioSample:title = 9E.IonXpress_044
+      1  BioSample:External Id = SAMEA6489110
+      1  BioSample:Submitter Id = 9E.IonXpress_044
+      1  BioSample:sample_name = 9E.IonXpress_044
+      1  BioSample:title = 9F.IonXpress_045
+      1  BioSample:External Id = SAMEA6489111
+      1  BioSample:Submitter Id = 9F.IonXpress_045
+      1  BioSample:sample_name = 9F.IonXpress_045
+      1  BioSample:title = 9G.IonXpress_046
+      1  BioSample:External Id = SAMEA6489112
+      1  BioSample:Submitter Id = 9G.IonXpress_046
+      1  BioSample:sample_name = 9G.IonXpress_046
+      1  BioSample:title = 9H.IonXpress_047
+      1  BioSample:External Id = SAMEA6489113
+      1  BioSample:Submitter Id = 9H.IonXpress_047
+      1  BioSample:sample_name = 9H.IonXpress_047
+      1  BioSample:title = 10A.IonXpress_048
+      1  BioSample:External Id = SAMEA6489114
+      1  BioSample:Submitter Id = 10A.IonXpress_048
+      1  BioSample:sample_name = 10A.IonXpress_048
+      1  BioSample:title = 10B.IonXpress_049
+      1  BioSample:External Id = SAMEA6489115
+      1  BioSample:Submitter Id = 10B.IonXpress_049
+      1  BioSample:sample_name = 10B.IonXpress_049
+      1  BioSample:title = 10C.IonXpress_050
+      1  BioSample:External Id = SAMEA6489116
+      1  BioSample:Submitter Id = 10C.IonXpress_050
+      1  BioSample:sample_name = 10C.IonXpress_050
+      1  BioSample:title = 10D.IonXpress_051
+      1  BioSample:External Id = SAMEA6489117
+      1  BioSample:Submitter Id = 10D.IonXpress_051
+      1  BioSample:sample_name = 10D.IonXpress_051
+      1  BioSample:title = 10E.IonXpress_052
+      1  BioSample:External Id = SAMEA6489118
+      1  BioSample:Submitter Id = 10E.IonXpress_052
+      1  BioSample:sample_name = 10E.IonXpress_052
+      1  BioSample:title = 10F.IonXpress_053
+      1  BioSample:External Id = SAMEA6489119
+      1  BioSample:Submitter Id = 10F.IonXpress_053
+      1  BioSample:sample_name = 10F.IonXpress_053
+      1  BioSample:title = 10G.IonXpress_054
+      1  BioSample:External Id = SAMEA6489120
+      1  BioSample:Submitter Id = 10G.IonXpress_054
+      1  BioSample:sample_name = 10G.IonXpress_054
+      1  BioSample:title = 10H.IonXpress_055
+      1  BioSample:External Id = SAMEA6489121
+      1  BioSample:Submitter Id = 10H.IonXpress_055
+      1  BioSample:sample_name = 10H.IonXpress_055
+      1  BioSample:title = 11A.IonXpress_056
+      1  BioSample:External Id = SAMEA6489122
+      1  BioSample:Submitter Id = 11A.IonXpress_056
+      1  BioSample:sample_name = 11A.IonXpress_056
+      1  BioSample:title = 11B.IonXpress_057
+      1  BioSample:External Id = SAMEA6489123
+      1  BioSample:Submitter Id = 11B.IonXpress_057
+      1  BioSample:sample_name = 11B.IonXpress_057
+      1  BioSample:title = 11C.IonXpress_058
+      1  BioSample:External Id = SAMEA6489124
+      1  BioSample:Submitter Id = 11C.IonXpress_058
+      1  BioSample:sample_name = 11C.IonXpress_058
+      1  BioSample:title = 11D.IonXpress_059
+      1  BioSample:External Id = SAMEA6489125
+      1  BioSample:Submitter Id = 11D.IonXpress_059
+      1  BioSample:sample_name = 11D.IonXpress_059
+      1  BioSample:title = 11E.IonXpress_060
+      1  BioSample:External Id = SAMEA6489126
+      1  BioSample:Submitter Id = 11E.IonXpress_060
+      1  BioSample:sample_name = 11E.IonXpress_060
+      1  BioSample:title = 11F.IonXpress_061
+      1  BioSample:External Id = SAMEA6489127
+      1  BioSample:Submitter Id = 11F.IonXpress_061
+      1  BioSample:sample_name = 11F.IonXpress_061
+      1  BioSample:title = 11G.IonXpress_062
+      1  BioSample:External Id = SAMEA6489128
+      1  BioSample:Submitter Id = 11G.IonXpress_062
+      1  BioSample:sample_name = 11G.IonXpress_062
+      1  BioSample:title = 11H.IonXpress_063
+      1  BioSample:External Id = SAMEA6489129
+      1  BioSample:Submitter Id = 11H.IonXpress_063
+      1  BioSample:sample_name = 11H.IonXpress_063
+      1  BioSample:title = 12A.IonXpress_064
+      1  BioSample:External Id = SAMEA6489130
+      1  BioSample:Submitter Id = 12A.IonXpress_064
+      1  BioSample:sample_name = 12A.IonXpress_064
+      1  BioSample:title = 12B.IonXpress_065
+      1  BioSample:External Id = SAMEA6489131
+      1  BioSample:Submitter Id = 12B.IonXpress_065
+      1  BioSample:sample_name = 12B.IonXpress_065
+      1  BioSample:title = 12C.IonXpress_066
+      1  BioSample:External Id = SAMEA6489132
+      1  BioSample:Submitter Id = 12C.IonXpress_066
+      1  BioSample:sample_name = 12C.IonXpress_066
+      1  BioSample:title = 12D.IonXpress_067
+      1  BioSample:External Id = SAMEA6489133
+      1  BioSample:Submitter Id = 12D.IonXpress_067
+      1  BioSample:sample_name = 12D.IonXpress_067
+      1  BioSample:title = 12E.IonXpress_068
+      1  BioSample:External Id = SAMEA6489134
+      1  BioSample:Submitter Id = 12E.IonXpress_068
+      1  BioSample:sample_name = 12E.IonXpress_068
+      1  BioSample:title = 12F.IonXpress_069
+      1  BioSample:External Id = SAMEA6489135
+      1  BioSample:Submitter Id = 12F.IonXpress_069
+      1  BioSample:sample_name = 12F.IonXpress_069
+      1  BioSample:title = 12G.IonXpress_070
+      1  BioSample:External Id = SAMEA6489136
+      1  BioSample:Submitter Id = 12G.IonXpress_070
+      1  BioSample:sample_name = 12G.IonXpress_070
+      1  BioSample:title = 12H.IonXpress_071
+      1  BioSample:External Id = SAMEA6489137
+      1  BioSample:Submitter Id = 12H.IonXpress_071
+      1  BioSample:sample_name = 12H.IonXpress_071
+      1  BioSample:title = 13A.IonXpress_072
+      1  BioSample:External Id = SAMEA6489138
+      1  BioSample:Submitter Id = 13A.IonXpress_072
+      1  BioSample:sample_name = 13A.IonXpress_072
+      1  BioSample:title = 13B.IonXpress_073
+      1  BioSample:External Id = SAMEA6489139
+      1  BioSample:Submitter Id = 13B.IonXpress_073
+      1  BioSample:sample_name = 13B.IonXpress_073
+      1  BioSample:title = 13C.IonXpress_074
+      1  BioSample:External Id = SAMEA6489140
+      1  BioSample:Submitter Id = 13C.IonXpress_074
+      1  BioSample:sample_name = 13C.IonXpress_074
+      1  BioSample:title = 13D.IonXpress_075
+      1  BioSample:External Id = SAMEA6489141
+      1  BioSample:Submitter Id = 13D.IonXpress_075
+      1  BioSample:sample_name = 13D.IonXpress_075
+      1  BioSample:title = 1A.IonXpress_057
+      1  BioSample:External Id = SAMEA6489042
+      1  BioSample:Submitter Id = 1A.IonXpress_057
+      1  BioSample:sample_name = 1A.IonXpress_057
+      1  BioSample:title = 1B.IonXpress_058
+      1  BioSample:External Id = SAMEA6489043
+      1  BioSample:Submitter Id = 1B.IonXpress_058
+      1  BioSample:sample_name = 1B.IonXpress_058
+      1  BioSample:title = 1C.IonXpress_059
+      1  BioSample:External Id = SAMEA6489044
+      1  BioSample:Submitter Id = 1C.IonXpress_059
+      1  BioSample:sample_name = 1C.IonXpress_059
+      1  BioSample:title = 1D.IonXpress_060
+      1  BioSample:External Id = SAMEA6489045
+      1  BioSample:Submitter Id = 1D.IonXpress_060
+      1  BioSample:sample_name = 1D.IonXpress_060
+      1  BioSample:title = 1E.IonXpress_061
+      1  BioSample:External Id = SAMEA6489046
+      1  BioSample:Submitter Id = 1E.IonXpress_061
+      1  BioSample:sample_name = 1E.IonXpress_061
+      1  BioSample:title = 1F.IonXpress_062
+      1  BioSample:External Id = SAMEA6489047
+      1  BioSample:Submitter Id = 1F.IonXpress_062
+      1  BioSample:sample_name = 1F.IonXpress_062
+      1  BioSample:title = 1G.IonXpress_063
+      1  BioSample:External Id = SAMEA6489048
+      1  BioSample:Submitter Id = 1G.IonXpress_063
+      1  BioSample:sample_name = 1G.IonXpress_063
+      1  BioSample:title = 1H.IonXpress_064
+      1  BioSample:External Id = SAMEA6489049
+      1  BioSample:Submitter Id = 1H.IonXpress_064
+      1  BioSample:sample_name = 1H.IonXpress_064
+      1  BioSample:title = 2A.IonXpress_065
+      1  BioSample:External Id = SAMEA6489050
+      1  BioSample:Submitter Id = 2A.IonXpress_065
+      1  BioSample:sample_name = 2A.IonXpress_065
+      1  BioSample:title = 2B.IonXpress_066
+      1  BioSample:External Id = SAMEA6489051
+      1  BioSample:Submitter Id = 2B.IonXpress_066
+      1  BioSample:sample_name = 2B.IonXpress_066
+      1  BioSample:title = 2C.IonXpress_067
+      1  BioSample:External Id = SAMEA6489052
+      1  BioSample:Submitter Id = 2C.IonXpress_067
+      1  BioSample:sample_name = 2C.IonXpress_067
+      1  BioSample:title = 2D.IonXpress_068
+      1  BioSample:External Id = SAMEA6489053
+      1  BioSample:Submitter Id = 2D.IonXpress_068
+      1  BioSample:sample_name = 2D.IonXpress_068
+      1  BioSample:title = 2E.IonXpress_069
+      1  BioSample:External Id = SAMEA6489054
+      1  BioSample:Submitter Id = 2E.IonXpress_069
+      1  BioSample:sample_name = 2E.IonXpress_069
+      1  BioSample:title = 2F.IonXpress_070
+      1  BioSample:External Id = SAMEA6489055
+      1  BioSample:Submitter Id = 2F.IonXpress_070
+      1  BioSample:sample_name = 2F.IonXpress_070
+      1  BioSample:title = 2G.IonXpress_071
+      1  BioSample:External Id = SAMEA6489056
+      1  BioSample:Submitter Id = 2G.IonXpress_071
+      1  BioSample:sample_name = 2G.IonXpress_071
+      1  BioSample:title = 2H.IonXpress_072
+      1  BioSample:External Id = SAMEA6489057
+      1  BioSample:Submitter Id = 2H.IonXpress_072
+      1  BioSample:sample_name = 2H.IonXpress_072
+      1  BioSample:title = 3A.IonXpress_073
+      1  BioSample:External Id = SAMEA6489058
+      1  BioSample:Submitter Id = 3A.IonXpress_073
+      1  BioSample:sample_name = 3A.IonXpress_073
+      1  BioSample:title = 3B.IonXpress_074
+      1  BioSample:External Id = SAMEA6489059
+      1  BioSample:Submitter Id = 3B.IonXpress_074
+      1  BioSample:sample_name = 3B.IonXpress_074
+      1  BioSample:title = 3C.IonXpress_075
+      1  BioSample:External Id = SAMEA6489060
+      1  BioSample:Submitter Id = 3C.IonXpress_075
+      1  BioSample:sample_name = 3C.IonXpress_075
+      1  BioSample:title = 3D.IonXpress_076
+      1  BioSample:External Id = SAMEA6489061
+      1  BioSample:Submitter Id = 3D.IonXpress_076
+      1  BioSample:sample_name = 3D.IonXpress_076
+      1  BioSample:title = 3E.IonXpress_077
+      1  BioSample:External Id = SAMEA6489062
+      1  BioSample:Submitter Id = 3E.IonXpress_077
+      1  BioSample:sample_name = 3E.IonXpress_077
+      1  BioSample:title = 3F.IonXpress_078
+      1  BioSample:External Id = SAMEA6489063
+      1  BioSample:Submitter Id = 3F.IonXpress_078
+      1  BioSample:sample_name = 3F.IonXpress_078
+      1  BioSample:title = 3G.IonXpress_079
+      1  BioSample:External Id = SAMEA6489064
+      1  BioSample:Submitter Id = 3G.IonXpress_079
+      1  BioSample:sample_name = 3G.IonXpress_079
+      1  BioSample:title = 3H.IonXpress_080
+      1  BioSample:External Id = SAMEA6489065
+      1  BioSample:Submitter Id = 3H.IonXpress_080
+      1  BioSample:sample_name = 3H.IonXpress_080
+      1  BioSample:title = 4A.IonXpress_081
+      1  BioSample:External Id = SAMEA6489066
+      1  BioSample:Submitter Id = 4A.IonXpress_081
+      1  BioSample:sample_name = 4A.IonXpress_081
+      1  BioSample:title = 4B.IonXpress_001
+      1  BioSample:External Id = SAMEA6489067
+      1  BioSample:Submitter Id = 4B.IonXpress_001
+      1  BioSample:sample_name = 4B.IonXpress_001
+      1  BioSample:title = 4C.IonXpress_002
+      1  BioSample:External Id = SAMEA6489068
+      1  BioSample:Submitter Id = 4C.IonXpress_002
+      1  BioSample:sample_name = 4C.IonXpress_002
+      1  BioSample:title = 4D.IonXpress_003
+      1  BioSample:External Id = SAMEA6489069
+      1  BioSample:Submitter Id = 4D.IonXpress_003
+      1  BioSample:sample_name = 4D.IonXpress_003
+      1  BioSample:title = 4E.IonXpress_004
+      1  BioSample:External Id = SAMEA6489070
+      1  BioSample:Submitter Id = 4E.IonXpress_004
+      1  BioSample:sample_name = 4E.IonXpress_004
+      1  BioSample:title = 4F.IonXpress_005
+      1  BioSample:External Id = SAMEA6489071
+      1  BioSample:Submitter Id = 4F.IonXpress_005
+      1  BioSample:sample_name = 4F.IonXpress_005
+      1  BioSample:title = 4G.IonXpress_006
+      1  BioSample:External Id = SAMEA6489072
+      1  BioSample:Submitter Id = 4G.IonXpress_006
+      1  BioSample:sample_name = 4G.IonXpress_006
+      1  BioSample:title = 4H.IonXpress_007
+      1  BioSample:External Id = SAMEA6489073
+      1  BioSample:Submitter Id = 4H.IonXpress_007
+      1  BioSample:sample_name = 4H.IonXpress_007
+      1  BioSample:title = 5A.IonXpress_008
+      1  BioSample:External Id = SAMEA6489074
+      1  BioSample:Submitter Id = 5A.IonXpress_008
+      1  BioSample:sample_name = 5A.IonXpress_008
+      1  BioSample:title = 5B.IonXpress_009
+      1  BioSample:External Id = SAMEA6489075
+      1  BioSample:Submitter Id = 5B.IonXpress_009
+      1  BioSample:sample_name = 5B.IonXpress_009
+      1  BioSample:title = 5C.IonXpress_010
+      1  BioSample:External Id = SAMEA6489076
+      1  BioSample:Submitter Id = 5C.IonXpress_010
+      1  BioSample:sample_name = 5C.IonXpress_010
+      1  BioSample:title = 5D.IonXpress_011
+      1  BioSample:External Id = SAMEA6489077
+      1  BioSample:Submitter Id = 5D.IonXpress_011
+      1  BioSample:sample_name = 5D.IonXpress_011
+      1  BioSample:title = 5E.IonXpress_012
+      1  BioSample:External Id = SAMEA6489078
+      1  BioSample:Submitter Id = 5E.IonXpress_012
+      1  BioSample:sample_name = 5E.IonXpress_012
+      1  BioSample:title = 5F.IonXpress_013
+      1  BioSample:External Id = SAMEA6489079
+      1  BioSample:Submitter Id = 5F.IonXpress_013
+      1  BioSample:sample_name = 5F.IonXpress_013
+      1  BioSample:title = 5G.IonXpress_014
+      1  BioSample:External Id = SAMEA6489080
+      1  BioSample:Submitter Id = 5G.IonXpress_014
+      1  BioSample:sample_name = 5G.IonXpress_014
+      1  BioSample:title = 5H.IonXpress_015
+      1  BioSample:External Id = SAMEA6489081
+      1  BioSample:Submitter Id = 5H.IonXpress_015
+      1  BioSample:sample_name = 5H.IonXpress_015
+
+Per sample (runs, Gbases):
+  ERS4253510	1	0.33
+  ERS4253511	1	0.26
+  ERS4253512	1	0.36
+  ERS4253513	1	0.24
+  ERS4253514	1	0.33
+  ERS4253515	1	0.29
+  ERS4253516	1	0.64
+  ERS4253517	1	0.69
+  ERS4253518	1	0.67
+  ERS4253519	1	0.57
+  ERS4253520	1	0.66
+  ERS4253521	1	0.65
+  ERS4253522	1	0.70
+  ERS4253523	1	0.78
+  ERS4253524	1	0.71
+  ERS4253525	1	0.80
+  ERS4253526	1	0.80
+  ERS4253527	1	0.80
+  ERS4253528	1	0.73
+  ERS4253529	1	0.70
+  ERS4253530	1	0.70
+  ERS4253531	1	0.63
+  ERS4253532	1	0.79
+  ERS4253533	1	0.75
+  ERS4253534	1	0.52
+  ERS4253535	1	0.68
+  ERS4253536	1	0.69
+  ERS4253537	1	0.52
+  ERS4253538	1	0.66
+  ERS4253539	1	0.71
+  ERS4253540	1	0.77
+  ERS4253541	1	0.63
+  ERS4253542	1	0.83
+  ERS4253543	1	0.70
+  ERS4253544	1	0.90
+  ERS4253545	1	0.63
+  ERS4253546	1	0.66
+  ERS4253547	1	0.74
+  ERS4253548	1	0.72
+  ERS4253549	1	0.56
+  ERS4253550	1	0.78
+  ERS4253551	1	0.70
+  ERS4253552	1	0.46
+  ERS4253553	1	0.55
+  ERS4253554	1	0.61
+  ERS4253555	1	0.80
+  ERS4253556	1	0.71
+  ERS4253557	1	0.60
+  ERS4253558	1	0.78
+  ERS4253559	1	0.62
+  ERS4253560	1	0.84
+  ERS4253561	1	0.69
+  ERS4253562	1	0.69
+  ERS4253563	1	0.87
+  ERS4253564	1	0.77
+  ERS4253565	1	0.51
+  ERS4253566	1	0.83
+  ERS4253567	1	0.35
+  ERS4253568	1	0.67
+  ERS4253569	1	0.62
+  ERS4253570	1	0.70
+  ERS4253571	1	0.71
+  ERS4253572	1	0.61
+  ERS4253573	1	0.79
+  ERS4253574	1	0.66
+  ERS4253575	1	0.61
+  ERS4253576	1	0.92
+  ERS4253577	1	0.78
+  ERS4253578	1	0.69
+  ERS4253579	1	0.81
+  ERS4253580	1	0.81
+  ERS4253581	1	0.75
+  ERS4253582	1	0.59
+  ERS4253583	1	0.55
+  ERS4253584	1	0.68
+  ERS4253585	1	0.70
+  ERS4253586	1	0.69
+  ERS4253587	1	0.53
+  ERS4253588	1	0.74
+  ERS4253589	1	0.74
+  ERS4253590	1	0.74
+  ERS4253591	1	0.59
+  ERS4253592	1	0.64
+  ERS4253593	1	0.73
+  ERS4253594	1	0.39
+  ERS4253595	1	0.78
+  ERS4253596	1	0.76
+  ERS4253597	1	0.67
+  ERS4253598	1	0.62
+  ERS4253599	1	0.80
+  ERS4253600	1	0.89
+  ERS4253601	1	0.64
+  ERS4253602	1	0.70
+  ERS4253603	1	0.65
+  ERS4253604	1	0.95
+  ERS4253605	1	0.73
+  ERS4253606	1	0.57
+  ERS4253607	1	0.65
+  ERS4253608	1	0.78
+  ERS4253609	1	0.69
+  ERS4253610	1	0.58
+  ERS4253611	1	0.71
+  ERS4253612	1	0.66
+  ERS4253613	1	0.66
+  ERS4253614	1	0.60
+  ERS4253615	1	0.61
+  ERS4253616	1	0.68
+  ERS4253617	1	0.56
+  ERS4253618	1	0.58
+  ERS4253619	1	0.62
+  ERS4253620	1	0.70
+  ERS4253621	1	0.54
+  ERS4253622	1	0.49
+  ERS4253623	1	0.54
+  ERS4253624	1	0.71
+  ERS4253625	1	0.73
+  ERS4253626	1	0.72
+  ERS4253627	1	0.59
+  ERS4253628	1	0.54
+  ERS4253629	1	0.63
+  ERS4253630	1	0.64
+  ERS4253631	1	0.71
+  ERS4253632	1	0.56
+  ERS4253633	1	0.80
+  ERS4253634	1	0.61
+  ERS4253635	1	0.74
+  ERS4253636	1	0.90
+  ERS4253637	1	0.71
+  ERS4253638	1	0.76
+  ERS4253639	1	0.83
+  ERS4253640	1	0.78
+  ERS4253641	1	0.85
+  ERS4253642	1	0.68
+  ERS4253643	1	0.76
+  ERS4253644	1	0.79
+  ERS4253645	1	0.74
+  ERS4253646	1	0.67
+  ERS4253647	1	0.52
+  ERS4253648	1	0.56
+  ERS4253649	1	0.67
+  ERS4253650	1	0.48
+  ERS4253651	1	0.55
+  ERS4253652	1	0.53
+  ERS4253653	1	0.58
+  ERS4253654	1	0.54
+  ERS4253655	1	0.65
+  ERS4253656	1	0.66
+  ERS4253657	1	0.60
+  ERS4253658	1	0.55
+  ERS4253659	1	0.55
+  ERS4253660	1	0.67
+  ERS4253661	1	0.45
+  ERS4253662	1	0.50
+  ERS4253663	1	0.54
+  ERS4253664	1	0.63
+  ERS4253665	1	0.63
+  ERS4253666	1	0.50
+  ERS4253667	1	0.51
+  ERS4253668	1	0.54
+  ERS4253669	1	0.47

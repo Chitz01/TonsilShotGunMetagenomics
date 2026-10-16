@@ -1,0 +1,9 @@
+body_site	library_strategy	n_runs	n_samples	total_Gbases
+Mucosa	WGS	20	20	12.21
+Keratinized gingiva	WGS	20	20	13.33
+Supragingival plaque	WGS	20	20	14.30
+Subgingival plaque	WGS	20	20	12.99
+Saliva	WGS	20	20	12.92
+Oral rinse	WGS	20	20	12.25
+Tongue	WGS	20	20	13.79
+Hard palate	WGS	20	20	12.98
