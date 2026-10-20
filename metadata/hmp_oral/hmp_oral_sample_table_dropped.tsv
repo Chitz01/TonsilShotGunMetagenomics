@@ -1,0 +1,12 @@
+attribute	why_left_out	value
+sra_librarylayout	same in all samples	PAIRED
+sra_platform	same in all samples	ILLUMINA
+sra_centername	same in all samples	WUGSC
+sra_scientificname	same in all samples	human metagenome
+gap_accession	same in all samples	phs000228
+submitter_handle	same in all samples	EMMES_HMP
+biospecimen_repository	same in all samples	EMMES_HMP
+study_name	same in all samples	HMP Core Microbiome Sampling Protocol A (HMP-A)
+study_design	same in all samples	Control Set
+gap_consent_code	same in all samples	1
+gap_consent_short_name	same in all samples	HMP

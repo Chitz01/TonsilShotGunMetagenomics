@@ -1,26 +1,27 @@
 #!/usr/bin/env bash
 # =============================================================================
-# 01_metadata/run_metadata.sh — find the tonsil samples in PRJNA48479
+# 01_metadata/run_metadata.sh — find the samples of the chosen DATASET
 #
 # Downloads METADATA ONLY (a few MB) from NCBI and ENA, then selects runs whose
-# body-site metadata matches TARGET_BODY_SITE_REGEX. No sequencing data.
+# body-site metadata matches TARGET_BODY_SITE_REGEX (datasets/<name>.sh), with
+# the optional filters SUBJECTS_FILE, PLATFORM_REGEX, MIN_BASES and
+# ONE_SAMPLE_PER_SUBJECT (true = per person, site = per person and site,
+# false = keep all). No sequencing data are downloaded.
 #
-# Light and network-bound: run it directly on the COSMOS login node
-# (compute nodes may not have internet access):
+# Run on the login node, from the repository folder:
+#     export DATASET=<name>
 #     bash workflow/01_metadata/run_metadata.sh            # fetch + select
 #     bash workflow/01_metadata/run_metadata.sh --select   # re-select only
-#
-# Afterwards, READ ${METADATA_SELECTED_DIR}/<label>_selection_report.txt and
-# confirm the matched values are what you want before downloading anything.
+# Then READ <label>_selection_report.txt before downloading anything.
 # =============================================================================
 set -euo pipefail
 PIPELINE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 export PIPELINE_DIR
 source "${PIPELINE_DIR}/config.sh"
+log "Dataset: ${DATASET} (${BIOPROJECT}) -> ${PROJECT_DIR}"
 
 HERE="${PIPELINE_DIR}/workflow/01_metadata"
-command -v python3 >/dev/null || die "python3 not found (try: module load a Python module, or activate any conda env)"
-
+command -v python3 >/dev/null || die "python3 not found"
 make_out_dirs "${METADATA_RAW_DIR}" "${METADATA_SELECTED_DIR}"
 
 RUNINFO="${METADATA_RAW_DIR}/${BIOPROJECT}_sra_runinfo.csv"
@@ -31,18 +32,26 @@ if [[ "${1:-}" != "--select" ]]; then
     EMAIL_ARG=()
     is_placeholder "${SLURM_EMAIL}" || EMAIL_ARG=(--email "${SLURM_EMAIL}")
     log "Fetching metadata for ${BIOPROJECT} -> ${METADATA_RAW_DIR}"
-    python3 "${HERE}/fetch_metadata.py" \
-        --bioproject "${BIOPROJECT}" \
-        --outdir "${METADATA_RAW_DIR}" \
-        "${EMAIL_ARG[@]}"
+    python3 "${HERE}/fetch_metadata.py" --bioproject "${BIOPROJECT}" \
+        --outdir "${METADATA_RAW_DIR}" "${EMAIL_ARG[@]}"
 fi
-
 [[ -s "${RUNINFO}" ]] || die "Missing ${RUNINFO}; run without --select first"
 
-ONE_ARG=()
-[[ "${ONE_SAMPLE_PER_SUBJECT}" == "true" ]] && ONE_ARG=(--one-per-subject)
+# Optional filters (defined only in some datasets/<name>.sh files)
+case "${ONE_SAMPLE_PER_SUBJECT:-false}" in
+    true)  ONE_MODE="subject" ;;
+    site)  ONE_MODE="site" ;;
+    *)     ONE_MODE="none" ;;
+esac
+EXTRA=(--one-per-subject "${ONE_MODE}")
+if [[ -n "${SUBJECTS_FILE:-}" ]]; then
+    [[ -s "${SUBJECTS_FILE}" ]] || die "SUBJECTS_FILE not found or empty: ${SUBJECTS_FILE}"
+    EXTRA+=(--subjects "${SUBJECTS_FILE}")
+fi
+[[ -n "${PLATFORM_REGEX:-}" ]] && EXTRA+=(--platform "${PLATFORM_REGEX}")
+[[ -n "${MIN_BASES:-}" ]] && EXTRA+=(--min-bases "${MIN_BASES}")
 
-log "Selecting runs matching /${TARGET_BODY_SITE_REGEX}/ (${LIBRARY_STRATEGY_KEEP})"
+log "Selecting runs matching /${TARGET_BODY_SITE_REGEX}/ (${LIBRARY_STRATEGY_KEEP}; ${EXTRA[*]})"
 python3 "${HERE}/select_samples.py" \
     --runinfo   "${RUNINFO}" \
     --biosample "${BIOSAMPLE}" \
@@ -51,9 +60,7 @@ python3 "${HERE}/select_samples.py" \
     --label     "${TARGET_LABEL}" \
     --strategy  "${LIBRARY_STRATEGY_KEEP}" \
     --outdir    "${METADATA_SELECTED_DIR}" \
-    "${ONE_ARG[@]}"
+    "${EXTRA[@]}"
 
 log "Done. Review before downloading:"
 log "  ${METADATA_SELECTED_DIR}/${TARGET_LABEL}_selection_report.txt"
-log "  ${METADATA_SELECTED_DIR}/body_site_summary.tsv"
-log "Then copy the small tables into the git repo's metadata/ folder for version control."

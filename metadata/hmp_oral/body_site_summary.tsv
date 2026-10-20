@@ -1,0 +1,18 @@
+body_site	library_strategy	n_runs	n_samples	total_Gbases
+G_DNA_Supragingival plaque	WGS	2031	357	3806.19
+G_DNA_Tongue dorsum	WGS	2006	384	4148.98
+G_DNA_Stool	WGS	1862	475	4527.54
+G_DNA_Buccal mucosa	WGS	1816	336	3451.81
+G_DNA_Anterior nares	WGS	1509	238	2532.13
+G_DNA_Posterior fornix	WGS	809	181	2070.28
+G_DNA_L_Retroauricular crease	WGS	535	27	379.25
+G_DNA_R_Retroauricular crease	WGS	494	34	439.16
+G_DNA_Subgingival plaque	WGS	38	24	334.82
+G_DNA_Palatine Tonsils	WGS	36	25	279.41
+G_DNA_Throat	WGS	28	18	232.58
+G_DNA_Attached/Keratinized gingiva	WGS	27	17	190.26
+G_DNA_Mid vagina	WGS	18	14	194.59
+G_DNA_Vaginal introitus	WGS	17	12	122.30
+G_DNA_Saliva	WGS	16	8	101.39
+G_DNA_Hard palate	WGS	2	1	10.87
+G_DNA_R_Antecubital fossa	WGS	1	1	11.20
