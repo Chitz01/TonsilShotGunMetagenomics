@@ -14,3 +14,6 @@ export SUBJECTS_FILE="${PIPELINE_DIR}/metadata/hmp_oral/tonsil_subjects.txt"
 # Illumina only (excludes the single 454 run).
 export PLATFORM_REGEX="Illumina"
 export PROJECT_DIR="${ANALYSIS_ROOT}/hmp_oral"
+# Per person and site, keep the sample closest to the person's tonsil sample
+# (same visit whenever one exists; supervisor's decision, Oct 2026).
+export MATCH_TO_FILE="${PIPELINE_DIR}/metadata/tonsil_runs_full.tsv"

@@ -49,6 +49,10 @@ if [[ -n "${SUBJECTS_FILE:-}" ]]; then
     EXTRA+=(--subjects "${SUBJECTS_FILE}")
 fi
 [[ -n "${PLATFORM_REGEX:-}" ]] && EXTRA+=(--platform "${PLATFORM_REGEX}")
+if [[ -n "${MATCH_TO_FILE:-}" ]]; then
+    [[ -s "${MATCH_TO_FILE}" ]] || die "MATCH_TO_FILE not found or empty: ${MATCH_TO_FILE}"
+    EXTRA+=(--match-to "${MATCH_TO_FILE}")
+fi
 [[ -n "${MIN_BASES:-}" ]] && EXTRA+=(--min-bases "${MIN_BASES}")
 
 log "Selecting runs matching /${TARGET_BODY_SITE_REGEX}/ (${LIBRARY_STRATEGY_KEEP}; ${EXTRA[*]})"

@@ -15,8 +15,10 @@ Optional filters:
   --one-per-subject {none,subject,site}
         subject: one sample per person in total (tonsil dataset)
         site:    one sample per person AND body site (matched oral sites)
-        Rule, fixed in advance: lowest visit number if every candidate has one,
-        otherwise the earliest-registered sample (lowest SRS/ERS number).
+        Rule, fixed in advance: with --match-to, the sample closest (by
+        accession number) to the person's reference sample, i.e. the same visit
+        whenever one exists; otherwise the lowest visit number if every
+        candidate has one, else the earliest-registered sample.
 
 Outputs in --outdir (LABEL = --label):
   LABEL_runs_full.tsv          selected runs with metadata and ENA FASTQ links
@@ -80,7 +82,7 @@ def visit_number(bs_attrs):
     return None
 
 
-def one_per(selected, bs, mode):
+def one_per(selected, bs, mode, ref=None):
     """Keep one sample per subject (mode 'subject') or per subject+site ('site')."""
     groups = collections.defaultdict(set)
     for d in selected:
@@ -92,7 +94,12 @@ def one_per(selected, bs, mode):
         if len(samples) < 2:
             continue
         visits = {s: visit_number(bs.get(b, [])) for s, b in samples}
-        if all(v is not None for v in visits.values()):
+        if ref and key[0] in ref:
+            t = acc_number(ref[key[0]])
+            keep = min(visits, key=lambda s: (abs(acc_number(s) - t), acc_number(s)))
+            rule = (f"kept sample closest to reference sample {ref[key[0]]} "
+                    f"(accession distance {abs(acc_number(keep) - t)}; same visit if possible)")
+        elif all(v is not None for v in visits.values()):
             keep = min(visits, key=lambda s: (visits[s], acc_number(s)))
             rule = "kept lowest visit number"
         else:
@@ -178,7 +185,11 @@ def main(a):
     n_before = len({d["sample_id"] for d in selected})
     excluded = []
     if a.one_per_subject in ("subject", "site"):
-        selected, excluded = one_per(selected, bs, a.one_per_subject)
+        ref = None
+        if a.match_to:
+            ref = {r["subject_id"]: r["sample_id"] for r in csv.DictReader(open(a.match_to), delimiter="\t")
+                   if r.get("subject_id")}
+        selected, excluded = one_per(selected, bs, a.one_per_subject, ref)
 
     with open(os.path.join(a.outdir, f"{L}_excluded_samples.tsv"), "w", newline="") as fh:
         cols = ["sample_id", "subject_id", "body_site", "kept_sample", "visit_removed", "visit_kept", "reason"]
@@ -217,7 +228,8 @@ def main(a):
         fh.write(f"Subjects filter : {a.subjects + f' ({len(subjects)} IDs)' if subjects is not None else 'none'}\n")
         fh.write(f"Platform filter : {'/' + a.platform + '/i' if a.platform else 'none'}\n")
         fh.write(f"Min bases/run   : {a.min_bases}\n")
-        fh.write(f"One sample per  : {a.one_per_subject}\n\n")
+        fh.write(f"One sample per  : {a.one_per_subject}\n")
+        fh.write(f"Matched to      : {a.match_to or 'none (earliest-registered rule)'}\n\n")
         for why, n in filtered.items():
             fh.write(f"Runs dropped    : {n} ({why})\n")
         fh.write(f"Samples matched : {n_before}\n")
@@ -253,5 +265,8 @@ if __name__ == "__main__":
     p.add_argument("--platform", default="", help="regex on Platform + Model, e.g. Illumina")
     p.add_argument("--min-bases", type=int, default=0)
     p.add_argument("--one-per-subject", choices=["none", "subject", "site"], default="none")
+    p.add_argument("--match-to", default="",
+                   help="TSV with subject_id and sample_id (e.g. tonsil_runs_full.tsv): for each "
+                        "person keep the sample closest to that reference sample (same visit)")
     p.add_argument("--outdir", required=True)
     main(p.parse_args())

@@ -5,121 +5,122 @@ Subjects filter : /lunarc/nobackup/projects/lu2025-12-46/CHETANA/ANALYSIS/script
 Platform filter : /Illumina/i
 Min bases/run   : 0
 One sample per  : site
+Matched to      : /lunarc/nobackup/projects/lu2025-12-46/CHETANA/ANALYSIS/scripts/TonsilShotGunMetagenomics/metadata/tonsil_runs_full.tsv
 
 Runs dropped    : 5651 (subject not in --subjects list)
 Samples matched : 193
 Samples removed : 97 (see hmp_oral_excluded_samples.tsv)
-    - SRS065310 (kept SRS015378): repeat sample of subject 241682 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS062540 (kept SRS015395): repeat sample of subject 241682 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144372 (kept SRS018612): repeat sample of subject 241692 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS057490 (kept SRS018616): repeat sample of subject 241692 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144380 (kept SRS018616): repeat sample of subject 241692 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144368 (kept SRS018610): repeat sample of subject 241692 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143729 (kept SRS097867): repeat sample of subject 241696 at G_DNA_Attached/Keratinized gingiva; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS097898 (kept SRS097866): repeat sample of subject 241696 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143728 (kept SRS097866): repeat sample of subject 241696 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143751 (kept SRS097866): repeat sample of subject 241696 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143762 (kept SRS097871): repeat sample of subject 241696 at G_DNA_Subgingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS097907 (kept SRS016139): repeat sample of subject 241696 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143732 (kept SRS016139): repeat sample of subject 241696 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143759 (kept SRS016139): repeat sample of subject 241696 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS097895 (kept SRS016133): repeat sample of subject 241696 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143726 (kept SRS016133): repeat sample of subject 241696 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143747 (kept SRS016133): repeat sample of subject 241696 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS076817 (kept SRS018683): repeat sample of subject 241723 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104259 (kept SRS018683): repeat sample of subject 241723 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104282 (kept SRS018683): repeat sample of subject 241723 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS076821 (kept SRS018691): repeat sample of subject 241723 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104291 (kept SRS018691): repeat sample of subject 241723 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS076815 (kept SRS018679): repeat sample of subject 241723 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104279 (kept SRS018679): repeat sample of subject 241723 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019125 (kept SRS013946): repeat sample of subject 241750 at G_DNA_Attached/Keratinized gingiva; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019124 (kept SRS013945): repeat sample of subject 241750 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019120 (kept SRS013942): repeat sample of subject 241750 at G_DNA_Saliva; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019129 (kept SRS013950): repeat sample of subject 241750 at G_DNA_Subgingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019128 (kept SRS013949): repeat sample of subject 241750 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019127 (kept SRS013948): repeat sample of subject 241750 at G_DNA_Throat; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS098616 (kept SRS015688): repeat sample of subject 241756 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS098624 (kept SRS015692): repeat sample of subject 241756 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS098612 (kept SRS015686): repeat sample of subject 241756 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104089 (kept SRS019698): repeat sample of subject 241779 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144646 (kept SRS019698): repeat sample of subject 241779 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144669 (kept SRS019698): repeat sample of subject 241779 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104087 (kept SRS019696): repeat sample of subject 241779 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144644 (kept SRS019696): repeat sample of subject 241779 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS065542 (kept SRS015596): repeat sample of subject 241784 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS077283 (kept SRS063678): repeat sample of subject 241815 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS077303 (kept SRS063678): repeat sample of subject 241815 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015060 (kept SRS014473): repeat sample of subject 241822 at G_DNA_Attached/Keratinized gingiva; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015059 (kept SRS014472): repeat sample of subject 241822 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015055 (kept SRS014468): repeat sample of subject 241822 at G_DNA_Saliva; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015064 (kept SRS014477): repeat sample of subject 241822 at G_DNA_Subgingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015063 (kept SRS014476): repeat sample of subject 241822 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015062 (kept SRS014475): repeat sample of subject 241822 at G_DNA_Throat; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS015057 (kept SRS014470): repeat sample of subject 241822 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019025 (kept SRS014687): repeat sample of subject 241840 at G_DNA_Attached/Keratinized gingiva; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019024 (kept SRS014686): repeat sample of subject 241840 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019029 (kept SRS014691): repeat sample of subject 241840 at G_DNA_Subgingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019028 (kept SRS014690): repeat sample of subject 241840 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019027 (kept SRS014689): repeat sample of subject 241840 at G_DNA_Throat; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019022 (kept SRS014684): repeat sample of subject 241840 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS019045 (kept SRS014684): repeat sample of subject 241840 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104649 (kept SRS019272): repeat sample of subject 241848 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147122 (kept SRS019272): repeat sample of subject 241848 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147144 (kept SRS019272): repeat sample of subject 241848 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104653 (kept SRS019276): repeat sample of subject 241848 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147128 (kept SRS019276): repeat sample of subject 241848 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104647 (kept SRS019270): repeat sample of subject 241848 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147120 (kept SRS019270): repeat sample of subject 241848 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147140 (kept SRS019270): repeat sample of subject 241848 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147228 (kept SRS143039): repeat sample of subject 241853 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147226 (kept SRS143037): repeat sample of subject 241853 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147244 (kept SRS143037): repeat sample of subject 241853 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146979 (kept SRS144398): repeat sample of subject 241863 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146999 (kept SRS144398): repeat sample of subject 241863 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144402 (kept SRS057619): repeat sample of subject 241863 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144427 (kept SRS057619): repeat sample of subject 241863 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147008 (kept SRS057619): repeat sample of subject 241863 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS144396 (kept SRS043461): repeat sample of subject 241863 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146996 (kept SRS043461): repeat sample of subject 241863 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS142968 (kept SRS142936): repeat sample of subject 241866 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148414 (kept SRS142940): repeat sample of subject 241866 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS142965 (kept SRS043494): repeat sample of subject 241866 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148408 (kept SRS043494): repeat sample of subject 241866 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148429 (kept SRS043494): repeat sample of subject 241866 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS063413 (kept SRS042691): repeat sample of subject 241875 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS063246 (kept SRS045588): repeat sample of subject 241875 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS147664 (kept SRS065299): repeat sample of subject 257118 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS104316 (kept SRS064617): repeat sample of subject 257126 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148258 (kept SRS064617): repeat sample of subject 257126 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148262 (kept SRS104320): repeat sample of subject 257126 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148287 (kept SRS104320): repeat sample of subject 257126 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS148276 (kept SRS104314): repeat sample of subject 257126 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143233 (kept SRS064996): repeat sample of subject 257130 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146826 (kept SRS064996): repeat sample of subject 257130 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146866 (kept SRS146830): repeat sample of subject 257130 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS143253 (kept SRS143231): repeat sample of subject 257130 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146824 (kept SRS143231): repeat sample of subject 257130 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146854 (kept SRS143231): repeat sample of subject 257130 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146741 (kept SRS146721): repeat sample of subject 257131 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS149488 (kept SRS146721): repeat sample of subject 257131 at G_DNA_Buccal mucosa; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS146750 (kept SRS056113): repeat sample of subject 257131 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS149492 (kept SRS056113): repeat sample of subject 257131 at G_DNA_Supragingival plaque; no visit number in metadata; kept earliest-registered sample (lowest accession)
-    - SRS149486 (kept SRS146738): repeat sample of subject 257131 at G_DNA_Tongue dorsum; no visit number in metadata; kept earliest-registered sample (lowest accession)
-Runs selected   : 163
+    - SRS015378 (kept SRS065310): repeat sample of subject 241682 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS063351 (accession distance 1959; same visit if possible)
+    - SRS015395 (kept SRS062540): repeat sample of subject 241682 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS063351 (accession distance 811; same visit if possible)
+    - SRS018612 (kept SRS144372): repeat sample of subject 241692 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS144376 (accession distance 4; same visit if possible)
+    - SRS018616 (kept SRS144380): repeat sample of subject 241692 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS144376 (accession distance 4; same visit if possible)
+    - SRS057490 (kept SRS144380): repeat sample of subject 241692 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS144376 (accession distance 4; same visit if possible)
+    - SRS018610 (kept SRS144368): repeat sample of subject 241692 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS144376 (accession distance 8; same visit if possible)
+    - SRS097867 (kept SRS143729): repeat sample of subject 241696 at G_DNA_Attached/Keratinized gingiva; kept sample closest to reference sample SRS143756 (accession distance 27; same visit if possible)
+    - SRS097866 (kept SRS143751): repeat sample of subject 241696 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS143756 (accession distance 5; same visit if possible)
+    - SRS097898 (kept SRS143751): repeat sample of subject 241696 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS143756 (accession distance 5; same visit if possible)
+    - SRS143728 (kept SRS143751): repeat sample of subject 241696 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS143756 (accession distance 5; same visit if possible)
+    - SRS097871 (kept SRS143762): repeat sample of subject 241696 at G_DNA_Subgingival plaque; kept sample closest to reference sample SRS143756 (accession distance 6; same visit if possible)
+    - SRS016139 (kept SRS143759): repeat sample of subject 241696 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS143756 (accession distance 3; same visit if possible)
+    - SRS097907 (kept SRS143759): repeat sample of subject 241696 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS143756 (accession distance 3; same visit if possible)
+    - SRS143732 (kept SRS143759): repeat sample of subject 241696 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS143756 (accession distance 3; same visit if possible)
+    - SRS016133 (kept SRS143747): repeat sample of subject 241696 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS143756 (accession distance 9; same visit if possible)
+    - SRS097895 (kept SRS143747): repeat sample of subject 241696 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS143756 (accession distance 9; same visit if possible)
+    - SRS143726 (kept SRS143747): repeat sample of subject 241696 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS143756 (accession distance 9; same visit if possible)
+    - SRS018683 (kept SRS104282): repeat sample of subject 241723 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS104287 (accession distance 5; same visit if possible)
+    - SRS076817 (kept SRS104282): repeat sample of subject 241723 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS104287 (accession distance 5; same visit if possible)
+    - SRS104259 (kept SRS104282): repeat sample of subject 241723 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS104287 (accession distance 5; same visit if possible)
+    - SRS018691 (kept SRS104291): repeat sample of subject 241723 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS104287 (accession distance 4; same visit if possible)
+    - SRS076821 (kept SRS104291): repeat sample of subject 241723 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS104287 (accession distance 4; same visit if possible)
+    - SRS018679 (kept SRS104279): repeat sample of subject 241723 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS104287 (accession distance 8; same visit if possible)
+    - SRS076815 (kept SRS104279): repeat sample of subject 241723 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS104287 (accession distance 8; same visit if possible)
+    - SRS019125 (kept SRS013946): repeat sample of subject 241750 at G_DNA_Attached/Keratinized gingiva; kept sample closest to reference sample SRS013947 (accession distance 1; same visit if possible)
+    - SRS019124 (kept SRS013945): repeat sample of subject 241750 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS013947 (accession distance 2; same visit if possible)
+    - SRS019120 (kept SRS013942): repeat sample of subject 241750 at G_DNA_Saliva; kept sample closest to reference sample SRS013947 (accession distance 5; same visit if possible)
+    - SRS019129 (kept SRS013950): repeat sample of subject 241750 at G_DNA_Subgingival plaque; kept sample closest to reference sample SRS013947 (accession distance 3; same visit if possible)
+    - SRS019128 (kept SRS013949): repeat sample of subject 241750 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS013947 (accession distance 2; same visit if possible)
+    - SRS019127 (kept SRS013948): repeat sample of subject 241750 at G_DNA_Throat; kept sample closest to reference sample SRS013947 (accession distance 1; same visit if possible)
+    - SRS015688 (kept SRS098616): repeat sample of subject 241756 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS098620 (accession distance 4; same visit if possible)
+    - SRS015692 (kept SRS098624): repeat sample of subject 241756 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS098620 (accession distance 4; same visit if possible)
+    - SRS015686 (kept SRS098612): repeat sample of subject 241756 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS098620 (accession distance 8; same visit if possible)
+    - SRS019698 (kept SRS144669): repeat sample of subject 241779 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS144674 (accession distance 5; same visit if possible)
+    - SRS104089 (kept SRS144669): repeat sample of subject 241779 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS144674 (accession distance 5; same visit if possible)
+    - SRS144646 (kept SRS144669): repeat sample of subject 241779 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS144674 (accession distance 5; same visit if possible)
+    - SRS019696 (kept SRS144644): repeat sample of subject 241779 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS144674 (accession distance 30; same visit if possible)
+    - SRS104087 (kept SRS144644): repeat sample of subject 241779 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS144674 (accession distance 30; same visit if possible)
+    - SRS015596 (kept SRS065542): repeat sample of subject 241784 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS063621 (accession distance 1921; same visit if possible)
+    - SRS063678 (kept SRS077303): repeat sample of subject 241815 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS077308 (accession distance 5; same visit if possible)
+    - SRS077283 (kept SRS077303): repeat sample of subject 241815 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS077308 (accession distance 5; same visit if possible)
+    - SRS015060 (kept SRS014473): repeat sample of subject 241822 at G_DNA_Attached/Keratinized gingiva; kept sample closest to reference sample SRS014474 (accession distance 1; same visit if possible)
+    - SRS015059 (kept SRS014472): repeat sample of subject 241822 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS014474 (accession distance 2; same visit if possible)
+    - SRS015055 (kept SRS014468): repeat sample of subject 241822 at G_DNA_Saliva; kept sample closest to reference sample SRS014474 (accession distance 6; same visit if possible)
+    - SRS015064 (kept SRS014477): repeat sample of subject 241822 at G_DNA_Subgingival plaque; kept sample closest to reference sample SRS014474 (accession distance 3; same visit if possible)
+    - SRS015063 (kept SRS014476): repeat sample of subject 241822 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS014474 (accession distance 2; same visit if possible)
+    - SRS015062 (kept SRS014475): repeat sample of subject 241822 at G_DNA_Throat; kept sample closest to reference sample SRS014474 (accession distance 1; same visit if possible)
+    - SRS015057 (kept SRS014470): repeat sample of subject 241822 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS014474 (accession distance 4; same visit if possible)
+    - SRS014687 (kept SRS019025): repeat sample of subject 241840 at G_DNA_Attached/Keratinized gingiva; kept sample closest to reference sample SRS019026 (accession distance 1; same visit if possible)
+    - SRS014686 (kept SRS019024): repeat sample of subject 241840 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS019026 (accession distance 2; same visit if possible)
+    - SRS014691 (kept SRS019029): repeat sample of subject 241840 at G_DNA_Subgingival plaque; kept sample closest to reference sample SRS019026 (accession distance 3; same visit if possible)
+    - SRS014690 (kept SRS019028): repeat sample of subject 241840 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS019026 (accession distance 2; same visit if possible)
+    - SRS014689 (kept SRS019027): repeat sample of subject 241840 at G_DNA_Throat; kept sample closest to reference sample SRS019026 (accession distance 1; same visit if possible)
+    - SRS014684 (kept SRS019022): repeat sample of subject 241840 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS019026 (accession distance 4; same visit if possible)
+    - SRS019045 (kept SRS019022): repeat sample of subject 241840 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS019026 (accession distance 4; same visit if possible)
+    - SRS019272 (kept SRS147144): repeat sample of subject 241848 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS147149 (accession distance 5; same visit if possible)
+    - SRS104649 (kept SRS147144): repeat sample of subject 241848 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS147149 (accession distance 5; same visit if possible)
+    - SRS147122 (kept SRS147144): repeat sample of subject 241848 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS147149 (accession distance 5; same visit if possible)
+    - SRS019276 (kept SRS147128): repeat sample of subject 241848 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS147149 (accession distance 21; same visit if possible)
+    - SRS104653 (kept SRS147128): repeat sample of subject 241848 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS147149 (accession distance 21; same visit if possible)
+    - SRS019270 (kept SRS147140): repeat sample of subject 241848 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS147149 (accession distance 9; same visit if possible)
+    - SRS104647 (kept SRS147140): repeat sample of subject 241848 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS147149 (accession distance 9; same visit if possible)
+    - SRS147120 (kept SRS147140): repeat sample of subject 241848 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS147149 (accession distance 9; same visit if possible)
+    - SRS147228 (kept SRS143039): repeat sample of subject 241853 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS143062 (accession distance 23; same visit if possible)
+    - SRS147226 (kept SRS143037): repeat sample of subject 241853 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS143062 (accession distance 25; same visit if possible)
+    - SRS147244 (kept SRS143037): repeat sample of subject 241853 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS143062 (accession distance 25; same visit if possible)
+    - SRS146979 (kept SRS144398): repeat sample of subject 241863 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS144424 (accession distance 26; same visit if possible)
+    - SRS146999 (kept SRS144398): repeat sample of subject 241863 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS144424 (accession distance 26; same visit if possible)
+    - SRS057619 (kept SRS144427): repeat sample of subject 241863 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS144424 (accession distance 3; same visit if possible)
+    - SRS144402 (kept SRS144427): repeat sample of subject 241863 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS144424 (accession distance 3; same visit if possible)
+    - SRS147008 (kept SRS144427): repeat sample of subject 241863 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS144424 (accession distance 3; same visit if possible)
+    - SRS043461 (kept SRS144396): repeat sample of subject 241863 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS144424 (accession distance 28; same visit if possible)
+    - SRS146996 (kept SRS144396): repeat sample of subject 241863 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS144424 (accession distance 28; same visit if possible)
+    - SRS142936 (kept SRS142968): repeat sample of subject 241866 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS142973 (accession distance 5; same visit if possible)
+    - SRS148414 (kept SRS142940): repeat sample of subject 241866 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS142973 (accession distance 33; same visit if possible)
+    - SRS043494 (kept SRS142965): repeat sample of subject 241866 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS142973 (accession distance 8; same visit if possible)
+    - SRS148408 (kept SRS142965): repeat sample of subject 241866 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS142973 (accession distance 8; same visit if possible)
+    - SRS148429 (kept SRS142965): repeat sample of subject 241866 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS142973 (accession distance 8; same visit if possible)
+    - SRS042691 (kept SRS063413): repeat sample of subject 241875 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS065306 (accession distance 1893; same visit if possible)
+    - SRS045588 (kept SRS063246): repeat sample of subject 241875 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS065306 (accession distance 2060; same visit if possible)
+    - SRS147664 (kept SRS065299): repeat sample of subject 257118 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS064831 (accession distance 468; same visit if possible)
+    - SRS064617 (kept SRS148258): repeat sample of subject 257126 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS148284 (accession distance 26; same visit if possible)
+    - SRS104316 (kept SRS148258): repeat sample of subject 257126 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS148284 (accession distance 26; same visit if possible)
+    - SRS104320 (kept SRS148287): repeat sample of subject 257126 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS148284 (accession distance 3; same visit if possible)
+    - SRS148262 (kept SRS148287): repeat sample of subject 257126 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS148284 (accession distance 3; same visit if possible)
+    - SRS104314 (kept SRS148276): repeat sample of subject 257126 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS148284 (accession distance 8; same visit if possible)
+    - SRS143233 (kept SRS064996): repeat sample of subject 257130 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS064482 (accession distance 514; same visit if possible)
+    - SRS146826 (kept SRS064996): repeat sample of subject 257130 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS064482 (accession distance 514; same visit if possible)
+    - SRS146866 (kept SRS146830): repeat sample of subject 257130 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS064482 (accession distance 82348; same visit if possible)
+    - SRS143253 (kept SRS143231): repeat sample of subject 257130 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS064482 (accession distance 78749; same visit if possible)
+    - SRS146824 (kept SRS143231): repeat sample of subject 257130 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS064482 (accession distance 78749; same visit if possible)
+    - SRS146854 (kept SRS143231): repeat sample of subject 257130 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS064482 (accession distance 78749; same visit if possible)
+    - SRS146721 (kept SRS146741): repeat sample of subject 257131 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS146746 (accession distance 5; same visit if possible)
+    - SRS149488 (kept SRS146741): repeat sample of subject 257131 at G_DNA_Buccal mucosa; kept sample closest to reference sample SRS146746 (accession distance 5; same visit if possible)
+    - SRS056113 (kept SRS146750): repeat sample of subject 257131 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS146746 (accession distance 4; same visit if possible)
+    - SRS149492 (kept SRS146750): repeat sample of subject 257131 at G_DNA_Supragingival plaque; kept sample closest to reference sample SRS146746 (accession distance 4; same visit if possible)
+    - SRS149486 (kept SRS146738): repeat sample of subject 257131 at G_DNA_Tongue dorsum; kept sample closest to reference sample SRS146746 (accession distance 8; same visit if possible)
+Runs selected   : 158
 Samples         : 96
 Subjects        : 22
-Total size      : 1044.26 Gbases
-Library layouts : {'PAIRED': 163}
-Sequencers      : {'Illumina Genome Analyzer II': 58, 'Illumina HiSeq 2000': 105}
+Total size      : 1123.06 Gbases
+Library layouts : {'PAIRED': 158}
+Sequencers      : {'Illumina Genome Analyzer II': 61, 'Illumina HiSeq 2000': 97}
 
 Per body site (samples, people, Gbases):
-    22   22   199.40  G_DNA_Tongue dorsum
-    21   21   176.30  G_DNA_Buccal mucosa
-    21   21   193.89  G_DNA_Supragingival plaque
-    11   11   162.35  G_DNA_Subgingival plaque
-     8    8   108.97  G_DNA_Attached/Keratinized gingiva
-     8    8   130.78  G_DNA_Throat
+    22   22   264.65  G_DNA_Tongue dorsum
+    21   21   173.38  G_DNA_Buccal mucosa
+    21   21   226.66  G_DNA_Supragingival plaque
+    11   11   155.51  G_DNA_Subgingival plaque
+     8    8   101.28  G_DNA_Attached/Keratinized gingiva
+     8    8   128.99  G_DNA_Throat
      5    5    72.58  G_DNA_Saliva
 
 Distinct matched values (CHECK THESE ARE THE INTENDED BODY SITES):
@@ -168,65 +169,46 @@ Per sample (runs, Gbases, subject, body site):
   SRS014475	2	11.82	241822	G_DNA_Throat
   SRS014476	2	11.03	241822	G_DNA_Supragingival plaque
   SRS014477	2	11.84	241822	G_DNA_Subgingival plaque
-  SRS014684	2	14.55	241840	G_DNA_Tongue dorsum
-  SRS014686	2	12.51	241840	G_DNA_Buccal mucosa
-  SRS014687	2	14.22	241840	G_DNA_Attached/Keratinized gingiva
-  SRS014689	2	12.11	241840	G_DNA_Throat
-  SRS014690	2	12.00	241840	G_DNA_Supragingival plaque
-  SRS014691	2	12.88	241840	G_DNA_Subgingival plaque
   SRS014692	4	22.23	241840	G_DNA_Saliva
   SRS015374	3	14.08	241682	G_DNA_Buccal mucosa
-  SRS015378	2	10.53	241682	G_DNA_Supragingival plaque
-  SRS015395	2	11.53	241682	G_DNA_Tongue dorsum
   SRS015590	2	5.07	241784	G_DNA_Tongue dorsum
   SRS015592	2	3.46	241784	G_DNA_Buccal mucosa
-  SRS015596	1	4.75	241784	G_DNA_Supragingival plaque
-  SRS015686	2	5.01	241756	G_DNA_Tongue dorsum
-  SRS015688	2	5.36	241756	G_DNA_Buccal mucosa
-  SRS015692	2	5.86	241756	G_DNA_Supragingival plaque
-  SRS016133	2	5.75	241696	G_DNA_Tongue dorsum
-  SRS016139	2	7.40	241696	G_DNA_Supragingival plaque
-  SRS018610	1	4.12	241692	G_DNA_Tongue dorsum
-  SRS018612	2	6.33	241692	G_DNA_Buccal mucosa
-  SRS018616	2	4.94	241692	G_DNA_Supragingival plaque
-  SRS018679	2	7.53	241723	G_DNA_Tongue dorsum
-  SRS018683	2	6.60	241723	G_DNA_Buccal mucosa
-  SRS018691	2	6.64	241723	G_DNA_Supragingival plaque
+  SRS019022	3	14.62	241840	G_DNA_Tongue dorsum
+  SRS019024	2	10.49	241840	G_DNA_Buccal mucosa
+  SRS019025	2	11.50	241840	G_DNA_Attached/Keratinized gingiva
+  SRS019027	2	10.31	241840	G_DNA_Throat
+  SRS019028	2	12.31	241840	G_DNA_Supragingival plaque
+  SRS019029	2	12.12	241840	G_DNA_Subgingival plaque
   SRS019122	2	11.70	241750	G_DNA_Tongue dorsum
-  SRS019270	1	4.52	241848	G_DNA_Tongue dorsum
-  SRS019272	2	6.40	241848	G_DNA_Buccal mucosa
-  SRS019276	1	4.83	241848	G_DNA_Supragingival plaque
-  SRS019696	1	5.07	241779	G_DNA_Tongue dorsum
-  SRS019698	2	5.08	241779	G_DNA_Buccal mucosa
-  SRS042691	2	8.86	241875	G_DNA_Buccal mucosa
-  SRS043461	2	3.77	241863	G_DNA_Tongue dorsum
-  SRS043494	2	5.44	241866	G_DNA_Tongue dorsum
-  SRS045588	1	2.74	241875	G_DNA_Supragingival plaque
   SRS050709	2	4.61	241875	G_DNA_Tongue dorsum
-  SRS056113	1	4.35	257131	G_DNA_Supragingival plaque
-  SRS057619	2	5.80	241863	G_DNA_Supragingival plaque
+  SRS062540	3	15.26	241682	G_DNA_Tongue dorsum
   SRS063215	2	11.50	241682	G_DNA_Subgingival plaque
-  SRS063678	2	7.26	241815	G_DNA_Buccal mucosa
+  SRS063246	1	4.27	241875	G_DNA_Supragingival plaque
+  SRS063413	2	5.02	241875	G_DNA_Buccal mucosa
   SRS063858	1	4.39	257118	G_DNA_Buccal mucosa
-  SRS064617	2	5.29	257126	G_DNA_Buccal mucosa
   SRS064996	2	5.89	257130	G_DNA_Buccal mucosa
   SRS065299	1	4.50	257118	G_DNA_Tongue dorsum
+  SRS065310	3	15.08	241682	G_DNA_Supragingival plaque
+  SRS065542	2	4.90	241784	G_DNA_Supragingival plaque
   SRS077300	1	16.34	241815	G_DNA_Tongue dorsum
+  SRS077303	2	3.39	241815	G_DNA_Buccal mucosa
   SRS077312	1	16.55	241815	G_DNA_Subgingival plaque
   SRS079308	1	27.31	241815	G_DNA_Supragingival plaque
-  SRS097866	1	12.53	241696	G_DNA_Buccal mucosa
-  SRS097867	1	10.22	241696	G_DNA_Attached/Keratinized gingiva
-  SRS097871	1	16.72	241696	G_DNA_Subgingival plaque
   SRS097905	1	23.29	241696	G_DNA_Throat
+  SRS098612	1	11.26	241756	G_DNA_Tongue dorsum
+  SRS098616	1	19.71	241756	G_DNA_Buccal mucosa
   SRS098618	1	16.15	241756	G_DNA_Attached/Keratinized gingiva
+  SRS098624	1	9.76	241756	G_DNA_Supragingival plaque
   SRS098626	1	18.40	241756	G_DNA_Subgingival plaque
   SRS104093	2	5.67	241779	G_DNA_Supragingival plaque
   SRS104275	2	11.16	241723	G_DNA_Saliva
+  SRS104279	1	14.24	241723	G_DNA_Tongue dorsum
+  SRS104282	2	7.55	241723	G_DNA_Buccal mucosa
   SRS104285	2	11.95	241723	G_DNA_Attached/Keratinized gingiva
-  SRS104314	2	5.66	257126	G_DNA_Tongue dorsum
-  SRS104320	2	8.47	257126	G_DNA_Supragingival plaque
-  SRS142936	1	13.11	241866	G_DNA_Buccal mucosa
+  SRS104291	1	12.60	241723	G_DNA_Supragingival plaque
   SRS142940	1	4.88	241866	G_DNA_Supragingival plaque
+  SRS142965	1	8.64	241866	G_DNA_Tongue dorsum
+  SRS142968	2	8.08	241866	G_DNA_Buccal mucosa
   SRS142975	1	16.97	241866	G_DNA_Throat
   SRS143037	2	9.30	241853	G_DNA_Tongue dorsum
   SRS143039	2	8.07	241853	G_DNA_Buccal mucosa
@@ -239,15 +221,34 @@ Per sample (runs, Gbases, subject, body site):
   SRS143231	2	8.04	257130	G_DNA_Tongue dorsum
   SRS143509	1	13.49	257127	G_DNA_Buccal mucosa
   SRS143529	1	17.92	257127	G_DNA_Tongue dorsum
+  SRS143729	1	5.25	241696	G_DNA_Attached/Keratinized gingiva
+  SRS143747	2	9.37	241696	G_DNA_Tongue dorsum
+  SRS143751	2	4.70	241696	G_DNA_Buccal mucosa
+  SRS143759	1	9.47	241696	G_DNA_Supragingival plaque
+  SRS143762	1	10.64	241696	G_DNA_Subgingival plaque
+  SRS144368	1	16.29	241692	G_DNA_Tongue dorsum
+  SRS144372	1	17.06	241692	G_DNA_Buccal mucosa
   SRS144374	1	19.72	241692	G_DNA_Attached/Keratinized gingiva
   SRS144378	1	17.02	241692	G_DNA_Throat
+  SRS144380	1	16.58	241692	G_DNA_Supragingival plaque
   SRS144382	2	10.15	241692	G_DNA_Subgingival plaque
+  SRS144396	1	0.01	241863	G_DNA_Tongue dorsum
   SRS144398	1	4.44	241863	G_DNA_Buccal mucosa
+  SRS144427	1	4.37	241863	G_DNA_Supragingival plaque
+  SRS144644	1	7.05	241779	G_DNA_Tongue dorsum
   SRS144649	1	10.15	241779	G_DNA_Throat
-  SRS146721	1	11.28	257131	G_DNA_Buccal mucosa
+  SRS144669	2	6.34	241779	G_DNA_Buccal mucosa
   SRS146738	1	17.62	257131	G_DNA_Tongue dorsum
+  SRS146741	2	3.99	257131	G_DNA_Buccal mucosa
+  SRS146750	1	13.64	257131	G_DNA_Supragingival plaque
   SRS146830	1	13.18	257130	G_DNA_Supragingival plaque
   SRS147126	1	13.45	241848	G_DNA_Saliva
+  SRS147128	2	7.06	241848	G_DNA_Supragingival plaque
+  SRS147140	1	19.81	241848	G_DNA_Tongue dorsum
+  SRS147144	2	6.76	241848	G_DNA_Buccal mucosa
   SRS147151	1	23.42	241848	G_DNA_Throat
   SRS147670	2	8.37	257118	G_DNA_Supragingival plaque
+  SRS148258	1	4.63	257126	G_DNA_Buccal mucosa
+  SRS148276	1	21.66	257126	G_DNA_Tongue dorsum
+  SRS148287	2	1.04	257126	G_DNA_Supragingival plaque
   SRS148290	1	16.84	257126	G_DNA_Subgingival plaque
