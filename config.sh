@@ -119,7 +119,7 @@ export ASSEMBLY_DIR="${PROJECT_DIR}/05_assembly"
 export NFMAG_SAMPLESHEET="${ASSEMBLY_DIR}/samplesheet.csv"   # made by make_samplesheet.sh
 export NFMAG_OUTDIR="${ASSEMBLY_DIR}/nfcore_mag"              # nf-core/mag results
 export NFMAG_WORKDIR="${ASSEMBLY_DIR}/nf_work"                # Nextflow work dir (large, temporary)
-export NXF_CACHE_DIR="${ANALYSIS_ROOT}/05_assembly/nf_cache"   # shared by all datasets
+export NXF_CACHE_DIR="${ANALYSIS_ROOT}/nf_cache"   # shared by all datasets
 
 # 06 — genes (planned)
 export GENES_DIR="${PROJECT_DIR}/06_genes"
@@ -392,3 +392,8 @@ is_done() { [[ -f "$(done_marker "$1" "$2")" ]]; }
 if [[ -n "${SLURM_JOB_ID:-}" ]]; then
     log "Dataset: ${DATASET} (${BIOPROJECT}) -> ${PROJECT_DIR}"
 fi
+
+# Delete a sample's raw FASTQ automatically once KneadData has saved its
+# cleaned reads (supervisor's request). Raw data are public and can be
+# downloaded again from the accessions in metadata/. "false" keeps them.
+export DELETE_RAW_AFTER_KNEADDATA="true"
