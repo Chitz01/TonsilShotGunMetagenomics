@@ -17,3 +17,5 @@ export PROJECT_DIR="${ANALYSIS_ROOT}/hmp_oral"
 # Per person and site, keep the sample closest to the person's tonsil sample
 # (same visit whenever one exists; supervisor's decision, Oct 2026).
 export MATCH_TO_FILE="${PIPELINE_DIR}/metadata/tonsil_runs_full.tsv"
+# nf-core/mag: one group per body site (binning co-abundance within each site)
+export SAMPLESHEET_GROUP_BY="site"
