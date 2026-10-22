@@ -1,0 +1,97 @@
+sample_id	group	body_site
+SRS013942	3	G_DNA_Saliva
+SRS013945	2	G_DNA_Buccal mucosa
+SRS013946	1	G_DNA_Attached/Keratinized gingiva
+SRS013948	6	G_DNA_Throat
+SRS013949	5	G_DNA_Supragingival plaque
+SRS013950	4	G_DNA_Subgingival plaque
+SRS014468	3	G_DNA_Saliva
+SRS014470	7	G_DNA_Tongue dorsum
+SRS014472	2	G_DNA_Buccal mucosa
+SRS014473	1	G_DNA_Attached/Keratinized gingiva
+SRS014475	6	G_DNA_Throat
+SRS014476	5	G_DNA_Supragingival plaque
+SRS014477	4	G_DNA_Subgingival plaque
+SRS014692	3	G_DNA_Saliva
+SRS015374	2	G_DNA_Buccal mucosa
+SRS015590	7	G_DNA_Tongue dorsum
+SRS015592	2	G_DNA_Buccal mucosa
+SRS019022	7	G_DNA_Tongue dorsum
+SRS019024	2	G_DNA_Buccal mucosa
+SRS019025	1	G_DNA_Attached/Keratinized gingiva
+SRS019027	6	G_DNA_Throat
+SRS019028	5	G_DNA_Supragingival plaque
+SRS019029	4	G_DNA_Subgingival plaque
+SRS019122	7	G_DNA_Tongue dorsum
+SRS050709	7	G_DNA_Tongue dorsum
+SRS062540	7	G_DNA_Tongue dorsum
+SRS063215	4	G_DNA_Subgingival plaque
+SRS063246	5	G_DNA_Supragingival plaque
+SRS063413	2	G_DNA_Buccal mucosa
+SRS063858	2	G_DNA_Buccal mucosa
+SRS064996	2	G_DNA_Buccal mucosa
+SRS065299	7	G_DNA_Tongue dorsum
+SRS065310	5	G_DNA_Supragingival plaque
+SRS065542	5	G_DNA_Supragingival plaque
+SRS077300	7	G_DNA_Tongue dorsum
+SRS077303	2	G_DNA_Buccal mucosa
+SRS077312	4	G_DNA_Subgingival plaque
+SRS079308	5	G_DNA_Supragingival plaque
+SRS097905	6	G_DNA_Throat
+SRS098612	7	G_DNA_Tongue dorsum
+SRS098616	2	G_DNA_Buccal mucosa
+SRS098618	1	G_DNA_Attached/Keratinized gingiva
+SRS098624	5	G_DNA_Supragingival plaque
+SRS098626	4	G_DNA_Subgingival plaque
+SRS104093	5	G_DNA_Supragingival plaque
+SRS104275	3	G_DNA_Saliva
+SRS104279	7	G_DNA_Tongue dorsum
+SRS104282	2	G_DNA_Buccal mucosa
+SRS104285	1	G_DNA_Attached/Keratinized gingiva
+SRS104291	5	G_DNA_Supragingival plaque
+SRS142940	5	G_DNA_Supragingival plaque
+SRS142965	7	G_DNA_Tongue dorsum
+SRS142968	2	G_DNA_Buccal mucosa
+SRS142975	6	G_DNA_Throat
+SRS143037	7	G_DNA_Tongue dorsum
+SRS143039	2	G_DNA_Buccal mucosa
+SRS143066	5	G_DNA_Supragingival plaque
+SRS143068	4	G_DNA_Subgingival plaque
+SRS143204	7	G_DNA_Tongue dorsum
+SRS143214	1	G_DNA_Attached/Keratinized gingiva
+SRS143216	5	G_DNA_Supragingival plaque
+SRS143218	4	G_DNA_Subgingival plaque
+SRS143231	7	G_DNA_Tongue dorsum
+SRS143509	2	G_DNA_Buccal mucosa
+SRS143529	7	G_DNA_Tongue dorsum
+SRS143729	1	G_DNA_Attached/Keratinized gingiva
+SRS143747	7	G_DNA_Tongue dorsum
+SRS143751	2	G_DNA_Buccal mucosa
+SRS143759	5	G_DNA_Supragingival plaque
+SRS143762	4	G_DNA_Subgingival plaque
+SRS144368	7	G_DNA_Tongue dorsum
+SRS144372	2	G_DNA_Buccal mucosa
+SRS144374	1	G_DNA_Attached/Keratinized gingiva
+SRS144378	6	G_DNA_Throat
+SRS144380	5	G_DNA_Supragingival plaque
+SRS144382	4	G_DNA_Subgingival plaque
+SRS144396	7	G_DNA_Tongue dorsum
+SRS144398	2	G_DNA_Buccal mucosa
+SRS144427	5	G_DNA_Supragingival plaque
+SRS144644	7	G_DNA_Tongue dorsum
+SRS144649	6	G_DNA_Throat
+SRS144669	2	G_DNA_Buccal mucosa
+SRS146738	7	G_DNA_Tongue dorsum
+SRS146741	2	G_DNA_Buccal mucosa
+SRS146750	5	G_DNA_Supragingival plaque
+SRS146830	5	G_DNA_Supragingival plaque
+SRS147126	3	G_DNA_Saliva
+SRS147128	5	G_DNA_Supragingival plaque
+SRS147140	7	G_DNA_Tongue dorsum
+SRS147144	2	G_DNA_Buccal mucosa
+SRS147151	6	G_DNA_Throat
+SRS147670	5	G_DNA_Supragingival plaque
+SRS148258	2	G_DNA_Buccal mucosa
+SRS148276	7	G_DNA_Tongue dorsum
+SRS148287	5	G_DNA_Supragingival plaque
+SRS148290	4	G_DNA_Subgingival plaque
