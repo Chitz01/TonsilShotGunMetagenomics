@@ -41,9 +41,16 @@ fi
 
 TMP="$(mktemp)"
 echo "sample,group,short_reads_1,short_reads_2,long_reads" > "${TMP}"
-n=0; missing=()
+n=0; missing=(); excluded=()
+if [[ -n "${MAG_EXCLUDE_FILE:-}" ]]; then
+    [[ -s "${MAG_EXCLUDE_FILE}" ]] || die "MAG_EXCLUDE_FILE not found or empty: ${MAG_EXCLUDE_FILE}"
+fi
 while read -r S; do
     [[ -z "$S" || "$S" == \#* ]] && continue
+    # samples listed in MAG_EXCLUDE_FILE (first column) stay out of the MAG branch
+    if [[ -n "${MAG_EXCLUDE_FILE:-}" ]] && awk -F'\t' -v s="$S" 'NR > 1 && $1 == s {f = 1} END {exit !f}' "${MAG_EXCLUDE_FILE}"; then
+        excluded+=("$S"); continue
+    fi
     R1="${CLEAN_FASTQ_DIR}/${S}_paired_1.fastq.gz"
     R2="${CLEAN_FASTQ_DIR}/${S}_paired_2.fastq.gz"
     if [[ -s "$R1" && -s "$R2" ]]; then
@@ -62,4 +69,7 @@ if (( ${#missing[@]} > 0 )); then
 fi
 mv "${TMP}" "${NFMAG_SAMPLESHEET}"
 log "Wrote ${n} samples -> ${NFMAG_SAMPLESHEET}"
+if (( ${#excluded[@]} > 0 )); then
+    log "Left out of the MAG branch (listed in ${MAG_EXCLUDE_FILE}): ${excluded[*]}"
+fi
 head -n 3 "${NFMAG_SAMPLESHEET}" >&2

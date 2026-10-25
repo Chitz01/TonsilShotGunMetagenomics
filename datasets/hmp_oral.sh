@@ -19,3 +19,6 @@ export PROJECT_DIR="${ANALYSIS_ROOT}/hmp_oral"
 export MATCH_TO_FILE="${PIPELINE_DIR}/metadata/tonsil_runs_full.tsv"
 # nf-core/mag: one group per body site (binning co-abundance within each site)
 export SAMPLESHEET_GROUP_BY="site"
+# Samples left out of the MAG branch only (kept for taxonomy), with reasons:
+# fewer than 100,000 clean read pairs -> no contigs >= 1500 bp (Oct 2026).
+export MAG_EXCLUDE_FILE="${PIPELINE_DIR}/metadata/hmp_oral/mag_excluded_samples.tsv"
