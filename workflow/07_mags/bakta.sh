@@ -24,10 +24,17 @@ PIPELINE_DIR="${PIPELINE_DIR:-${SLURM_SUBMIT_DIR:-$PWD}}"
 source "${PIPELINE_DIR}/config.sh"
 
 T="$(threads)"
+# Optional splitting: "bakta.sh CHUNK NCHUNKS" annotates only MAGs number
+# CHUNK, CHUNK+NCHUNKS, ... (0-based), so several jobs can run side by side,
+# each with its own temporary folder. Without arguments: all MAGs, one job.
+CHUNK="${1:-0}"; NCHUNKS="${2:-1}"
+if ! [[ "${CHUNK}" =~ ^[0-9]+$ && "${NCHUNKS}" =~ ^[0-9]+$ ]] || (( NCHUNKS < 1 || CHUNK >= NCHUNKS )); then
+    die "Usage: bakta.sh [CHUNK NCHUNKS], e.g. bakta.sh 0 8 (CHUNK from 0 to NCHUNKS-1)"
+fi
 require_vars ENV_BAKTA BAKTA_DB
 require_paths BAKTA_DB
 BAKDIR="${MAG_DIR}/bakta"
-make_out_dirs "${BAKDIR}" "${MAG_DIR}/bakta_tmp"
+make_out_dirs "${BAKDIR}" "${MAG_DIR}/bakta_tmp_${CHUNK}"
 
 shopt -s nullglob
 MAGS=( "${MAG_FILTERED_DIR}"/*.fa )
@@ -36,8 +43,10 @@ MAGS=( "${MAG_FILTERED_DIR}"/*.fa )
 load_conda_env "${ENV_BAKTA}"
 bakta --version >&2 || true
 
-done_n=0; new_n=0
+done_n=0; new_n=0; i=-1
 for mag in "${MAGS[@]}"; do
+    i=$((i + 1))
+    (( i % NCHUNKS == CHUNK )) || continue
     f="$(basename "${mag}" .fa)"
     if [[ -s "${BAKDIR}/${f}/${f}.gff3" ]]; then
         done_n=$((done_n+1)); continue
@@ -50,9 +59,9 @@ for mag in "${MAGS[@]}"; do
         --output "${BAKDIR}/${f}" \
         --meta \
         --force \
-        --tmp-dir "${MAG_DIR}/bakta_tmp"
+        --tmp-dir "${MAG_DIR}/bakta_tmp_${CHUNK}"
     new_n=$((new_n+1))
 done
 
-rm -rf "${MAG_DIR}/bakta_tmp"
-log "Bakta: ${new_n} annotated now, ${done_n} already done, ${#MAGS[@]} MAGs in total"
+rm -rf "${MAG_DIR}/bakta_tmp_${CHUNK}"
+log "Bakta chunk ${CHUNK}/${NCHUNKS}: ${new_n} annotated now, ${done_n} already done (${#MAGS[@]} MAGs in total)"
