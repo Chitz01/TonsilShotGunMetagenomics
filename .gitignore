@@ -26,3 +26,4 @@ data/
 # Papers: published PDFs are usually copyrighted. If this repository will be
 # public on GitHub, uncomment the next line so your papers stay local only.
 # *.pdf
+__pycache__/

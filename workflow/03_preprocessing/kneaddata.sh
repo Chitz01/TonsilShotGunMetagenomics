@@ -153,4 +153,11 @@ find "out" -type f \( -name '*fastqc.html' -o -name '*fastqc.zip' \) \
 
 ls -lh "${CLEAN_FASTQ_DIR}/${SAMPLE}"*.fastq.gz >&2
 mark_done "${KNEADDATA_DIR}" "${SAMPLE}"
+
+# Delete this sample's raw FASTQ now that its cleaned reads are saved
+# (supervisor's request; set DELETE_RAW_AFTER_KNEADDATA=false in config.sh to keep them).
+if [[ "${DELETE_RAW_AFTER_KNEADDATA:-false}" == "true" ]]; then
+    bash "${PIPELINE_DIR}/workflow/03_preprocessing/cleanup_raw.sh" "${SAMPLE}" \
+        || log "WARNING: raw FASTQ cleanup failed for ${SAMPLE} (results are fine; run cleanup_raw.sh later)"
+fi
 log "Finished ${SAMPLE} (host reads discarded with scratch)"

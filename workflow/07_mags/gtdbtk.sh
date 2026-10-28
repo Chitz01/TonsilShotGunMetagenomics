@@ -26,7 +26,17 @@ T="$(threads)"
 require_vars ENV_GTDBTK GTDBTK_DATA_PATH
 require_paths GTDBTK_DATA_PATH
 OUT="${MAG_DIR}/gtdbtk"
-make_out_dirs "${OUT}" "${MAG_DIR}/gtdbtk_tmp"
+make_out_dirs "${OUT}"
+# Short temporary path. GTDB-Tk's helper processes talk through socket files
+# whose full path must stay below ~108 characters; under the long project path
+# this fails with "OSError: AF_UNIX path too long". Node-local scratch
+# ($SNIC_TMP) has a short path; /tmp is the fallback.
+if [[ "${SNIC_TMP:-}" == /* && -d "${SNIC_TMP}" ]]; then GT_BASE="${SNIC_TMP}"; else GT_BASE=/tmp; fi
+GT_TMP="${GT_BASE}/gtdbtk_${SLURM_JOB_ID:-$$}"
+mkdir -p "${GT_TMP}"
+export TMPDIR="${GT_TMP}"
+trap 'rm -rf "${GT_TMP}"' EXIT
+log "Temporary folder: ${GT_TMP}"
 
 shopt -s nullglob
 MAGS=( "${MAG_FILTERED_DIR}"/*.fa )
@@ -46,9 +56,8 @@ gtdbtk classify_wf \
     --out_dir "${OUT}" \
     --extension fa \
     --cpus "${T}" \
-    --tmpdir "${MAG_DIR}/gtdbtk_tmp" \
+    --tmpdir "${GT_TMP}" \
     "${ANI_OPT[@]}"
 
-rm -rf "${MAG_DIR}/gtdbtk_tmp"
 ls "${OUT}"/gtdbtk.*.summary.tsv >&2 || log "WARNING: no summary table produced"
 log "GTDB-Tk results in ${OUT}"
