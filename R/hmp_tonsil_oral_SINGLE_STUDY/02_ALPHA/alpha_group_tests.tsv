@@ -1,0 +1,4 @@
+Metric	Method	pvalue	qvalue_BH_across_metrics
+"Shannon"	"Paired Wilcoxon signed-rank vs reference (see alpha_pairwise_BH.tsv)"	NA	NA
+"Simpson"	"Paired Wilcoxon signed-rank vs reference (see alpha_pairwise_BH.tsv)"	NA	NA
+"Observed"	"Paired Wilcoxon signed-rank vs reference (see alpha_pairwise_BH.tsv)"	NA	NA

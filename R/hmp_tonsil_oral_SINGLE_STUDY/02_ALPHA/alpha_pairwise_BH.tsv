@@ -1,0 +1,22 @@
+Group1	Group2	n_pairs	median_diff_site_minus_ref	p	p_BH	Metric
+Palatine Tonsils	Attached/Keratinized gingiva	8	-1.488031384	0.020862582	0.048679359	Shannon
+Palatine Tonsils	Buccal mucosa	21	-0.762893364	0.000392196	0.002745371	Shannon
+Palatine Tonsils	Saliva	5	-0.015493531	0.787406491	0.787406491	Shannon
+Palatine Tonsils	Subgingival plaque	11	0.375969627	0.018466086	0.048679359	Shannon
+Palatine Tonsils	Supragingival plaque	21	-0.123553685	0.384879266	0.538830973	Shannon
+Palatine Tonsils	Throat	8	-0.204934834	0.528612125	0.616714146	Shannon
+Palatine Tonsils	Tongue dorsum	22	-0.232874892	0.104529026	0.182925796	Shannon
+Palatine Tonsils	Attached/Keratinized gingiva	8	-0.196224247	0.029973974	0.104908908	Simpson
+Palatine Tonsils	Buccal mucosa	21	-0.089354789	0.001227287	0.008591009	Simpson
+Palatine Tonsils	Saliva	5	-0.00497063	0.787406491	0.833634883	Simpson
+Palatine Tonsils	Subgingival plaque	11	0.016547777	0.100000618	0.233334776	Simpson
+Palatine Tonsils	Supragingival plaque	21	-0.00752015	0.486959424	0.681743193	Simpson
+Palatine Tonsils	Throat	8	-0.010729546	0.833634883	0.833634883	Simpson
+Palatine Tonsils	Tongue dorsum	22	-0.014558586	0.242498967	0.424373192	Simpson
+Palatine Tonsils	Attached/Keratinized gingiva	8	-51.5	0.024883995	0.058062655	Observed
+Palatine Tonsils	Buccal mucosa	21	-50	0.000846153	0.005923074	Observed
+Palatine Tonsils	Saliva	5	26	0.589638552	0.626223658	Observed
+Palatine Tonsils	Subgingival plaque	11	40	0.01127819	0.039473665	Observed
+Palatine Tonsils	Supragingival plaque	21	15	0.321774709	0.450484592	Observed
+Palatine Tonsils	Throat	8	-47.5	0.183430619	0.321003583	Observed
+Palatine Tonsils	Tongue dorsum	22	-1	0.626223658	0.626223658	Observed

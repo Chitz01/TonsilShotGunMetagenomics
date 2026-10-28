@@ -1,0 +1,161 @@
+Group	FeatureID	MeanRelativeAbundance	Species	MeanPercent	Rank
+"Attached/Keratinized gingiva"	"Streptococcus_mitis"	0.402773781681234	"Streptococcus mitis"	40.2773781681234	1
+"Attached/Keratinized gingiva"	"Alloprevotella_SGB1466"	0.0884746195706232	"Alloprevotella SGB1466"	8.84746195706232	2
+"Attached/Keratinized gingiva"	"Haemophilus_haemolyticus"	0.0716929375023422	"Haemophilus haemolyticus"	7.16929375023422	3
+"Attached/Keratinized gingiva"	"Veillonella_parvula"	0.0674426185107468	"Veillonella parvula"	6.74426185107468	4
+"Attached/Keratinized gingiva"	"Haemophilus_parainfluenzae"	0.0479641501965308	"Haemophilus parainfluenzae"	4.79641501965308	5
+"Attached/Keratinized gingiva"	"Neisseria_cinerea"	0.0307433521573299	"Neisseria cinerea"	3.07433521573299	6
+"Attached/Keratinized gingiva"	"Veillonella_sp_3627"	0.0239362432771011	"Veillonella sp 3627"	2.39362432771011	7
+"Attached/Keratinized gingiva"	"Streptococcus_oralis"	0.0197465904843449	"Streptococcus oralis"	1.97465904843449	8
+"Attached/Keratinized gingiva"	"Campylobacter_SGB19347"	0.0156606351272712	"Campylobacter SGB19347"	1.56606351272712	9
+"Attached/Keratinized gingiva"	"Gemella_haemolysans"	0.0152001748808621	"Gemella haemolysans"	1.52001748808621	10
+"Attached/Keratinized gingiva"	"Granulicatella_SGB8245"	0.012819899573982	"Granulicatella SGB8245"	1.2819899573982	11
+"Attached/Keratinized gingiva"	"Streptococcus_sanguinis"	0.0125931598019118	"Streptococcus sanguinis"	1.25931598019118	12
+"Attached/Keratinized gingiva"	"GGB1088_SGB1395"	0.0106994907250642	"GGB1088 SGB1395"	1.06994907250642	13
+"Attached/Keratinized gingiva"	"GGB12785_SGB19825"	0.00988643365447243	"GGB12785 SGB19825"	0.988643365447243	14
+"Attached/Keratinized gingiva"	"Streptococcus_gordonii"	0.00856809754323813	"Streptococcus gordonii"	0.856809754323813	15
+"Attached/Keratinized gingiva"	"Streptococcus_vestibularis"	0.00824322252612959	"Streptococcus vestibularis"	0.824322252612959	16
+"Attached/Keratinized gingiva"	"Actinomyces_oris"	0.00822909616077764	"Actinomyces oris"	0.822909616077764	17
+"Attached/Keratinized gingiva"	"Granulicatella_SGB8239"	0.00766085033750704	"Granulicatella SGB8239"	0.766085033750704	18
+"Attached/Keratinized gingiva"	"Alloprevotella_SGB1463"	0.00729811756768042	"Alloprevotella SGB1463"	0.729811756768042	19
+"Attached/Keratinized gingiva"	"GGB12788_SGB19838"	0.00720123649054884	"GGB12788 SGB19838"	0.720123649054884	20
+"Buccal mucosa"	"Streptococcus_mitis"	0.304008737606806	"Streptococcus mitis"	30.4008737606806	1
+"Buccal mucosa"	"Haemophilus_haemolyticus"	0.0878611975054608	"Haemophilus haemolyticus"	8.78611975054608	2
+"Buccal mucosa"	"Streptococcus_oralis"	0.0582888289248187	"Streptococcus oralis"	5.82888289248187	3
+"Buccal mucosa"	"Haemophilus_parainfluenzae"	0.0555007750145637	"Haemophilus parainfluenzae"	5.55007750145637	4
+"Buccal mucosa"	"Veillonella_parvula"	0.0419701238279808	"Veillonella parvula"	4.19701238279808	5
+"Buccal mucosa"	"Gemella_haemolysans"	0.0412581163490894	"Gemella haemolysans"	4.12581163490894	6
+"Buccal mucosa"	"Rothia_mucilaginosa"	0.0332934968262156	"Rothia mucilaginosa"	3.32934968262156	7
+"Buccal mucosa"	"Neisseria_sicca"	0.0302639111409781	"Neisseria sicca"	3.02639111409781	8
+"Buccal mucosa"	"Gemella_SGB7284"	0.0195817695551355	"Gemella SGB7284"	1.95817695551355	9
+"Buccal mucosa"	"Actinomyces_oris"	0.0185380959984709	"Actinomyces oris"	1.85380959984709	10
+"Buccal mucosa"	"Fusobacterium_periodonticum"	0.0170767176429762	"Fusobacterium periodonticum"	1.70767176429762	11
+"Buccal mucosa"	"Rothia_SGB49305"	0.016175565164017	"Rothia SGB49305"	1.6175565164017	12
+"Buccal mucosa"	"Porphyromonas_bobii"	0.0146470380606523	"Porphyromonas bobii"	1.46470380606523	13
+"Buccal mucosa"	"Streptococcus_australis"	0.0135039252172009	"Streptococcus australis"	1.35039252172009	14
+"Buccal mucosa"	"Veillonella_rogosae"	0.0134128573927918	"Veillonella rogosae"	1.34128573927918	15
+"Buccal mucosa"	"Neisseria_subflava"	0.011988490185144	"Neisseria subflava"	1.1988490185144	16
+"Buccal mucosa"	"Streptococcus_gordonii"	0.0107029490349962	"Streptococcus gordonii"	1.07029490349962	17
+"Buccal mucosa"	"Alloprevotella_SGB1466"	0.00998321557174533	"Alloprevotella SGB1466"	0.998321557174533	18
+"Buccal mucosa"	"Granulicatella_SGB8239"	0.00966009517685987	"Granulicatella SGB8239"	0.966009517685987	19
+"Buccal mucosa"	"Veillonella_dispar"	0.00833000857252941	"Veillonella dispar"	0.833000857252941	20
+"Palatine Tonsils"	"Neisseria_subflava"	0.0687596610304902	"Neisseria subflava"	6.87596610304902	1
+"Palatine Tonsils"	"Veillonella_dispar"	0.0491951235714837	"Veillonella dispar"	4.91951235714837	2
+"Palatine Tonsils"	"Prevotella_melaninogenica"	0.0416305191644444	"Prevotella melaninogenica"	4.16305191644444	3
+"Palatine Tonsils"	"Porphyromonas_bobii"	0.0402926976613411	"Porphyromonas bobii"	4.02926976613411	4
+"Palatine Tonsils"	"Fusobacterium_periodonticum"	0.0368914126616854	"Fusobacterium periodonticum"	3.68914126616854	5
+"Palatine Tonsils"	"Veillonella_rogosae"	0.0356818719519691	"Veillonella rogosae"	3.56818719519691	6
+"Palatine Tonsils"	"Veillonella_atypica"	0.0328292226172214	"Veillonella atypica"	3.28292226172214	7
+"Palatine Tonsils"	"Streptococcus_mitis"	0.0303393290094764	"Streptococcus mitis"	3.03393290094764	8
+"Palatine Tonsils"	"Fusobacterium_nucleatum"	0.0267666153937274	"Fusobacterium nucleatum"	2.67666153937274	9
+"Palatine Tonsils"	"Prevotella_histicola"	0.0264487763608336	"Prevotella histicola"	2.64487763608336	10
+"Palatine Tonsils"	"Streptococcus_salivarius"	0.0213390807263025	"Streptococcus salivarius"	2.13390807263025	11
+"Palatine Tonsils"	"Campylobacter_concisus"	0.0201462401679419	"Campylobacter concisus"	2.01462401679419	12
+"Palatine Tonsils"	"Actinomyces_graevenitzii"	0.0185654169533978	"Actinomyces graevenitzii"	1.85654169533978	13
+"Palatine Tonsils"	"Prevotella_jejuni"	0.0182003236351995	"Prevotella jejuni"	1.82003236351995	14
+"Palatine Tonsils"	"TM7_phylum_sp_oral_taxon_352"	0.0175302533531631	"TM7 phylum sp oral taxon 352"	1.75302533531631	15
+"Palatine Tonsils"	"Streptococcus_parasanguinis"	0.0172976879217348	"Streptococcus parasanguinis"	1.72976879217348	16
+"Palatine Tonsils"	"Actinomyces_sp_ICM47"	0.0167165773583683	"Actinomyces sp ICM47"	1.67165773583683	17
+"Palatine Tonsils"	"Prevotella_nigrescens"	0.0159116009259074	"Prevotella nigrescens"	1.59116009259074	18
+"Palatine Tonsils"	"Capnocytophaga_leadbetteri"	0.0157061355314546	"Capnocytophaga leadbetteri"	1.57061355314546	19
+"Palatine Tonsils"	"Leptotrichia_wadei"	0.0149345826373349	"Leptotrichia wadei"	1.49345826373349	20
+"Saliva"	"Porphyromonas_bobii"	0.0641519238421537	"Porphyromonas bobii"	6.41519238421537	1
+"Saliva"	"Streptococcus_mitis"	0.0628801927748856	"Streptococcus mitis"	6.28801927748856	2
+"Saliva"	"Prevotella_melaninogenica"	0.061383125348847	"Prevotella melaninogenica"	6.1383125348847	3
+"Saliva"	"Veillonella_dispar"	0.0475988362782566	"Veillonella dispar"	4.75988362782566	4
+"Saliva"	"Neisseria_subflava"	0.0351783340767031	"Neisseria subflava"	3.51783340767031	5
+"Saliva"	"Prevotella_nanceiensis"	0.0345057284637394	"Prevotella nanceiensis"	3.45057284637394	6
+"Saliva"	"TM7_phylum_sp_oral_taxon_352"	0.0341686950488763	"TM7 phylum sp oral taxon 352"	3.41686950488763	7
+"Saliva"	"Veillonella_atypica"	0.0295541769963588	"Veillonella atypica"	2.95541769963588	8
+"Saliva"	"Prevotella_pallens"	0.0278919491573821	"Prevotella pallens"	2.78919491573821	9
+"Saliva"	"Veillonella_rogosae"	0.0214912518917119	"Veillonella rogosae"	2.14912518917119	10
+"Saliva"	"Lautropia_dentalis"	0.0199294778970401	"Lautropia dentalis"	1.99294778970401	11
+"Saliva"	"Campylobacter_concisus"	0.0175567105266456	"Campylobacter concisus"	1.75567105266456	12
+"Saliva"	"Candidatus_Nanosynbacter_sp_HMT_352"	0.0156456736026499	"Candidatus Nanosynbacter sp HMT 352"	1.56456736026499	13
+"Saliva"	"Veillonella_parvula"	0.0154897072147525	"Veillonella parvula"	1.54897072147525	14
+"Saliva"	"Actinomyces_sp_ICM47"	0.014947748185477	"Actinomyces sp ICM47"	1.4947748185477	15
+"Saliva"	"Prevotella_jejuni"	0.0146465528744986	"Prevotella jejuni"	1.46465528744986	16
+"Saliva"	"Fusobacterium_periodonticum"	0.0145737969284165	"Fusobacterium periodonticum"	1.45737969284165	17
+"Saliva"	"TM7_phylum_sp_oral_taxon_351"	0.0142402855315266	"TM7 phylum sp oral taxon 351"	1.42402855315266	18
+"Saliva"	"Neisseria_sicca"	0.013813443344941	"Neisseria sicca"	1.3813443344941	19
+"Saliva"	"Haemophilus_haemolyticus"	0.0133173773111186	"Haemophilus haemolyticus"	1.33173773111186	20
+"Subgingival plaque"	"Corynebacterium_matruchotii"	0.0831704317165496	"Corynebacterium matruchotii"	8.31704317165496	1
+"Subgingival plaque"	"Fusobacterium_nucleatum"	0.0535410723526808	"Fusobacterium nucleatum"	5.35410723526808	2
+"Subgingival plaque"	"Veillonella_parvula"	0.04152177010356	"Veillonella parvula"	4.152177010356	3
+"Subgingival plaque"	"Actinobaculum_sp_oral_taxon_183"	0.0331672600534286	"Actinobaculum sp oral taxon 183"	3.31672600534286	4
+"Subgingival plaque"	"Rothia_SGB49305"	0.0292899074326523	"Rothia SGB49305"	2.92899074326523	5
+"Subgingival plaque"	"Neisseria_sicca"	0.0267862835722726	"Neisseria sicca"	2.67862835722726	6
+"Subgingival plaque"	"Streptococcus_oralis"	0.0248605929574453	"Streptococcus oralis"	2.48605929574453	7
+"Subgingival plaque"	"Actinomyces_oris"	0.0226979065596758	"Actinomyces oris"	2.26979065596758	8
+"Subgingival plaque"	"Actinomyces_sp_oral_taxon_448"	0.0222582046272426	"Actinomyces sp oral taxon 448"	2.22582046272426	9
+"Subgingival plaque"	"Capnocytophaga_ochracea"	0.0161788811098106	"Capnocytophaga ochracea"	1.61788811098106	10
+"Subgingival plaque"	"Alloprevotella_tannerae"	0.0145612879967458	"Alloprevotella tannerae"	1.45612879967458	11
+"Subgingival plaque"	"Corynebacterium_durum"	0.0141510492528401	"Corynebacterium durum"	1.41510492528401	12
+"Subgingival plaque"	"Capnocytophaga_gingivalis"	0.0137445042522068	"Capnocytophaga gingivalis"	1.37445042522068	13
+"Subgingival plaque"	"Bacteroidetes_oral_taxon_274"	0.0136132745433993	"Bacteroidetes oral taxon 274"	1.36132745433993	14
+"Subgingival plaque"	"Candidatus_Nanosynsacchari_sp_TM7_ANC_38_39_G1_1"	0.0130808741008369	"Candidatus Nanosynsacchari sp TM7 ANC 38 39 G1 1"	1.30808741008369	15
+"Subgingival plaque"	"Capnocytophaga_leadbetteri"	0.012414151570678	"Capnocytophaga leadbetteri"	1.2414151570678	16
+"Subgingival plaque"	"Haemophilus_parainfluenzae"	0.011689765093699	"Haemophilus parainfluenzae"	1.1689765093699	17
+"Subgingival plaque"	"Capnocytophaga_sputigena"	0.0115385536088577	"Capnocytophaga sputigena"	1.15385536088577	18
+"Subgingival plaque"	"Prevotella_conceptionensis"	0.0111965602363274	"Prevotella conceptionensis"	1.11965602363274	19
+"Subgingival plaque"	"Prevotella_loescheii"	0.0110548651872437	"Prevotella loescheii"	1.10548651872437	20
+"Supragingival plaque"	"Corynebacterium_matruchotii"	0.129092863705356	"Corynebacterium matruchotii"	12.9092863705356	1
+"Supragingival plaque"	"Rothia_SGB49305"	0.0733102079582811	"Rothia SGB49305"	7.33102079582811	2
+"Supragingival plaque"	"Actinomyces_oris"	0.0659671203838768	"Actinomyces oris"	6.59671203838768	3
+"Supragingival plaque"	"Veillonella_parvula"	0.062142346077039	"Veillonella parvula"	6.2142346077039	4
+"Supragingival plaque"	"Neisseria_sicca"	0.0448927137020206	"Neisseria sicca"	4.48927137020206	5
+"Supragingival plaque"	"Streptococcus_oralis"	0.0442615564895739	"Streptococcus oralis"	4.42615564895739	6
+"Supragingival plaque"	"Actinobaculum_sp_oral_taxon_183"	0.0270649419238597	"Actinobaculum sp oral taxon 183"	2.70649419238597	7
+"Supragingival plaque"	"Streptococcus_mitis"	0.0237976750228606	"Streptococcus mitis"	2.37976750228606	8
+"Supragingival plaque"	"Capnocytophaga_gingivalis"	0.0171891107485059	"Capnocytophaga gingivalis"	1.71891107485059	9
+"Supragingival plaque"	"Capnocytophaga_leadbetteri"	0.0170046586103474	"Capnocytophaga leadbetteri"	1.70046586103474	10
+"Supragingival plaque"	"Neisseria_elongata"	0.0166934771860363	"Neisseria elongata"	1.66934771860363	11
+"Supragingival plaque"	"Kingella_bonacorsii"	0.0164012245203697	"Kingella bonacorsii"	1.64012245203697	12
+"Supragingival plaque"	"Streptococcus_sanguinis"	0.0160676122346787	"Streptococcus sanguinis"	1.60676122346787	13
+"Supragingival plaque"	"Rothia_aeria"	0.0160165859082476	"Rothia aeria"	1.60165859082476	14
+"Supragingival plaque"	"Actinomyces_massiliensis"	0.0157284178727219	"Actinomyces massiliensis"	1.57284178727219	15
+"Supragingival plaque"	"Corynebacterium_durum"	0.015559388363116	"Corynebacterium durum"	1.5559388363116	16
+"Supragingival plaque"	"Capnocytophaga_sputigena"	0.0122610707554245	"Capnocytophaga sputigena"	1.22610707554245	17
+"Supragingival plaque"	"Actinomyces_naeslundii"	0.0112006103260081	"Actinomyces naeslundii"	1.12006103260081	18
+"Supragingival plaque"	"Haemophilus_parainfluenzae"	0.0109247291829534	"Haemophilus parainfluenzae"	1.09247291829534	19
+"Supragingival plaque"	"GGB1843_SGB2516"	0.0108971957327573	"GGB1843 SGB2516"	1.08971957327573	20
+"Throat"	"Neisseria_meningitidis"	0.0841327746809016	"Neisseria meningitidis"	8.41327746809016	1
+"Throat"	"Veillonella_dispar"	0.0595683931690424	"Veillonella dispar"	5.95683931690424	2
+"Throat"	"Haemophilus_influenzae"	0.053898453645812	"Haemophilus influenzae"	5.3898453645812	3
+"Throat"	"Neisseria_subflava"	0.0462197900208468	"Neisseria subflava"	4.62197900208468	4
+"Throat"	"Veillonella_atypica"	0.0448372727279469	"Veillonella atypica"	4.48372727279469	5
+"Throat"	"Fusobacterium_periodonticum"	0.0369032396414878	"Fusobacterium periodonticum"	3.69032396414878	6
+"Throat"	"Capnocytophaga_leadbetteri"	0.0331431249637613	"Capnocytophaga leadbetteri"	3.31431249637613	7
+"Throat"	"Prevotella_jejuni"	0.0286237578112829	"Prevotella jejuni"	2.86237578112829	8
+"Throat"	"Leptotrichia_wadei"	0.0266044658278611	"Leptotrichia wadei"	2.66044658278611	9
+"Throat"	"Escherichia_coli"	0.0261823985937095	"Escherichia coli"	2.61823985937095	10
+"Throat"	"TM7_phylum_sp_oral_taxon_352"	0.0248547725993864	"TM7 phylum sp oral taxon 352"	2.48547725993864	11
+"Throat"	"Prevotella_melaninogenica"	0.0223186025785931	"Prevotella melaninogenica"	2.23186025785931	12
+"Throat"	"Porphyromonas_bobii"	0.0202429870674953	"Porphyromonas bobii"	2.02429870674953	13
+"Throat"	"Campylobacter_concisus"	0.0196158480038363	"Campylobacter concisus"	1.96158480038363	14
+"Throat"	"Streptococcus_salivarius"	0.0185623093856923	"Streptococcus salivarius"	1.85623093856923	15
+"Throat"	"Prevotella_pallens"	0.0185551026202253	"Prevotella pallens"	1.85551026202253	16
+"Throat"	"Actinomyces_graevenitzii"	0.0175744961004687	"Actinomyces graevenitzii"	1.75744961004687	17
+"Throat"	"Fusobacterium_nucleatum"	0.0173102688802493	"Fusobacterium nucleatum"	1.73102688802493	18
+"Throat"	"Streptococcus_parasanguinis"	0.0154683422097949	"Streptococcus parasanguinis"	1.54683422097949	19
+"Throat"	"Porphyromonas_endodontalis"	0.0153310951499632	"Porphyromonas endodontalis"	1.53310951499632	20
+"Tongue dorsum"	"Neisseria_subflava"	0.084108541299065	"Neisseria subflava"	8.4108541299065	1
+"Tongue dorsum"	"Veillonella_dispar"	0.0782715524914279	"Veillonella dispar"	7.82715524914279	2
+"Tongue dorsum"	"Veillonella_rogosae"	0.0541102967559321	"Veillonella rogosae"	5.41102967559321	3
+"Tongue dorsum"	"Prevotella_melaninogenica"	0.048452681426453	"Prevotella melaninogenica"	4.8452681426453	4
+"Tongue dorsum"	"Rothia_mucilaginosa"	0.0440270265938953	"Rothia mucilaginosa"	4.40270265938953	5
+"Tongue dorsum"	"Actinomyces_sp_ICM47"	0.041847724536759	"Actinomyces sp ICM47"	4.1847724536759	6
+"Tongue dorsum"	"Actinomyces_graevenitzii"	0.0408947101644594	"Actinomyces graevenitzii"	4.08947101644594	7
+"Tongue dorsum"	"Streptococcus_parasanguinis"	0.0356360801912285	"Streptococcus parasanguinis"	3.56360801912285	8
+"Tongue dorsum"	"Streptococcus_salivarius"	0.0303110570125663	"Streptococcus salivarius"	3.03110570125663	9
+"Tongue dorsum"	"Prevotella_histicola"	0.0288895484208708	"Prevotella histicola"	2.88895484208708	10
+"Tongue dorsum"	"Fusobacterium_periodonticum"	0.0268919863828745	"Fusobacterium periodonticum"	2.68919863828745	11
+"Tongue dorsum"	"Veillonella_atypica"	0.0268537202518117	"Veillonella atypica"	2.68537202518117	12
+"Tongue dorsum"	"TM7_phylum_sp_oral_taxon_352"	0.0227079533407328	"TM7 phylum sp oral taxon 352"	2.27079533407328	13
+"Tongue dorsum"	"Porphyromonas_bobii"	0.0189885205485222	"Porphyromonas bobii"	1.89885205485222	14
+"Tongue dorsum"	"Campylobacter_concisus"	0.0185442087574853	"Campylobacter concisus"	1.85442087574853	15
+"Tongue dorsum"	"Schaalia_odontolytica"	0.0163605982463806	"Schaalia odontolytica"	1.63605982463806	16
+"Tongue dorsum"	"Granulicatella_SGB8255"	0.015706537557114	"Granulicatella SGB8255"	1.5706537557114	17
+"Tongue dorsum"	"Prevotella_jejuni"	0.0152129993171115	"Prevotella jejuni"	1.52129993171115	18
+"Tongue dorsum"	"Peptoniphilus_lacydonensis"	0.0140748656865806	"Peptoniphilus lacydonensis"	1.40748656865806	19
+"Tongue dorsum"	"Schaalia_SGB17168"	0.0138399657071233	"Schaalia SGB17168"	1.38399657071233	20

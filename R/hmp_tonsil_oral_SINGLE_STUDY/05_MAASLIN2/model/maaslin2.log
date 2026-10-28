@@ -1,0 +1,376 @@
+2026-10-26 09:45:14.195368 INFO::Writing function arguments to log file
+2026-10-26 09:45:14.207812 DEBUG::Function arguments
+2026-10-26 09:45:14.214758 DEBUG::Output folder: results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model
+2026-10-26 09:45:14.215151 DEBUG::Min Abundance: 0.000000
+2026-10-26 09:45:14.215511 DEBUG::Min Prevalence: 0.100000
+2026-10-26 09:45:14.21587 DEBUG::Normalization: TSS
+2026-10-26 09:45:14.216226 DEBUG::Transform: LOG
+2026-10-26 09:45:14.216591 DEBUG::Analysis method: LM
+2026-10-26 09:45:14.216985 DEBUG::Max significance: 0.050000
+2026-10-26 09:45:14.217389 DEBUG::Random effects: subject_id
+2026-10-26 09:45:14.217768 DEBUG::Fixed effects: body_site
+2026-10-26 09:45:14.218146 DEBUG::Correction method: BH
+2026-10-26 09:45:14.218559 DEBUG::Standardize: FALSE
+2026-10-26 09:45:14.218934 DEBUG::Cores: 1
+2026-10-26 09:45:14.219287 INFO::Verifying options selected are valid
+2026-10-26 09:45:14.262084 INFO::Determining format of input files
+2026-10-26 09:45:14.263257 INFO::Input format is data samples as rows and metadata samples as rows
+2026-10-26 09:45:14.267312 DEBUG::A total of 119 samples were found in both the data and metadata
+2026-10-26 09:45:14.267679 DEBUG::Reordering data/metadata to use same sample ordering
+2026-10-26 09:45:14.273113 INFO::Formula for random effects: expr ~ (1 | subject_id)
+2026-10-26 09:45:14.274193 INFO::Formula for fixed effects: expr ~  body_site
+2026-10-26 09:45:14.275388 INFO::Filter data based on min abundance and min prevalence
+2026-10-26 09:45:14.276269 INFO::Total samples in data: 119
+2026-10-26 09:45:14.27713 INFO::Min samples required with min abundance for a feature not to be filtered: 11.900000
+2026-10-26 09:45:14.28515 INFO::Total filtered features: 368
+2026-10-26 09:45:14.286687 INFO::Filtered feature names from abundance and prevalence filtering: Actinomyces_israelii, Actinomyces_oricola, Actinomyces_SGB17145, Actinomyces_timonensis, Peptidiphaga_gingivicola, Peptidiphaga_SGB69229, Schaalia_cardiffensis, Bifidobacterium_dentium, Bifidobacterium_longum, Gardnerella_vaginalis, Scardovia_wiggsiae, Corynebacterium_accolens, Corynebacterium_kefirresidentii, Corynebacterium_pseudodiphtheriticum, Corynebacterium_sp_ACRPR, GGB2722_SGB3663, Pseudopropionibacterium_massiliense, GGB10025_SGB15902, Propionibacterium_acidifaciens, Propionibacterium_sp_oral_taxon_192, Atopobium_sp_oral_taxon_199, Olsenella_uli, Collinsella_aerofaciens, Berryella_intestinalis, Cryptobacterium_curtum, Bacteroides_caccae, Bacteroides_cellulosilyticus, Bacteroides_faecis, Bacteroides_fragilis, Bacteroides_intestinalis, Bacteroides_ovatus, Bacteroides_stercoris, Bacteroides_thetaiotaomicron, Bacteroides_xylanisolvens, Phocaeicola_coprocola, Phocaeicola_dorei, Phocaeicola_massiliensis, Phocaeicola_plebeius, Barnesiella_intestinihominis, Coprobacter_fastidiosus, GGB1460_SGB2023, Butyricimonas_paravirosa, GGB1332_SGB1789, Odoribacter_splanchnicus, GGB1431_SGB1972, GGB45697_SGB63414, Porphyromonas_SGB1983, Porphyromonas_SGB2015, Alloprevotella_rava, GGB1186_SGB1534, GGB74351_SGB98200, Hallella_seregens, Paraprevotella_clara, Prevotella_aurantiaca, Prevotella_baroniae, Prevotella_bivia, Prevotella_buccae, Prevotella_buccalis, Prevotella_colorans, Prevotella_disiens, Prevotella_enoeca, Prevotella_fusca, Prevotella_koreensis, Prevotella_marshii, Prevotella_multiformis, Prevotella_oralis, Prevotella_SGB98239, Prevotella_SGB98243, Prevotella_sp_oral_taxon_376, Prevotella_sp_oral_taxon_820, Prevotella_timonensis, Segatella_copri, Alistipes_communis, Alistipes_finegoldii, Alistipes_ihumii, Alistipes_indistinctus, Alistipes_onderdonkii, Alistipes_putredinis, Alistipes_shahii, Alistipes_sp_AF17_16, Rikenellaceae_bacterium, Parabacteroides_distasonis, Parabacteroides_merdae, Tannerella_SGB2054, Tannerella_SGB77770, GGB1022_SGB1316, GGB1025_SGB1320, GGB1455_SGB2018, GGB49219_SGB69048, Capnocytophaga_haemolytica, GGB1838_SGB2488, GGB1840_SGB2490, Candidatus_Absconditabacteria_unclassified_SGB6894, Candidatus_Absconditabacteria_unclassified_SGB6895, GGB4936_SGB6888, GGB4937_SGB6890, Candidatus_Gracilibacteria_bacterium_GN02_873, Candidatus_Gracilibacteria_bacterium_HOT_871, GGB4365_SGB5979, GGB5979_SGB8597, GGB12786_SGB19828, Candidatus_Saccharibacteria_unclassified_SGB19847, Candidatus_Saccharibacteria_unclassified_SGB19905, TM7_phylum_sp_oral_taxon_350, GGB12794_SGB19881, GGB18703_SGB95850, GGB12783_SGB19821, GGB70967_SGB95921, GGB12787_SGB19829, GGB12787_SGB19830, GGB12788_SGB19833, GGB12788_SGB19840, GGB12789_SGB19843, Gemella_SGB7291, Staphylococcus_epidermidis, Dolosigranulum_pigrum, Granulicatella_elegans, Granulicatella_SGB64171, Granulicatella_SGB8244, Lactobacillus_crispatus, Lactobacillus_gasseri, Lactobacillus_iners, Lactobacillus_jensenii, Lactococcus_lactis, Streptococcus_dysgalactiae, Streptococcus_lactarius, Streptococcus_massiliensis, Streptococcus_rubneri, Streptococcus_thermophilus, GGB4710_SGB6522, GGB2964_SGB3946, GGB58485_SGB80143, GGB3001_SGB3992, GGB96297_SGB123797, GGB3365_SGB4451, GGB38873_SGB47522, GGB51269_SGB5062, GGB4716_SGB6531, GGB4533_SGB97508, GGB71303_SGB97507, GGB4552_SGB6276, GGB4566_SGB6305, GGB4567_SGB6308, GGB4569_SGB6310, GGB4587_SGB6346, GGB4599_SGB6362, GGB4684_SGB6478, GGB4733_SGB6555, GGB4733_SGB6556, GGB4733_SGB6558, GGB4964_SGB6927, GGB9064_SGB13983, GGB9176_SGB14114, GGB9211_SGB14151, GGB36267_SGB14177, GGB9480_SGB14874, GGB9583_SGB15004, GGB9758_SGB15368, GGB49401_SGB69314, GGB49400_SGB69312, GGB49400_SGB97338, GGB71270_SGB97344, GGB96534_SGB136060, GGB9059_SGB13976, GGB4689_SGB6486, GGB9524_SGB14923, GGB3008_SGB3999, GGB4308_SGB5895, GGB9712_SGB15244, Candidatus_Borkfalkia_ceftriaxoniphila, Clostridiaceae_bacterium, Clostridiaceae_bacterium_AF18_31LB, Clostridiaceae_bacterium_Marseille_Q4149, Clostridium_sp_AF36_4, Eubacterium_ventriosum, GGB3277_SGB4327, GGB3278_SGB4328, Pseudoramibacter_alactolyticus, Eubacterium_nodatum, Eubacterium_saphenum, Candidatus_Cibionibacter_quicibialis, Gemmiger_formicilis, Gemmiger_SGB15295, GGB70946_SGB95408, GGB9759_SGB15370, Levyella_massiliensis, Blautia_faecis, Blautia_wexlerae, Brotolimicola_acetigignens, Butyrivibrio_crossotus, Catonella_SGB4501, Coprococcus_eutactus, Dorea_formicigenerans, Dorea_longicatena, Faecalicatena_fissicatena, GGB3385_SGB4471, GGB3386_SGB4474, GGB3387_SGB4475, GGB3389_SGB4477, GGB3390_SGB4478, GGB96582_SGB123947, Johnsonella_ignava, Lachnoanaerobaculum_umeaense, Lachnospira_pectinoschiza, Eubacterium_rectale, Lachnospiraceae_bacterium_CLA_AA_H244, Lachnospiraceae_bacterium_oral_taxon_500, Lachnospiraceae_unclassified_SGB3810, Mediterraneibacter_faecis, Ruminococcus_lactaris, Oribacterium_SGB5283, Oribacterium_SGB96486, Roseburia_faecis, Roseburia_intestinalis, Roseburia_inulinivorans, Roseburia_sp_AF02_12, Shuttleworthia_satelles, Simiaoa_sunii, Wujia_chipingensis, Faecalibacterium_prausnitzii, Faecalibacterium_SGB15346, Faecalibacterium_sp_CLA_AA_H233, Faecalibacterium_sp_HTFF, GGB3247_SGB4294, GGB9602_SGB15028, GGB9602_SGB15031, GGB9616_SGB15051, GGB9634_SGB15093, GGB9635_SGB15102, GGB9635_SGB15106, GGB9699_SGB15216, GGB9715_SGB15260, GGB9715_SGB15265, Lawsonibacter_hominis, Oscillibacter_sp_ER4, Oscillibacter_sp_MSJ_31, Oscillibacter_valericigenes, Eubacterium_siraeum, Oscillospiraceae_bacterium, Oscillospiraceae_bacterium_CLA_AA_H250, Oscillospiraceae_unclassified_SGB15256, Ruminococcus_bicirculans, Ruminococcus_bromii, Ruthenibacterium_lactatiformans, Vescimonas_coprocola, GGB4786_SGB6625, Peptostreptococcaceae_bacterium_AS15, Peptostreptococcaceae_unclassified_SGB6621, Peptostreptococcus_anaerobius, Eggerthia_catenaformis, Longicatena_caecimuris, GGB4250_SGB5751, Phascolarctobacterium_faecium, GGB4300_SGB123921, GGB4300_SGB69116, GGB97311_SGB5873, Selenomonas_SGB5879, Selenomonas_SGB5883, Selenomonas_SGB69112, Selenomonas_sp_F0473, Selenomonas_timonae, Dialister_micraerophilus, Dialister_succinatiphilus, Megasphaera_hutchinsoni, Megasphaera_lornae, Veillonella_caviae, Veillonella_SGB6928, Veillonella_SGB96765, Veillonella_sp_3310, Veillonella_sp_CHU110, Anaerococcus_octavius, Anaerococcus_provencensis, Anaerococcus_SGB6657, Finegoldia_magna, Peptoniphilus_lacrimalis, Peptoniphilus_lacydonensis, Fusobacterium_canifelinum, Fusobacterium_gonidiaformans, Fusobacterium_massiliense, Fusobacterium_necrophorum, GGB56136_SGB77485, GGB4393_SGB6047, GGB4393_SGB6048, GGB4393_SGB97398, Leptotrichia_sp_oral_taxon_218, Leptotrichia_sp_oral_taxon_498, Leptotrichia_sp_oral_taxon_847, Leptotrichia_sp_oral_taxon_879, Pseudostreptobacillus_hongkongensis, Caulobacter_sp_CCUG_60055, Bradyrhizobium_elkanii, Bradyrhizobium_SGB11337, Mesorhizobium_amorphae, Sphingomonas_flavalba, Ralstonia_pickettii, Comamonas_denitrificans, Comamonas_thiooxydans, Diaphorobacter_nitroreducens, Parasutterella_SGB9260, Sutterella_wadsworthensis, Eikenella_exigua, GGB6679_SGB9438, GGB72533_SGB99881, Kingella_negevensis, Kingella_SGB99951, Kingella_SGB99952, Kingella_sp_CICC_24913, Neisseria_chenwenguii, Neisseria_meningitidis, Neisseria_sp_ZJ106, Simonsiella_muelleri, Dechloromonas_agitata, GGB13106_SGB20306, GGB6606_SGB9340, GGB6646_SGB9384, GGB6673_SGB9421, GGB6673_SGB99879, Desulfobulbus_oralis, Desulfomicrobium_orale, Campylobacter_curvus, Campylobacter_massiliensis, Campylobacter_SGB19298, Campylobacter_SGB19314, Campylobacter_SGB96365, Campylobacter_ureolyticus, GGB12440_SGB19288, Cardiobacterium_SGB9420, Cardiobacterium_valvarum, Acinetobacter_junii, GGB72444_SGB99641, Aggregatibacter_actinomycetemcomitans, GGB6813_SGB9727, GGB6813_SGB99807, Haemophilus_influenzae, Pseudomonas_syringae, Thiopseudomonas_denitrificans, GGB2665_SGB3591, GGB2666_SGB69449, GGB2671_SGB3597, GGB2671_SGB3599, GGB2671_SGB69439, GGB49499_SGB123429, GGB49499_SGB69440, GGB2672_SGB3600, GGB2674_SGB3609, GGB2674_SGB96712, GGB2675_SGB3610, GGB2676_SGB3611, GGB2676_SGB96696, GGB49504_SGB69447, Treponema_medium, Treponema_pectinovorum, Treponema_SGB3588, Treponema_SGB3590, Treponema_SGB3604, Treponema_SGB69443, Treponema_SGB69453, Treponema_SGB69454, Treponema_SGB96715, Treponema_sp_Marseille_Q3903, Treponema_sp_OMZ_838, Fretibacterium_fastidiosum, Fretibacterium_SGB61573, GGB10852_SGB17521, GGB10852_SGB17524, GGB4754_SGB6584, Metamycoplasma_orale, Akkermansia_muciniphila
+2026-10-26 09:45:14.29353 INFO::Total filtered features with variance filtering: 0
+2026-10-26 09:45:14.294758 INFO::Filtered feature names from variance filtering:
+2026-10-26 09:45:14.295657 INFO::Running selected normalization method: TSS
+2026-10-26 09:45:14.300879 INFO::Bypass z-score application to metadata
+2026-10-26 09:45:14.301823 INFO::Running selected transform method: LOG
+2026-10-26 09:45:14.310604 INFO::Running selected analysis method: LM
+2026-10-26 09:45:14.814284 INFO::Fitting model to feature number 1, Actinobaculum_sp_oral_taxon_183
+2026-10-26 09:45:14.949205 INFO::Fitting model to feature number 2, Actinomyces_bouchesdurhonensis
+2026-10-26 09:45:14.996242 INFO::Fitting model to feature number 3, Actinomyces_dentalis
+2026-10-26 09:45:15.040706 INFO::Fitting model to feature number 4, Actinomyces_gerencseriae
+2026-10-26 09:45:15.08573 INFO::Fitting model to feature number 5, Actinomyces_graevenitzii
+2026-10-26 09:45:15.133748 INFO::Fitting model to feature number 6, Actinomyces_johnsonii
+2026-10-26 09:45:15.195489 INFO::Fitting model to feature number 7, Actinomyces_massiliensis
+2026-10-26 09:45:15.240253 INFO::Fitting model to feature number 8, Actinomyces_naeslundii
+2026-10-26 09:45:15.28724 INFO::Fitting model to feature number 9, Actinomyces_oris
+2026-10-26 09:45:15.331526 INFO::Fitting model to feature number 10, Actinomyces_SGB17132
+2026-10-26 09:45:15.37622 INFO::Fitting model to feature number 11, Actinomyces_sp_HMT897
+2026-10-26 09:45:15.42093 INFO::Fitting model to feature number 12, Actinomyces_sp_ICM47
+2026-10-26 09:45:15.46777 INFO::Fitting model to feature number 13, Actinomyces_sp_oral_taxon_448
+2026-10-26 09:45:15.526196 INFO::Fitting model to feature number 14, Actinomyces_sp_ph3
+2026-10-26 09:45:15.571929 INFO::Fitting model to feature number 15, GGB9835_SGB15485
+2026-10-26 09:45:15.616883 INFO::Fitting model to feature number 16, Pauljensenia_hongkongensis
+2026-10-26 09:45:15.66227 INFO::Fitting model to feature number 17, Peptidiphaga_SGB15895
+2026-10-26 09:45:15.707638 INFO::Fitting model to feature number 18, Schaalia_georgiae
+2026-10-26 09:45:15.752076 INFO::Fitting model to feature number 19, Schaalia_meyeri
+2026-10-26 09:45:15.797641 INFO::Fitting model to feature number 20, Schaalia_odontolytica
+2026-10-26 09:45:15.842949 INFO::Fitting model to feature number 21, Schaalia_SGB17153
+2026-10-26 09:45:15.887183 INFO::Fitting model to feature number 22, Schaalia_SGB17154
+2026-10-26 09:45:15.93278 INFO::Fitting model to feature number 23, Schaalia_SGB17157
+2026-10-26 09:45:15.978201 INFO::Fitting model to feature number 24, Schaalia_SGB17158
+2026-10-26 09:45:16.023017 INFO::Fitting model to feature number 25, Schaalia_SGB17168
+2026-10-26 09:45:16.068471 INFO::Fitting model to feature number 26, Alloscardovia_omnicolens
+2026-10-26 09:45:16.124694 INFO::Fitting model to feature number 27, Corynebacterium_durum
+2026-10-26 09:45:16.168773 INFO::Fitting model to feature number 28, Corynebacterium_matruchotii
+2026-10-26 09:45:16.215132 INFO::Fitting model to feature number 29, Rothia_aeria
+2026-10-26 09:45:16.260135 INFO::Fitting model to feature number 30, Rothia_mucilaginosa
+2026-10-26 09:45:16.317071 INFO::Fitting model to feature number 31, Rothia_SGB49305
+2026-10-26 09:45:16.362982 INFO::Fitting model to feature number 32, Arachnia_propionica
+2026-10-26 09:45:16.408765 INFO::Fitting model to feature number 33, Arachnia_rubra
+2026-10-26 09:45:16.454645 INFO::Fitting model to feature number 34, Arachnia_SGB15898
+2026-10-26 09:45:16.49959 INFO::Fitting model to feature number 35, Arachnia_SGB15899
+2026-10-26 09:45:16.544886 INFO::Fitting model to feature number 36, Cutibacterium_acnes
+2026-10-26 09:45:16.589264 INFO::Fitting model to feature number 37, Lancefieldella_parvula
+2026-10-26 09:45:16.633961 INFO::Fitting model to feature number 38, Lancefieldella_rimae
+2026-10-26 09:45:16.678724 INFO::Fitting model to feature number 39, Olsenella_sp_oral_taxon_807
+2026-10-26 09:45:16.737343 INFO::Fitting model to feature number 40, Slackia_exigua
+2026-10-26 09:45:16.783868 INFO::Fitting model to feature number 41, Bacteroides_uniformis
+2026-10-26 09:45:16.829333 INFO::Fitting model to feature number 42, Phocaeicola_vulgatus
+2026-10-26 09:45:16.874389 INFO::Fitting model to feature number 43, GGB1088_SGB1395
+2026-10-26 09:45:16.918061 INFO::Fitting model to feature number 44, GGB1088_SGB1398
+2026-10-26 09:45:16.964242 INFO::Fitting model to feature number 45, GGB1472_SGB2037
+2026-10-26 09:45:17.009452 INFO::Fitting model to feature number 46, GGB1472_SGB2038
+2026-10-26 09:45:17.054155 INFO::Fitting model to feature number 47, GGB1473_SGB2039
+2026-10-26 09:45:17.099731 INFO::Fitting model to feature number 48, GGB45697_SGB2042
+2026-10-26 09:45:17.144713 INFO::Fitting model to feature number 49, Porphyromonas_bobii
+2026-10-26 09:45:17.189831 INFO::Fitting model to feature number 50, Porphyromonas_catoniae
+2026-10-26 09:45:17.235866 INFO::Fitting model to feature number 51, Porphyromonas_endodontalis
+2026-10-26 09:45:17.280876 INFO::Fitting model to feature number 52, Porphyromonas_sp_oral_taxon_275
+2026-10-26 09:45:17.33735 INFO::Fitting model to feature number 53, Porphyromonas_sp_oral_taxon_278
+2026-10-26 09:45:17.383446 INFO::Fitting model to feature number 54, Alloprevotella_SGB1463
+2026-10-26 09:45:17.430365 INFO::Fitting model to feature number 55, Alloprevotella_SGB1466
+2026-10-26 09:45:17.475658 INFO::Fitting model to feature number 56, Alloprevotella_SGB1483
+2026-10-26 09:45:17.52019 INFO::Fitting model to feature number 57, Alloprevotella_SGB1484
+2026-10-26 09:45:17.564887 INFO::Fitting model to feature number 58, Alloprevotella_sp_Lung230
+2026-10-26 09:45:17.622164 INFO::Fitting model to feature number 59, Alloprevotella_sp_oral_taxon_473
+2026-10-26 09:45:17.668214 INFO::Fitting model to feature number 60, Alloprevotella_tannerae
+2026-10-26 09:45:17.713571 INFO::Fitting model to feature number 61, GGB1144_SGB1468
+2026-10-26 09:45:17.758716 INFO::Fitting model to feature number 62, GGB1144_SGB1469
+2026-10-26 09:45:17.803382 INFO::Fitting model to feature number 63, GGB74353_SGB98242
+2026-10-26 09:45:17.849069 INFO::Fitting model to feature number 64, Prevotella_conceptionensis
+2026-10-26 09:45:17.893899 INFO::Fitting model to feature number 65, Prevotella_denticola
+2026-10-26 09:45:17.950776 INFO::Fitting model to feature number 66, Prevotella_histicola
+2026-10-26 09:45:17.996865 INFO::Fitting model to feature number 67, Prevotella_intermedia
+2026-10-26 09:45:18.041999 INFO::Fitting model to feature number 68, Prevotella_jejuni
+2026-10-26 09:45:18.086232 INFO::Fitting model to feature number 69, Prevotella_loescheii
+2026-10-26 09:45:18.131511 INFO::Fitting model to feature number 70, Prevotella_maculosa
+2026-10-26 09:45:18.176016 INFO::Fitting model to feature number 71, Prevotella_melaninogenica
+2026-10-26 09:45:18.220902 INFO::Fitting model to feature number 72, Prevotella_micans
+2026-10-26 09:45:18.266939 INFO::Fitting model to feature number 73, Prevotella_nanceiensis
+2026-10-26 09:45:18.311802 INFO::Fitting model to feature number 74, Prevotella_nigrescens
+2026-10-26 09:45:18.357815 INFO::Fitting model to feature number 75, Prevotella_oris
+2026-10-26 09:45:18.403338 INFO::Fitting model to feature number 76, Prevotella_oulorum
+2026-10-26 09:45:18.448808 INFO::Fitting model to feature number 77, Prevotella_pallens
+2026-10-26 09:45:18.494256 INFO::Fitting model to feature number 78, Prevotella_pleuritidis
+2026-10-26 09:45:18.550806 INFO::Fitting model to feature number 79, Prevotella_saccharolytica
+2026-10-26 09:45:18.596403 INFO::Fitting model to feature number 80, Prevotella_salivae
+2026-10-26 09:45:18.641689 INFO::Fitting model to feature number 81, Prevotella_scopos
+2026-10-26 09:45:18.686436 INFO::Fitting model to feature number 82, Prevotella_SGB1459
+2026-10-26 09:45:18.743161 INFO::Fitting model to feature number 83, Prevotella_shahii
+2026-10-26 09:45:18.788228 INFO::Fitting model to feature number 84, Prevotella_sp_HJM029
+2026-10-26 09:45:18.834468 INFO::Fitting model to feature number 85, Prevotella_sp_oral_taxon_299
+2026-10-26 09:45:18.880572 INFO::Fitting model to feature number 86, Prevotella_sp_oral_taxon_475
+2026-10-26 09:45:18.925388 INFO::Fitting model to feature number 87, Prevotella_veroralis
+2026-10-26 09:45:18.970138 INFO::Fitting model to feature number 88, Prevotella_vespertina
+2026-10-26 09:45:19.016299 INFO::Fitting model to feature number 89, Prevotellaceae_bacterium_Marseille_P2826
+2026-10-26 09:45:19.060987 INFO::Fitting model to feature number 90, Tannerella_forsythia
+2026-10-26 09:45:19.105583 INFO::Fitting model to feature number 91, Tannerella_serpentiformis
+2026-10-26 09:45:19.162104 INFO::Fitting model to feature number 92, Tannerella_sp_oral_taxon_808
+2026-10-26 09:45:19.207437 INFO::Fitting model to feature number 93, Bacteroidetes_oral_taxon_274
+2026-10-26 09:45:19.252504 INFO::Fitting model to feature number 94, Bacteroidota_unclassified_SGB1343
+2026-10-26 09:45:19.29834 INFO::Fitting model to feature number 95, GGB1022_SGB1315
+2026-10-26 09:45:19.343871 INFO::Fitting model to feature number 96, GGB1025_SGB1319
+2026-10-26 09:45:19.389705 INFO::Fitting model to feature number 97, GGB1026_SGB1321
+2026-10-26 09:45:19.434924 INFO::Fitting model to feature number 98, GGB1202_SGB1566
+2026-10-26 09:45:19.480429 INFO::Fitting model to feature number 99, GGB1202_SGB1567
+2026-10-26 09:45:19.524994 INFO::Fitting model to feature number 100, GGB1203_SGB1568
+2026-10-26 09:45:19.570357 INFO::Fitting model to feature number 101, GGB1611_SGB2208
+2026-10-26 09:45:19.616177 INFO::Fitting model to feature number 102, GGB71456_SGB97845
+2026-10-26 09:45:19.660969 INFO::Fitting model to feature number 103, GGB1024_SGB1318
+2026-10-26 09:45:19.706847 INFO::Fitting model to feature number 104, Capnocytophaga_bilenii
+2026-10-26 09:45:19.76259 INFO::Fitting model to feature number 105, Capnocytophaga_genosp_AHN8471
+2026-10-26 09:45:19.807942 INFO::Fitting model to feature number 106, Capnocytophaga_gingivalis
+2026-10-26 09:45:19.852783 INFO::Fitting model to feature number 107, Capnocytophaga_granulosa
+2026-10-26 09:45:19.89845 INFO::Fitting model to feature number 108, Capnocytophaga_leadbetteri
+2026-10-26 09:45:19.942751 INFO::Fitting model to feature number 109, Capnocytophaga_ochracea
+2026-10-26 09:45:19.987314 INFO::Fitting model to feature number 110, Capnocytophaga_SGB2480
+2026-10-26 09:45:20.032727 INFO::Fitting model to feature number 111, Capnocytophaga_SGB2499
+2026-10-26 09:45:20.077815 INFO::Fitting model to feature number 112, Capnocytophaga_sp_oral_taxon_338
+2026-10-26 09:45:20.123544 INFO::Fitting model to feature number 113, Capnocytophaga_sp_oral_taxon_863
+2026-10-26 09:45:20.168979 INFO::Fitting model to feature number 114, Capnocytophaga_sputigena
+2026-10-26 09:45:20.214667 INFO::Fitting model to feature number 115, GGB1832_SGB2476
+2026-10-26 09:45:20.260207 INFO::Fitting model to feature number 116, GGB1833_SGB2477
+2026-10-26 09:45:20.305332 INFO::Fitting model to feature number 117, Cloacibacterium_caeni
+2026-10-26 09:45:20.376539 INFO::Fitting model to feature number 118, GGB1843_SGB2516
+2026-10-26 09:45:20.423999 INFO::Fitting model to feature number 119, GGB1843_SGB2524
+2026-10-26 09:45:20.470671 INFO::Fitting model to feature number 120, GGB1844_SGB2532
+2026-10-26 09:45:20.516763 INFO::Fitting model to feature number 121, GGB1845_SGB2533
+2026-10-26 09:45:20.561602 INFO::Fitting model to feature number 122, SR1_bacterium_human_oral_taxon_HOT_345
+2026-10-26 09:45:20.605972 INFO::Fitting model to feature number 123, GGB4936_SGB6889
+2026-10-26 09:45:20.651945 INFO::Fitting model to feature number 124, GGB4937_SGB6891
+2026-10-26 09:45:20.697419 INFO::Fitting model to feature number 125, Candidatus_Gracilibacteria_bacterium_GN02_872
+2026-10-26 09:45:20.741701 INFO::Fitting model to feature number 126, Candidatus_Nanoperiomorbus_periodonticus
+2026-10-26 09:45:20.786567 INFO::Fitting model to feature number 127, Candidatus_Nanogingivalis_gingivitcus
+2026-10-26 09:45:20.832671 INFO::Fitting model to feature number 128, GGB12785_SGB19823
+2026-10-26 09:45:20.877666 INFO::Fitting model to feature number 129, GGB12785_SGB19824
+2026-10-26 09:45:20.922615 INFO::Fitting model to feature number 130, GGB12785_SGB19825
+2026-10-26 09:45:20.979302 INFO::Fitting model to feature number 131, GGB12785_SGB19827
+2026-10-26 09:45:21.025428 INFO::Fitting model to feature number 132, Candidatus_Saccharibacteria_bacterium_oral_taxon_488
+2026-10-26 09:45:21.071324 INFO::Fitting model to feature number 133, Candidatus_Saccharibacteria_bacterium_oral_taxon_955
+2026-10-26 09:45:21.116012 INFO::Fitting model to feature number 134, Candidatus_Saccharibacteria_unclassified_SGB19846
+2026-10-26 09:45:21.160304 INFO::Fitting model to feature number 135, Candidatus_Saccharibacteria_unclassified_SGB95587
+2026-10-26 09:45:21.205384 INFO::Fitting model to feature number 136, Candidatus_Saccharibacteria_unclassified_SGB95617
+2026-10-26 09:45:21.251315 INFO::Fitting model to feature number 137, Candidatus_Saccharibacteria_unclassified_SGB95710
+2026-10-26 09:45:21.296389 INFO::Fitting model to feature number 138, TM7_phylum_sp_oral_taxon_348
+2026-10-26 09:45:21.341303 INFO::Fitting model to feature number 139, TM7_phylum_sp_oral_taxon_349
+2026-10-26 09:45:21.387288 INFO::Fitting model to feature number 140, TM7_phylum_sp_oral_taxon_351
+2026-10-26 09:45:21.434495 INFO::Fitting model to feature number 141, TM7_phylum_sp_oral_taxon_352
+2026-10-26 09:45:21.481075 INFO::Fitting model to feature number 142, GGB12761_SGB19791
+2026-10-26 09:45:21.526523 INFO::Fitting model to feature number 143, GGB12798_SGB135773
+2026-10-26 09:45:21.582998 INFO::Fitting model to feature number 144, GGB18703_SGB19792
+2026-10-26 09:45:21.629405 INFO::Fitting model to feature number 145, GGB18703_SGB19793
+2026-10-26 09:45:21.674478 INFO::Fitting model to feature number 146, GGB49434_SGB69353
+2026-10-26 09:45:21.718749 INFO::Fitting model to feature number 147, Candidatus_Nanosynbacter_lyticus
+2026-10-26 09:45:21.76377 INFO::Fitting model to feature number 148, Candidatus_Nanosynbacter_SGB19887
+2026-10-26 09:45:21.808609 INFO::Fitting model to feature number 149, Candidatus_Nanosynbacter_SGB19893
+2026-10-26 09:45:21.853323 INFO::Fitting model to feature number 150, Candidatus_Nanosynbacter_sp_HMT_352
+2026-10-26 09:45:21.899208 INFO::Fitting model to feature number 151, Candidatus_Nanosynsacchari_sp_TM7_ANC_38_39_G1_1
+2026-10-26 09:45:21.943831 INFO::Fitting model to feature number 152, GGB12788_SGB19838
+2026-10-26 09:45:21.98897 INFO::Fitting model to feature number 153, GGB12763_SGB19797
+2026-10-26 09:45:22.034588 INFO::Fitting model to feature number 154, Gemella_haemolysans
+2026-10-26 09:45:22.079073 INFO::Fitting model to feature number 155, Gemella_morbillorum
+2026-10-26 09:45:22.123425 INFO::Fitting model to feature number 156, Gemella_sanguinis
+2026-10-26 09:45:22.179243 INFO::Fitting model to feature number 157, Gemella_SGB7284
+2026-10-26 09:45:22.22571 INFO::Fitting model to feature number 158, Gemella_SGB7293
+2026-10-26 09:45:22.27028 INFO::Fitting model to feature number 159, Abiotrophia_defectiva
+2026-10-26 09:45:22.315492 INFO::Fitting model to feature number 160, Abiotrophia_sp_HMSC24B09
+2026-10-26 09:45:22.360472 INFO::Fitting model to feature number 161, Granulicatella_adiacens
+2026-10-26 09:45:22.405495 INFO::Fitting model to feature number 162, Granulicatella_SGB8239
+2026-10-26 09:45:22.450808 INFO::Fitting model to feature number 163, Granulicatella_SGB8245
+2026-10-26 09:45:22.496197 INFO::Fitting model to feature number 164, Granulicatella_SGB8255
+2026-10-26 09:45:22.541272 INFO::Fitting model to feature number 165, Streptococcus_anginosus
+2026-10-26 09:45:22.585253 INFO::Fitting model to feature number 166, Streptococcus_australis
+2026-10-26 09:45:22.642383 INFO::Fitting model to feature number 167, Streptococcus_constellatus
+2026-10-26 09:45:22.687319 INFO::Fitting model to feature number 168, Streptococcus_cristatus
+2026-10-26 09:45:22.733001 INFO::Fitting model to feature number 169, Streptococcus_gordonii
+2026-10-26 09:45:22.789737 INFO::Fitting model to feature number 170, Streptococcus_infantis
+2026-10-26 09:45:22.836012 INFO::Fitting model to feature number 171, Streptococcus_intermedius
+2026-10-26 09:45:22.881062 INFO::Fitting model to feature number 172, Streptococcus_mitis
+2026-10-26 09:45:22.9257 INFO::Fitting model to feature number 173, Streptococcus_mutans
+2026-10-26 09:45:22.969848 INFO::Fitting model to feature number 174, Streptococcus_oralis
+2026-10-26 09:45:23.014953 INFO::Fitting model to feature number 175, Streptococcus_parasanguinis
+2026-10-26 09:45:23.059692 INFO::Fitting model to feature number 176, Streptococcus_peroris
+2026-10-26 09:45:23.105185 INFO::Fitting model to feature number 177, Streptococcus_pneumoniae
+2026-10-26 09:45:23.151357 INFO::Fitting model to feature number 178, Streptococcus_salivarius
+2026-10-26 09:45:23.19615 INFO::Fitting model to feature number 179, Streptococcus_sanguinis
+2026-10-26 09:45:23.241329 INFO::Fitting model to feature number 180, Streptococcus_sp_F0442
+2026-10-26 09:45:23.287487 INFO::Fitting model to feature number 181, Streptococcus_vestibularis
+2026-10-26 09:45:23.332637 INFO::Fitting model to feature number 182, GGB3059_SGB69431
+2026-10-26 09:45:23.388577 INFO::Fitting model to feature number 183, GGB3886_SGB5269
+2026-10-26 09:45:23.4354 INFO::Fitting model to feature number 184, GGB4533_SGB6245
+2026-10-26 09:45:23.481056 INFO::Fitting model to feature number 185, GGB4533_SGB6246
+2026-10-26 09:45:23.526297 INFO::Fitting model to feature number 186, GGB4533_SGB94822
+2026-10-26 09:45:23.571617 INFO::Fitting model to feature number 187, GGB4538_SGB6253
+2026-10-26 09:45:23.617061 INFO::Fitting model to feature number 188, GGB4538_SGB6256
+2026-10-26 09:45:23.662678 INFO::Fitting model to feature number 189, GGB4721_SGB6537
+2026-10-26 09:45:23.707913 INFO::Fitting model to feature number 190, GGB4733_SGB6557
+2026-10-26 09:45:23.753236 INFO::Fitting model to feature number 191, Eubacterium_brachy
+2026-10-26 09:45:23.799723 INFO::Fitting model to feature number 192, Eubacterium_infirmum
+2026-10-26 09:45:23.844212 INFO::Fitting model to feature number 193, Eubacterium_sulci
+2026-10-26 09:45:23.888834 INFO::Fitting model to feature number 194, Mogibacterium_diversum
+2026-10-26 09:45:23.934105 INFO::Fitting model to feature number 195, Mogibacterium_SGB3923
+2026-10-26 09:45:23.991809 INFO::Fitting model to feature number 196, Mogibacterium_timidum
+2026-10-26 09:45:24.038599 INFO::Fitting model to feature number 197, Catonella_massiliensis
+2026-10-26 09:45:24.084652 INFO::Fitting model to feature number 198, Catonella_morbi
+2026-10-26 09:45:24.129261 INFO::Fitting model to feature number 199, Catonella_SGB4505
+2026-10-26 09:45:24.174213 INFO::Fitting model to feature number 200, Catonella_SGB69305
+2026-10-26 09:45:24.21901 INFO::Fitting model to feature number 201, Catonella_SGB96613
+2026-10-26 09:45:24.265367 INFO::Fitting model to feature number 202, GGB3385_SGB4472
+2026-10-26 09:45:24.310302 INFO::Fitting model to feature number 203, GGB3385_SGB4473
+2026-10-26 09:45:24.35529 INFO::Fitting model to feature number 204, GGB3388_SGB4476
+2026-10-26 09:45:24.401098 INFO::Fitting model to feature number 205, GGB3883_SGB5265
+2026-10-26 09:45:24.446537 INFO::Fitting model to feature number 206, GGB3883_SGB5266
+2026-10-26 09:45:24.506174 INFO::Fitting model to feature number 207, GGB3887_SGB5270
+2026-10-26 09:45:24.555117 INFO::Fitting model to feature number 208, GGB49397_SGB69308
+2026-10-26 09:45:24.614771 INFO::Fitting model to feature number 209, Lachnoanaerobaculum_gingivalis
+2026-10-26 09:45:24.660843 INFO::Fitting model to feature number 210, Lachnoanaerobaculum_orale
+2026-10-26 09:45:24.705876 INFO::Fitting model to feature number 211, Lachnoanaerobaculum_saburreum
+2026-10-26 09:45:24.751005 INFO::Fitting model to feature number 212, Lachnoanaerobaculum_sp_ICM7
+2026-10-26 09:45:24.796127 INFO::Fitting model to feature number 213, Lachnoanaerobaculum_sp_Marseille_Q4761
+2026-10-26 09:45:24.840638 INFO::Fitting model to feature number 214, Lachnospiraceae_bacterium_oral_taxon_096
+2026-10-26 09:45:24.885513 INFO::Fitting model to feature number 215, Oribacterium_asaccharolyticum
+2026-10-26 09:45:24.931413 INFO::Fitting model to feature number 216, Oribacterium_parvum
+2026-10-26 09:45:24.976044 INFO::Fitting model to feature number 217, Oribacterium_SGB5287
+2026-10-26 09:45:25.020291 INFO::Fitting model to feature number 218, Oribacterium_SGB96555
+2026-10-26 09:45:25.065695 INFO::Fitting model to feature number 219, Oribacterium_sinus
+2026-10-26 09:45:25.110687 INFO::Fitting model to feature number 220, Oribacterium_sp_oral_taxon_078
+2026-10-26 09:45:25.15532 INFO::Fitting model to feature number 221, Filifactor_alocis
+2026-10-26 09:45:25.303274 INFO::Fitting model to feature number 222, GGB4783_SGB6619
+2026-10-26 09:45:25.350268 INFO::Fitting model to feature number 223, Peptoanaerobacter_stomatis
+2026-10-26 09:45:25.397007 INFO::Fitting model to feature number 224, Peptostreptococcaceae_unclassified_SGB6622
+2026-10-26 09:45:25.443098 INFO::Fitting model to feature number 225, Peptostreptococcus_SGB749
+2026-10-26 09:45:25.488021 INFO::Fitting model to feature number 226, Peptostreptococcus_stomatis
+2026-10-26 09:45:25.533287 INFO::Fitting model to feature number 227, Bulleidia_extructa
+2026-10-26 09:45:25.578631 INFO::Fitting model to feature number 228, Solobacterium_moorei
+2026-10-26 09:45:25.624566 INFO::Fitting model to feature number 229, Solobacterium_SGB6828
+2026-10-26 09:45:25.67569 INFO::Fitting model to feature number 230, Solobacterium_SGB6829
+2026-10-26 09:45:25.72258 INFO::Fitting model to feature number 231, Solobacterium_SGB6833
+2026-10-26 09:45:25.771052 INFO::Fitting model to feature number 232, Solobacterium_SGB6834
+2026-10-26 09:45:25.819095 INFO::Fitting model to feature number 233, Centipeda_periodontii
+2026-10-26 09:45:25.866675 INFO::Fitting model to feature number 234, GGB4299_SGB5872
+2026-10-26 09:45:25.913741 INFO::Fitting model to feature number 235, GGB4303_SGB5876
+2026-10-26 09:45:25.971899 INFO::Fitting model to feature number 236, Selenomonas_artemidis
+2026-10-26 09:45:26.019203 INFO::Fitting model to feature number 237, Selenomonas_felix
+2026-10-26 09:45:26.064657 INFO::Fitting model to feature number 238, Selenomonas_flueggei
+2026-10-26 09:45:26.109247 INFO::Fitting model to feature number 239, Selenomonas_infelix
+2026-10-26 09:45:26.154237 INFO::Fitting model to feature number 240, Selenomonas_massiliensis
+2026-10-26 09:45:26.202828 INFO::Fitting model to feature number 241, Selenomonas_noxia
+2026-10-26 09:45:26.247922 INFO::Fitting model to feature number 242, Selenomonas_SGB5880
+2026-10-26 09:45:26.292633 INFO::Fitting model to feature number 243, Selenomonas_SGB5891
+2026-10-26 09:45:26.337744 INFO::Fitting model to feature number 244, Selenomonas_SGB5896
+2026-10-26 09:45:26.384504 INFO::Fitting model to feature number 245, Selenomonas_SGB5897
+2026-10-26 09:45:26.432135 INFO::Fitting model to feature number 246, Selenomonas_SGB5900
+2026-10-26 09:45:26.490394 INFO::Fitting model to feature number 247, Selenomonas_sp_oral_taxon_892
+2026-10-26 09:45:26.53609 INFO::Fitting model to feature number 248, Anaeroglobus_geminatus
+2026-10-26 09:45:26.595591 INFO::Fitting model to feature number 249, Dialister_invisus
+2026-10-26 09:45:26.643165 INFO::Fitting model to feature number 250, Dialister_pneumosintes
+2026-10-26 09:45:26.688667 INFO::Fitting model to feature number 251, Megasphaera_micronuciformis
+2026-10-26 09:45:26.733855 INFO::Fitting model to feature number 252, Veillonella_atypica
+2026-10-26 09:45:26.77944 INFO::Fitting model to feature number 253, Veillonella_dispar
+2026-10-26 09:45:26.827835 INFO::Fitting model to feature number 254, Veillonella_parvula
+2026-10-26 09:45:26.890109 INFO::Fitting model to feature number 255, Veillonella_rogosae
+2026-10-26 09:45:26.934318 INFO::Fitting model to feature number 256, Veillonella_sp_3627
+2026-10-26 09:45:26.981007 INFO::Fitting model to feature number 257, Veillonella_tobetsuensis
+2026-10-26 09:45:27.02654 INFO::Fitting model to feature number 258, Parvimonas_micra
+2026-10-26 09:45:27.071293 INFO::Fitting model to feature number 259, Parvimonas_sp_oral_taxon_110
+2026-10-26 09:45:27.117209 INFO::Fitting model to feature number 260, Fusobacterium_hwasookii
+2026-10-26 09:45:27.162944 INFO::Fitting model to feature number 261, Fusobacterium_nucleatum
+2026-10-26 09:45:27.220402 INFO::Fitting model to feature number 262, Fusobacterium_periodonticum
+2026-10-26 09:45:27.268216 INFO::Fitting model to feature number 263, GGB4400_SGB6074
+2026-10-26 09:45:27.315041 INFO::Fitting model to feature number 264, Leptotrichia_buccalis
+2026-10-26 09:45:27.360419 INFO::Fitting model to feature number 265, Leptotrichia_hofstadii
+2026-10-26 09:45:27.40575 INFO::Fitting model to feature number 266, Leptotrichia_hongkongensis
+2026-10-26 09:45:27.452148 INFO::Fitting model to feature number 267, Leptotrichia_massiliensis
+2026-10-26 09:45:27.497398 INFO::Fitting model to feature number 268, Leptotrichia_SGB6069
+2026-10-26 09:45:27.543061 INFO::Fitting model to feature number 269, Leptotrichia_shahii
+2026-10-26 09:45:27.588924 INFO::Fitting model to feature number 270, Leptotrichia_sp_oral_taxon_212
+2026-10-26 09:45:27.634144 INFO::Fitting model to feature number 271, Leptotrichia_sp_oral_taxon_215
+2026-10-26 09:45:27.679303 INFO::Fitting model to feature number 272, Leptotrichia_sp_oral_taxon_221
+2026-10-26 09:45:27.723758 INFO::Fitting model to feature number 273, Leptotrichia_sp_oral_taxon_223
+2026-10-26 09:45:27.768492 INFO::Fitting model to feature number 274, Leptotrichia_trevisanii
+2026-10-26 09:45:27.814426 INFO::Fitting model to feature number 275, Leptotrichia_wadei
+2026-10-26 09:45:27.873151 INFO::Fitting model to feature number 276, Pseudoleptotrichia_goodfellowii
+2026-10-26 09:45:27.920322 INFO::Fitting model to feature number 277, Lautropia_dentalis
+2026-10-26 09:45:27.966744 INFO::Fitting model to feature number 278, Lautropia_mirabilis
+2026-10-26 09:45:28.012192 INFO::Fitting model to feature number 279, Ottowia_sp_Marseille_P4747
+2026-10-26 09:45:28.057437 INFO::Fitting model to feature number 280, Eikenella_corrodens
+2026-10-26 09:45:28.102371 INFO::Fitting model to feature number 281, Eikenella_halliae
+2026-10-26 09:45:28.149235 INFO::Fitting model to feature number 282, GGB6688_SGB9473
+2026-10-26 09:45:28.194612 INFO::Fitting model to feature number 283, Kingella_bonacorsii
+2026-10-26 09:45:28.238694 INFO::Fitting model to feature number 284, Kingella_denitrificans
+2026-10-26 09:45:28.284791 INFO::Fitting model to feature number 285, Neisseria_bacilliformis
+2026-10-26 09:45:28.341664 INFO::Fitting model to feature number 286, Neisseria_cinerea
+2026-10-26 09:45:28.38684 INFO::Fitting model to feature number 287, Neisseria_elongata
+2026-10-26 09:45:28.433436 INFO::Fitting model to feature number 288, Neisseria_sicca
+2026-10-26 09:45:28.492484 INFO::Fitting model to feature number 289, Neisseria_sp_oral_taxon_014
+2026-10-26 09:45:28.538564 INFO::Fitting model to feature number 290, Neisseria_subflava
+2026-10-26 09:45:28.585985 INFO::Fitting model to feature number 291, GGB12441_SGB19290
+2026-10-26 09:45:28.631442 INFO::Fitting model to feature number 292, Campylobacter_concisus
+2026-10-26 09:45:28.676746 INFO::Fitting model to feature number 293, Campylobacter_gracilis
+2026-10-26 09:45:28.722325 INFO::Fitting model to feature number 294, Campylobacter_rectus
+2026-10-26 09:45:28.770633 INFO::Fitting model to feature number 295, Campylobacter_SGB19292
+2026-10-26 09:45:28.817065 INFO::Fitting model to feature number 296, Campylobacter_SGB19301
+2026-10-26 09:45:28.862334 INFO::Fitting model to feature number 297, Campylobacter_SGB19316
+2026-10-26 09:45:28.908106 INFO::Fitting model to feature number 298, Campylobacter_SGB19323
+2026-10-26 09:45:28.952764 INFO::Fitting model to feature number 299, Campylobacter_SGB19337
+2026-10-26 09:45:28.998299 INFO::Fitting model to feature number 300, Campylobacter_SGB19347
+2026-10-26 09:45:29.043505 INFO::Fitting model to feature number 301, Campylobacter_SGB96342
+2026-10-26 09:45:29.100102 INFO::Fitting model to feature number 302, Campylobacter_SGB96438
+2026-10-26 09:45:29.147065 INFO::Fitting model to feature number 303, Campylobacter_showae
+2026-10-26 09:45:29.192976 INFO::Fitting model to feature number 304, GGB12443_SGB19313
+2026-10-26 09:45:29.237238 INFO::Fitting model to feature number 305, Cardiobacterium_hominis
+2026-10-26 09:45:29.282654 INFO::Fitting model to feature number 306, Cardiobacterium_SGB9417
+2026-10-26 09:45:29.326885 INFO::Fitting model to feature number 307, Cardiobacterium_SGB9419
+2026-10-26 09:45:29.371528 INFO::Fitting model to feature number 308, Cardiobacterium_sp_Marseille_Q4385
+2026-10-26 09:45:29.417983 INFO::Fitting model to feature number 309, Escherichia_coli
+2026-10-26 09:45:29.463035 INFO::Fitting model to feature number 310, Aggregatibacter_aphrophilus
+2026-10-26 09:45:29.508127 INFO::Fitting model to feature number 311, Aggregatibacter_kilianii
+2026-10-26 09:45:29.553728 INFO::Fitting model to feature number 312, Aggregatibacter_segnis
+2026-10-26 09:45:29.598559 INFO::Fitting model to feature number 313, Aggregatibacter_SGB9728
+2026-10-26 09:45:29.644784 INFO::Fitting model to feature number 314, Aggregatibacter_sp_2125159857
+2026-10-26 09:45:29.690754 INFO::Fitting model to feature number 315, Haemophilus_haemolyticus
+2026-10-26 09:45:29.749223 INFO::Fitting model to feature number 316, Haemophilus_parahaemolyticus
+2026-10-26 09:45:29.795132 INFO::Fitting model to feature number 317, Haemophilus_parainfluenzae
+2026-10-26 09:45:29.85205 INFO::Fitting model to feature number 318, Haemophilus_paraphrohaemolyticus
+2026-10-26 09:45:29.898014 INFO::Fitting model to feature number 319, Haemophilus_pittmaniae
+2026-10-26 09:45:29.942672 INFO::Fitting model to feature number 320, Haemophilus_sputorum
+2026-10-26 09:45:29.987632 INFO::Fitting model to feature number 321, GGB2666_SGB3592
+2026-10-26 09:45:30.033948 INFO::Fitting model to feature number 322, GGB73508_SGB3593
+2026-10-26 09:45:30.079655 INFO::Fitting model to feature number 323, GGB2663_SGB3587
+2026-10-26 09:45:30.124838 INFO::Fitting model to feature number 324, GGB71076_SGB96710
+2026-10-26 09:45:30.171144 INFO::Fitting model to feature number 325, Treponema_denticola
+2026-10-26 09:45:30.216762 INFO::Fitting model to feature number 326, Treponema_maltophilum
+2026-10-26 09:45:30.261681 INFO::Fitting model to feature number 327, Treponema_SGB3601
+2026-10-26 09:45:30.306124 INFO::Fitting model to feature number 328, Treponema_SGB3603
+2026-10-26 09:45:30.364367 INFO::Fitting model to feature number 329, Treponema_socranskii
+2026-10-26 09:45:30.4099 INFO::Fitting model to feature number 330, Treponema_sp_Marseille_Q4130
+2026-10-26 09:45:30.455546 INFO::Fitting model to feature number 331, Treponema_vincentii
+2026-10-26 09:45:30.501345 INFO::Fitting model to feature number 332, GGB10852_SGB17523
+2026-10-26 09:45:30.546223 INFO::Fitting model to feature number 333, GGB4333_SGB5935
+2026-10-26 09:45:30.591474 INFO::Fitting model to feature number 334, Metamycoplasma_salivarium
+2026-10-26 09:45:30.721733 INFO::Counting total values for each feature
+2026-10-26 09:45:30.78632 INFO::Writing filtered data to file results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/features/filtered_data.tsv
+2026-10-26 09:45:30.812975 INFO::Writing filtered, normalized data to file results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/features/filtered_data_norm.tsv
+2026-10-26 09:45:30.840695 INFO::Writing filtered, normalized, transformed data to file results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/features/filtered_data_norm_transformed.tsv
+2026-10-26 09:45:30.878674 INFO::Writing residuals to file results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/fits/residuals.rds
+2026-10-26 09:45:30.894538 INFO::Writing fitted values to file results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/fits/fitted.rds
+2026-10-26 09:45:30.908632 INFO::Writing extracted random effects to file results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/fits/ranef.rds
+2026-10-26 09:45:30.912721 INFO::Writing all results to file (ordered by increasing q-values): results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/all_results.tsv
+2026-10-26 09:45:30.926939 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/significant_results.tsv
+2026-10-26 09:45:30.933172 INFO::Writing heatmap of significant results to file: results/R/hmp_tonsil_oral_SINGLE_STUDY/05_MAASLIN2/model/heatmap.pdf
