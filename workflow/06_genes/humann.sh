@@ -30,8 +30,8 @@ source "${PIPELINE_DIR}/config.sh"
 
 SAMPLE="$(resolve_item "${SELECTED_SAMPLES_FILE}" "${1:-}")"
 T="$(threads)"
-require_vars ENV_HUMANN HUMANN_NUC_DB HUMANN_PROT_DB
-require_paths HUMANN_NUC_DB HUMANN_PROT_DB
+require_vars ENV_HUMANN HUMANN_NUC_DB HUMANN_PROT_DB HUMANN_UTILITY_DB
+require_paths HUMANN_NUC_DB HUMANN_PROT_DB HUMANN_UTILITY_DB
 OUT_S="${HUMANN_DIR}/per_sample/${SAMPLE}"
 make_out_dirs "${HUMANN_DIR}/per_sample"
 
@@ -65,6 +65,7 @@ humann \
     --threads "${T}" \
     --nucleotide-database "${HUMANN_NUC_DB}" \
     --protein-database "${HUMANN_PROT_DB}" \
+    --utility-database "${HUMANN_UTILITY_DB}" \
     --prescreen-threshold "${HUMANN_PRESCREEN}" \
     --remove-temp-output \
     2>&1 | tee "${WORK}/out/${SAMPLE}.humann.log"
