@@ -397,3 +397,19 @@ fi
 # cleaned reads (supervisor's request). Raw data are public and can be
 # downloaded again from the accessions in metadata/. "false" keeps them.
 export DELETE_RAW_AFTER_KNEADDATA="true"
+
+# -----------------------------------------------------------------------------
+# HUMAnN 4 functional profiling (06_genes), same versions as the CRASH workflow
+# -----------------------------------------------------------------------------
+export ENV_HUMANN="binp52_humann4"        # HUMAnN 4.0.0a1 + MetaPhlAn 4.1.1 (envs/humann4.yml)
+# HUMAnN 4 needs MetaPhlAn profiles made with the Oct22 index (Jun23 profiles
+# remain the taxonomy result).
+export MPA_OCT22_DB_DIR="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/metaphlan_db_oct22"
+export MPA_OCT22_INDEX="mpa_vOct22_CHOCOPhlAnSGB_202403"
+# HUMAnN 4 databases (shared group copies; NOT the older HUMAnN 3 folders
+# util_12-47/chocophlan and util_12-47/uniref).
+export HUMANN_NUC_DB="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/humann4/chocophlan"
+export HUMANN_PROT_DB="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/humann4/uniref"
+export HUMANN_UTILITY_DB="/lunarc/nobackup/projects/lu2025-12-46/util/util_12-47/humann4/utility_mapping"
+export HUMANN_PRESCREEN="1.0"             # as in CRASH
+export HUMANN_DIR="${GENES_DIR}/humann"   # per dataset: <dataset>/06_genes/humann
