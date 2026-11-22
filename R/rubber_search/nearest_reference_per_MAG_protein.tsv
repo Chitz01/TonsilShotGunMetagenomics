@@ -1,0 +1,107 @@
+label	nearest_reference	nearest_type	dist_nearest	dist_nearest_Rox	dataset	genus	product	length	n_MAG_copies
+MEGAHIT-MetaBAT2Refined-SRS019029.50__FDPAPN_01295	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.726	4.083	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS063246.10__PBNCCB_00400	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.75	4.107	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	3
+MEGAHIT-MetaBAT2Refined-SRS147128.32__PDCGJA_00773	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.75	4.107	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS065310.16__BJBPLG_02087	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.751	4.108	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS143066.17__JMMBHK_00536	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.751	4.108	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS143068.51__KGDFJI_01148	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.753	4.11	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS064022.18__BDGJAG_00493	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.754	4.111	hmp_tonsil	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS143529.72__CMJIFA_02189	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.763	4.12	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS148284.47__KHHIAD_00683	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.769	4.125	hmp_tonsil	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS019122.18__BPLEMH_01070	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	1.771	4.128	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	381	1
+MEGAHIT-MetaBAT2Refined-SRS079308.46__DCOAJJ_02395	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.39	4.258	hmp_oral	g__Lautropia	40-residue YVTN family beta-propeller repeat (3 repeats)	856	1
+MEGAHIT-MetaBAT2Refined-SRS146830.8__BMKKMN_02186	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.39	4.258	hmp_oral	g__Lautropia	hypothetical protein	496	1
+MEGAHIT-MetaBAT2Refined-SRS147128.1__FOGIAB_01033	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.39	4.258	hmp_oral	g__Lautropia	Cytochrome c domain-containing protein	375	1
+MEGAHIT-MetaBAT2Refined-SRS144380.47__MNDINJ_01890	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.4	4.268	hmp_oral	g__Lautropia	Cytochrome c domain-containing protein	126	1
+MEGAHIT-MetaBAT2Refined-SRS013949.34__KKJGBM_00198	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.409	4.277	hmp_oral	g__Lautropia	40-residue YVTN family beta-propeller repeat (3 repeats)	797	1
+MEGAHIT-MetaBAT2Refined-SRS143216.38__LOMGMG_02099	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.421	4.289	hmp_oral	g__Lautropia	40-residue YVTN family beta-propeller repeat (3 repeats)	852	1
+MEGAHIT-MetaBAT2Refined-SRS143218.24__BEPGCN_02610	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.421	4.289	hmp_oral	g__Lautropia	40-residue YVTN family beta-propeller repeat (3 repeats)	776	1
+MEGAHIT-MetaBAT2Refined-SRS013949.34__KKJGBM_00652	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.117	4.297	hmp_oral	g__Lautropia	Di-heme enzyme	434	1
+MEGAHIT-MetaBAT2Refined-SRS144380.47__MNDINJ_01621	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.12	4.3	hmp_oral	g__Lautropia	Di-heme enzyme	434	1
+MEGAHIT-MetaBAT2Refined-SRS143759.11__IPEDNL_01505	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.128	4.309	hmp_oral	g__Lautropia	Di-heme enzyme	434	1
+MEGAHIT-MetaBAT2Refined-SRS104093.28__FBBHEJ_01130	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.13	4.311	hmp_oral	g__Lautropia	Di-heme enzyme	434	1
+MEGAHIT-MetaBAT2Refined-SRS104093.8__OIECMJ_00898	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.131	4.311	hmp_oral	g__Lautropia	Di-heme enzyme	434	3
+MEGAHIT-MetaBAT2Refined-SRS079308.46__DCOAJJ_02374	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.134	4.314	hmp_oral	g__Lautropia	Di-heme enzyme	434	3
+MEGAHIT-MetaBAT2Refined-SRS104291.40__HBLKMG_00262	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.135	4.315	hmp_oral	g__Lautropia	Di-heme enzyme	346	1
+MEGAHIT-MetaBAT2Refined-SRS014476.9__CHDDDF_00824	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.139	4.32	hmp_oral	g__Lautropia	Di-heme enzyme	433	2
+MEGAHIT-MetaBAT2Refined-SRS143216.48__BBAIFP_01791	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	2.154	4.335	hmp_oral	g__Lautropia	Di-heme enzyme	433	1
+MEGAHIT-MetaBAT2Refined-SRS013949.43__HFBIOK_00435	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.009	4.366	hmp_oral	g__Capnocytophaga	Cytochrome c551 peroxidase	396	1
+MEGAHIT-MetaBAT2Refined-SRS098624.37__BFPMEO_01214	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.025	4.382	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	2
+MEGAHIT-MetaBAT2Refined-SRS063215.18__FOFAPC_01708	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.028	4.385	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS143066.28__EDOAOK_00044	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.028	4.385	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	3
+MEGAHIT-MetaBAT2Refined-SRS144427.15__PDJBJE_00516	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.028	4.385	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS144674.3__IKKEBM_00955	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.028	4.385	hmp_tonsil	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	2
+MEGAHIT-MetaBAT2Refined-SRS147670.12__FJJEDC_02007	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.028	4.385	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS014476.46__JJBGGH_00575	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.03	4.387	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS064022.6__DMLPAJ_01050	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.03	4.387	hmp_tonsil	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS065299.28__NLGKKI_00930	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.03	4.387	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS147149.55__BLAFMF_00763	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.031	4.388	hmp_tonsil	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	4
+MEGAHIT-MetaBAT2Refined-SRS143529.54__IJMFAG_00823	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.034	4.391	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS104093.20__HKAMPG_00629	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.036	4.393	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS143218.23_sub__LNHGNJ_00543	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.036	4.393	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS147128.52__GMBCJA_01515	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.038	4.395	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	380	1
+MEGAHIT-MaxBin2Refined-SRS079308.035_sub__LIJHIK_00376	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.039	4.396	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS015590.29__FNNOJG_02165	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.039	4.396	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS063246.7__LOKDED_01703	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.039	4.396	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS104291.63__MEPGFM_00223	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.039	4.396	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS148290.25__PPCHMI_00884	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.039	4.396	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS143068.20__BFBHJI_00925	REF_CCP__IDRP1_DENI1__P0DV68	CCP_SwissProt	2.042	4.399	hmp_oral	g__Capnocytophaga	Di-heme cytochrome C peroxidase	378	1
+MEGAHIT-MetaBAT2Refined-SRS104291.15__EOCAAJ_01751	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.427	4.48	hmp_oral	g__Cardiobacterium	Cytochrome c551 peroxidase	387	1
+MEGAHIT-MetaBAT2Refined-SRS014476.34__BOLENC_01186	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.434	4.486	hmp_oral	g__Cardiobacterium	Cytochrome c551 peroxidase	387	1
+MEGAHIT-MetaBAT2Refined-SRS143216.48__BBAIFP_02408	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.621	4.489	hmp_oral	g__Lautropia	hypothetical protein	679	1
+MEGAHIT-MetaBAT2Refined-SRS014476.40__PNAHFG_00773	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.284	4.494	hmp_oral	g__Neisseria	Protein CcpR	308	1
+MEGAHIT-MetaBAT2Refined-SRS014476.9__CHDDDF_01333	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.628	4.496	hmp_oral	g__Lautropia	Cytochrome c domain-containing protein	838	1
+MEGAHIT-MetaBAT2Refined-SRS104093.27__BMICLL_01479	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.288	4.499	hmp_oral	g__Neisseria	Cytochrome C peroxidase	394	1
+MEGAHIT-MaxBin2Refined-SRS077303.012__CIEBEB_01554	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.29	4.5	hmp_oral	g__Neisseria	Cytochrome C peroxidase	379	2
+MEGAHIT-MetaBAT2Refined-SRS104093.28__FBBHEJ_01837	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.633	4.501	hmp_oral	g__Lautropia	hypothetical protein	679	1
+MEGAHIT-MetaBAT2Refined-SRS104291.40__HBLKMG_01916	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	3.633	4.501	hmp_oral	g__Lautropia	hypothetical protein	493	1
+MEGAHIT-MetaBAT2Refined-SRS104291.54__NFFCLM_02103	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.338	4.549	hmp_oral	g__Neisseria	Protein CcpR	338	1
+MEGAHIT-MetaBAT2Refined-SRS147128.31__HKPOLH_00397	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.502	4.554	hmp_oral	g__Aggregatibacter	Methylamine utilization protein MauG	393	1
+MEGAHIT-MetaBAT2Refined-SRS013950.35__NNLHGJ_00422	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.514	4.566	hmp_oral	g__Aggregatibacter	Cytochrome c peroxidase	399	2
+MEGAHIT-MetaBAT2Refined-SRS065542.12__ACMKPO_00974	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.533	4.585	hmp_oral	g__Aggregatibacter	Cytochrome c peroxidase	387	1
+MEGAHIT-MetaBAT2Refined-SRS148284.58__MFKPJO_01211	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1	4.591	hmp_tonsil	g__Campylobacter_A	cytochrome-c peroxidase	333	1
+MEGAHIT-MetaBAT2Refined-SRS063621.3__JDMBJK_00421	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.557	4.61	hmp_tonsil	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS077303.15__BAPBGE_01936	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.56	4.612	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS144644.7__JFDIHM_00852	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.022	4.612	hmp_oral	g__Campylobacter_A	cytochrome-c peroxidase	344	1
+MEGAHIT-MetaBAT2Refined-SRS013946.20__JLABJH_00730	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.403	4.614	hmp_oral	g__Neisseria	Cytochrome C peroxidase	387	1
+MEGAHIT-MetaBAT2Refined-SRS104282.2__EEANMJ_01359	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.563	4.616	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS143214.8__MCCLHJ_00677	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.563	4.616	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS143529.37__AHDMJF_00925	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.026	4.616	hmp_oral	g__Campylobacter_A	cytochrome-c peroxidase	323	1
+MEGAHIT-MetaBAT2Refined-SRS014473.21__CKMLJD_01757	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.406	4.617	hmp_oral	g__Neisseria	Cytochrome C peroxidase	387	1
+MEGAHIT-MetaBAT2Refined-SRS148284.22__JKHMAG_00714	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.569	4.621	hmp_tonsil	g__Haemophilus_A	Methylamine utilization protein MauG	376	1
+MEGAHIT-MetaBAT2Refined-SRS104287.7__LHCCCO_00649	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.57	4.622	hmp_tonsil	g__Haemophilus_D	Cytochrome c peroxidase	365	1
+MEGAHIT-MetaBAT2Refined-SRS144674.1__HLPGPM_00961	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.57	4.622	hmp_tonsil	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS143751.3__LBIMCE_01201	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.573	4.625	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS013947.16__POOFBA_00407	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.576	4.628	hmp_tonsil	g__Haemophilus_A	Methylamine utilization protein MauG	376	1
+MEGAHIT-MetaBAT2Refined-SRS014474.1__NICDKK_00272	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.577	4.629	hmp_tonsil	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS015374.5__NPMGOJ_01701	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.577	4.629	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS098612.33__LBJCGH_00730	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.582	4.634	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	316	1
+MEGAHIT-MetaBAT2Refined-SRS063246.13__NMPPIA_00439	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.583	4.635	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS142965.9__JNJBLG_00866	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.583	4.635	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS014476.10__AKLMPB_00051	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.586	4.639	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS142968.1__ALDGPO_00634	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.587	4.639	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	365	1
+MEGAHIT-MetaBAT2Refined-SRS143037.50__ILJDCD_00059	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.586	4.639	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS143068.4__JDKNDL_00194	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.59	4.642	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS019027.28__HJPJJO_00091	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.593	4.645	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS104093.10__INFGJB_00151	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.593	4.645	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	5
+MEGAHIT-MetaBAT2Refined-SRS013945.3__FMMDBK_00172	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.596	4.648	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	2
+MEGAHIT-MetaBAT2Refined-SRS015592.4__PBINJN_01650	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.596	4.649	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS019028.40__CPELDI_01428	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.596	4.649	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	2
+MEGAHIT-MetaBAT2Refined-SRS144427.6__NLFCJE_00282	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.596	4.649	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	1
+MEGAHIT-MetaBAT2Refined-SRS146741.5__CFOFAN_00823	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.603	4.655	hmp_oral	g__Haemophilus_D	Cytochrome c peroxidase	379	2
+MEGAHIT-MetaBAT2Refined-SRS144644.30__LKGNEI_00463	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.508	4.718	hmp_oral	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS013947.13__EHCNNO_01493	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.511	4.721	hmp_tonsil	g__Neisseria	Cytochrome c peroxidase	391	3
+MEGAHIT-MetaBAT2Refined-SRS147144.11__JAIDOB_01165	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.668	4.721	hmp_oral	g__Haemophilus	Methylamine utilization protein MauG	374	1
+MEGAHIT-MetaBAT2Refined-SRS065306.3__GIIGCB_00627	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.514	4.725	hmp_tonsil	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS062540.22__POJPNP_00287	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.52	4.73	hmp_oral	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS104279.17__PKHOPD_00029	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.52	4.731	hmp_oral	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS143037.1__EKELHP_01459	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.523	4.734	hmp_oral	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS050709.4__BOOHJA_01454	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.529	4.739	hmp_oral	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS104287.29_sub__NGHINE_00537	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.529	4.739	hmp_tonsil	g__Neisseria	Cytochrome c peroxidase	391	3
+MEGAHIT-MetaBAT2Refined-SRS144380.33__IFKDCB_00435	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.529	4.739	hmp_oral	g__Neisseria	Cytochrome c peroxidase	391	1
+MEGAHIT-MetaBAT2Refined-SRS143214.6__AEFBGA_00087	REF_CCP__CCPR_PSEAE__P14532	CCP_SwissProt	1.548	4.758	hmp_oral	g__Bergeyella_A	Cytochrome c551 peroxidase (Cytochrome cperoxidase) (CCP)	340	1
+MEGAHIT-MaxBin2Refined-SRS064482.005_sub__JFMDJF_00200	REF_MauG__MAUG_PARDP__Q51658	MauG_SwissProt	1.714	4.766	hmp_tonsil	g__Haemophilus	Cytochrome c domain-containing protein	376	1
+MEGAHIT-MetaBAT2Refined-SRS013949.38__DCIKOF_01071	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	5.235	5.424	hmp_oral	g__Actinomyces	ATP-dependent helicase	528	1
+MEGAHIT-MetaBAT2Refined-SRS065310.33__HBANHF_02214	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	5.251	5.44	hmp_oral	g__Actinomyces	ATP-dependent helicase C-terminal domain protein	329	1
+MEGAHIT-MetaBAT2Refined-SRS144427.14__PBNHFM_01880	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	5.361	5.549	hmp_oral	g__Actinomyces	ATP-dependent helicase HrpB	977	1
+MEGAHIT-MetaBAT2Refined-SRS147128.15__BLBMDM_01380	REF_CCP__CCPR_NITEU__P55929	CCP_SwissProt	5.361	5.549	hmp_oral	g__Actinomyces	ATP-dependent helicase C-terminal domain protein	346	1

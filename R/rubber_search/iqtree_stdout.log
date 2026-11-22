@@ -1,0 +1,297 @@
+IQ-TREE version 3.1.4 for Linux x86 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    cn097 (AVX2, FMA3, 250 GB RAM)
+Command: /lunarc/nobackup/projects/lu2025-12-46/CHETANA/envs/rubber_search/bin/iqtree3 -s tree_input.trim.aln -m MFP -B 1000 -alrt 1000 -T AUTO -ntmax 20 --prefix rox_tree -redo
+Seed:    634298 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 20 15:53:30 2026
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file tree_input.trim.aln ... Fasta format detected
+Reading fasta file: done in 0.000898838 secs using 36.16% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00125504 secs using 1563% CPU
+Alignment has 120 sequences with 375 columns, 374 distinct patterns
+366 parsimony-informative, 3 singleton sites, 6 constant sites
+                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.00679e-05 secs using 976.7% CPU
+   1  RoxA_35Y__RoxA__Q7X0P3                                   10.67%    failed      0.00%
+   2  RoxB_NS21__RoxB__A0A0M4UPQ3                              12.80%    failed      0.00%
+   3  RoxB_35Y__RoxB__A0A1S6Q8F9                               12.80%    failed      0.06%
+   4  REF_CCP__CCPR_PSEAE__P14532                              11.20%    passed     18.96%
+   5  REF_CCP__CCP_ECOLI__P37197                                9.87%    passed     74.55%
+   6  REF_CCP__IDRP1_PSEXS__A0A391NGM7                          8.53%    passed     37.16%
+   7  REF_CCP__IDRP2_PSEXS__A0A391NKV7                         10.40%    passed     48.80%
+   8  REF_CCP__IDRP1_DENI1__P0DV68                              8.80%    passed     27.59%
+   9  REF_CCP__IDRP2_DENI1__P0DV69                             10.40%    passed     38.69%
+  10  REF_CCP__CCPR_NITEU__P55929                              14.40%    passed     88.33%
+  11  REF_MauG__MAUG_METEA__Q49128                              6.93%    failed      2.41%
+  12  REF_MauG__MAUG_METME__Q50233                             12.27%    failed      3.39%
+  13  REF_MauG__MAUG_METFK__Q50426                             12.27%    failed      4.48%
+  14  REF_MauG__MAUG_PARDP__Q51658                             12.00%    failed      2.68%
+  15  MEGAHIT-MaxBin2Refined-SRS064482.005_sub__JFMDJF_00200   12.80%    passed     92.33%
+  16  MEGAHIT-MetaBAT2Refined-SRS013947.13__EHCNNO_01493        6.40%    passed     74.14%
+  17  MEGAHIT-MetaBAT2Refined-SRS013947.16__POOFBA_00407       12.80%    passed     23.37%
+  18  MEGAHIT-MetaBAT2Refined-SRS014474.1__NICDKK_00272        12.00%    passed     72.06%
+  19  MEGAHIT-MetaBAT2Refined-SRS063621.3__JDMBJK_00421        12.00%    passed     29.86%
+  20  MEGAHIT-MetaBAT2Refined-SRS064022.18__BDGJAG_00493        2.13%    passed     47.75%
+  21  MEGAHIT-MetaBAT2Refined-SRS064022.6__DMLPAJ_01050         2.13%    passed     67.03%
+  22  MEGAHIT-MetaBAT2Refined-SRS065306.3__GIIGCB_00627         6.40%    passed     70.27%
+  23  MEGAHIT-MetaBAT2Refined-SRS104287.29_sub__NGHINE_00537    6.40%    passed     82.53%
+  24  MEGAHIT-MetaBAT2Refined-SRS104287.7__LHCCCO_00649        15.73%    passed     62.23%
+  25  MEGAHIT-MetaBAT2Refined-SRS144674.1__HLPGPM_00961        12.00%    passed     74.08%
+  26  MEGAHIT-MetaBAT2Refined-SRS144674.3__IKKEBM_00955         2.13%    passed     71.78%
+  27  MEGAHIT-MetaBAT2Refined-SRS147149.55__BLAFMF_00763        2.13%    passed     69.93%
+  28  MEGAHIT-MetaBAT2Refined-SRS148284.22__JKHMAG_00714       12.80%    passed     23.85%
+  29  MEGAHIT-MetaBAT2Refined-SRS148284.47__KHHIAD_00683        2.13%    passed     50.71%
+  30  MEGAHIT-MetaBAT2Refined-SRS148284.58__MFKPJO_01211       18.40%    passed     95.64%
+  31  MEGAHIT-MaxBin2Refined-SRS077303.012__CIEBEB_01554        9.87%    passed     78.40%
+  32  MEGAHIT-MaxBin2Refined-SRS079308.035_sub__LIJHIK_00376    2.13%    passed     74.72%
+  33  MEGAHIT-MetaBAT2Refined-SRS013945.3__FMMDBK_00172        12.00%    passed     62.73%
+  34  MEGAHIT-MetaBAT2Refined-SRS013946.20__JLABJH_00730        6.40%    passed     61.23%
+  35  MEGAHIT-MetaBAT2Refined-SRS013949.34__KKJGBM_00198       22.93%    passed      5.07%
+  36  MEGAHIT-MetaBAT2Refined-SRS013949.34__KKJGBM_00652        3.47%    passed     21.41%
+  37  MEGAHIT-MetaBAT2Refined-SRS013949.38__DCIKOF_01071       26.93%    failed      0.00%
+  38  MEGAHIT-MetaBAT2Refined-SRS013949.43__HFBIOK_00435        2.40%    failed      0.02%
+  39  MEGAHIT-MetaBAT2Refined-SRS013950.35__NNLHGJ_00422        9.60%    passed     51.56%
+  40  MEGAHIT-MetaBAT2Refined-SRS014473.21__CKMLJD_01757        6.40%    passed     60.33%
+  41  MEGAHIT-MetaBAT2Refined-SRS014476.10__AKLMPB_00051       12.00%    passed     76.05%
+  42  MEGAHIT-MetaBAT2Refined-SRS014476.34__BOLENC_01186       13.33%    passed      8.63%
+  43  MEGAHIT-MetaBAT2Refined-SRS014476.40__PNAHFG_00773       21.87%    passed     93.63%
+  44  MEGAHIT-MetaBAT2Refined-SRS014476.46__JJBGGH_00575        2.13%    passed     70.71%
+  45  MEGAHIT-MetaBAT2Refined-SRS014476.9__CHDDDF_00824         3.47%    passed      8.92%
+  46  MEGAHIT-MetaBAT2Refined-SRS014476.9__CHDDDF_01333        21.07%    failed      1.58%
+  47  MEGAHIT-MetaBAT2Refined-SRS015374.5__NPMGOJ_01701        12.00%    passed     27.97%
+  48  MEGAHIT-MetaBAT2Refined-SRS015590.29__FNNOJG_02165        2.13%    passed     63.92%
+  49  MEGAHIT-MetaBAT2Refined-SRS015592.4__PBINJN_01650        12.00%    passed     66.02%
+  50  MEGAHIT-MetaBAT2Refined-SRS019027.28__HJPJJO_00091       12.00%    passed     73.68%
+  51  MEGAHIT-MetaBAT2Refined-SRS019028.40__CPELDI_01428       12.00%    passed     62.23%
+  52  MEGAHIT-MetaBAT2Refined-SRS019029.50__FDPAPN_01295        2.13%    passed     46.30%
+  53  MEGAHIT-MetaBAT2Refined-SRS019122.18__BPLEMH_01070        2.13%    passed     53.31%
+  54  MEGAHIT-MetaBAT2Refined-SRS050709.4__BOOHJA_01454         6.40%    passed     70.55%
+  55  MEGAHIT-MetaBAT2Refined-SRS062540.22__POJPNP_00287        6.40%    passed     87.30%
+  56  MEGAHIT-MetaBAT2Refined-SRS063215.18__FOFAPC_01708        2.13%    passed     69.48%
+  57  MEGAHIT-MetaBAT2Refined-SRS063246.10__PBNCCB_00400        2.13%    passed     54.43%
+  58  MEGAHIT-MetaBAT2Refined-SRS063246.13__NMPPIA_00439       12.00%    passed     76.64%
+  59  MEGAHIT-MetaBAT2Refined-SRS063246.7__LOKDED_01703         2.13%    passed     74.01%
+  60  MEGAHIT-MetaBAT2Refined-SRS065299.28__NLGKKI_00930        2.13%    passed     66.14%
+  61  MEGAHIT-MetaBAT2Refined-SRS065310.16__BJBPLG_02087        2.13%    passed     53.05%
+  62  MEGAHIT-MetaBAT2Refined-SRS065310.33__HBANHF_02214       34.13%    failed      0.00%
+  63  MEGAHIT-MetaBAT2Refined-SRS065542.12__ACMKPO_00974       10.13%    passed     24.49%
+  64  MEGAHIT-MetaBAT2Refined-SRS077303.15__BAPBGE_01936       12.00%    passed     55.44%
+  65  MEGAHIT-MetaBAT2Refined-SRS079308.46__DCOAJJ_02374        3.47%    passed     23.96%
+  66  MEGAHIT-MetaBAT2Refined-SRS079308.46__DCOAJJ_02395       21.07%    failed      4.34%
+  67  MEGAHIT-MetaBAT2Refined-SRS098612.33__LBJCGH_00730       28.80%    passed     50.49%
+  68  MEGAHIT-MetaBAT2Refined-SRS098624.37__BFPMEO_01214        2.13%    passed     64.47%
+  69  MEGAHIT-MetaBAT2Refined-SRS104093.10__INFGJB_00151       12.00%    passed     59.59%
+  70  MEGAHIT-MetaBAT2Refined-SRS104093.20__HKAMPG_00629        2.13%    passed     70.71%
+  71  MEGAHIT-MetaBAT2Refined-SRS104093.27__BMICLL_01479        6.40%    passed     93.87%
+  72  MEGAHIT-MetaBAT2Refined-SRS104093.28__FBBHEJ_01130        3.47%    passed      8.48%
+  73  MEGAHIT-MetaBAT2Refined-SRS104093.28__FBBHEJ_01837       25.87%    failed      1.02%
+  74  MEGAHIT-MetaBAT2Refined-SRS104093.8__OIECMJ_00898         3.47%    passed     22.29%
+  75  MEGAHIT-MetaBAT2Refined-SRS104279.17__PKHOPD_00029        6.40%    passed     85.19%
+  76  MEGAHIT-MetaBAT2Refined-SRS104282.2__EEANMJ_01359        12.00%    passed     69.76%
+  77  MEGAHIT-MetaBAT2Refined-SRS104291.15__EOCAAJ_01751       13.33%    passed     11.16%
+  78  MEGAHIT-MetaBAT2Refined-SRS104291.40__HBLKMG_00262       15.20%    passed     26.13%
+  79  MEGAHIT-MetaBAT2Refined-SRS104291.40__HBLKMG_01916       25.87%    failed      3.17%
+  80  MEGAHIT-MetaBAT2Refined-SRS104291.54__NFFCLM_02103       14.13%    passed     92.01%
+  81  MEGAHIT-MetaBAT2Refined-SRS104291.63__MEPGFM_00223        2.13%    passed     64.16%
+  82  MEGAHIT-MetaBAT2Refined-SRS142965.9__JNJBLG_00866        12.00%    passed     69.82%
+  83  MEGAHIT-MetaBAT2Refined-SRS142968.1__ALDGPO_00634        15.73%    passed     64.53%
+  84  MEGAHIT-MetaBAT2Refined-SRS143037.1__EKELHP_01459         6.40%    passed     85.70%
+  85  MEGAHIT-MetaBAT2Refined-SRS143037.50__ILJDCD_00059       12.00%    passed     61.30%
+  86  MEGAHIT-MetaBAT2Refined-SRS143066.17__JMMBHK_00536        2.13%    passed     55.16%
+  87  MEGAHIT-MetaBAT2Refined-SRS143066.28__EDOAOK_00044        2.13%    passed     66.04%
+  88  MEGAHIT-MetaBAT2Refined-SRS143068.20__BFBHJI_00925        2.13%    passed     62.88%
+  89  MEGAHIT-MetaBAT2Refined-SRS143068.4__JDKNDL_00194        12.00%    passed     62.10%
+  90  MEGAHIT-MetaBAT2Refined-SRS143068.51__KGDFJI_01148        2.13%    passed     46.12%
+  91  MEGAHIT-MetaBAT2Refined-SRS143214.6__AEFBGA_00087        10.93%    passed     17.68%
+  92  MEGAHIT-MetaBAT2Refined-SRS143214.8__MCCLHJ_00677        12.00%    passed     69.46%
+  93  MEGAHIT-MetaBAT2Refined-SRS143216.38__LOMGMG_02099       21.07%    failed      1.84%
+  94  MEGAHIT-MetaBAT2Refined-SRS143216.48__BBAIFP_01791        3.47%    passed      7.87%
+  95  MEGAHIT-MetaBAT2Refined-SRS143216.48__BBAIFP_02408       25.87%    failed      2.77%
+  96  MEGAHIT-MetaBAT2Refined-SRS143218.23_sub__LNHGNJ_00543    2.13%    passed     70.13%
+  97  MEGAHIT-MetaBAT2Refined-SRS143218.24__BEPGCN_02610       25.87%    failed      4.13%
+  98  MEGAHIT-MetaBAT2Refined-SRS143529.37__AHDMJF_00925       21.07%    passed     88.46%
+  99  MEGAHIT-MetaBAT2Refined-SRS143529.54__IJMFAG_00823        2.13%    passed     56.72%
+ 100  MEGAHIT-MetaBAT2Refined-SRS143529.72__CMJIFA_02189        2.13%    passed     45.76%
+ 101  MEGAHIT-MetaBAT2Refined-SRS143751.3__LBIMCE_01201        12.00%    passed     68.50%
+ 102  MEGAHIT-MetaBAT2Refined-SRS143759.11__IPEDNL_01505        3.47%    passed     23.75%
+ 103  MEGAHIT-MetaBAT2Refined-SRS144380.33__IFKDCB_00435        6.40%    passed     86.95%
+ 104  MEGAHIT-MetaBAT2Refined-SRS144380.47__MNDINJ_01621        3.47%    passed     22.82%
+ 105  MEGAHIT-MetaBAT2Refined-SRS144380.47__MNDINJ_01890       67.73%    passed     26.04%
+ 106  MEGAHIT-MetaBAT2Refined-SRS144427.14__PBNHFM_01880       22.13%    failed      0.00%
+ 107  MEGAHIT-MetaBAT2Refined-SRS144427.15__PDJBJE_00516        2.13%    passed     69.48%
+ 108  MEGAHIT-MetaBAT2Refined-SRS144427.6__NLFCJE_00282        12.00%    passed     66.02%
+ 109  MEGAHIT-MetaBAT2Refined-SRS144644.30__LKGNEI_00463        6.40%    passed     68.57%
+ 110  MEGAHIT-MetaBAT2Refined-SRS144644.7__JFDIHM_00852        16.00%    passed     82.95%
+ 111  MEGAHIT-MetaBAT2Refined-SRS146741.5__CFOFAN_00823        12.00%    passed     59.76%
+ 112  MEGAHIT-MetaBAT2Refined-SRS146830.8__BMKKMN_02186        26.13%    passed      7.48%
+ 113  MEGAHIT-MetaBAT2Refined-SRS147128.1__FOGIAB_01033        26.13%    passed      7.48%
+ 114  MEGAHIT-MetaBAT2Refined-SRS147128.15__BLBMDM_01380       31.47%    failed      0.00%
+ 115  MEGAHIT-MetaBAT2Refined-SRS147128.31__HKPOLH_00397        9.87%    passed     31.06%
+ 116  MEGAHIT-MetaBAT2Refined-SRS147128.32__PDCGJA_00773        2.13%    passed     50.68%
+ 117  MEGAHIT-MetaBAT2Refined-SRS147128.52__GMBCJA_01515        2.13%    passed     41.16%
+ 118  MEGAHIT-MetaBAT2Refined-SRS147144.11__JAIDOB_01165       13.33%    passed     81.77%
+ 119  MEGAHIT-MetaBAT2Refined-SRS147670.12__FJJEDC_02007        2.13%    passed     69.60%
+ 120  MEGAHIT-MetaBAT2Refined-SRS148290.25__PPCHMI_00884        2.13%    passed     68.82%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                    10.70%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MEGAHIT-MetaBAT2Refined-SRS144427.6__NLFCJE_00282 is identical to MEGAHIT-MetaBAT2Refined-SRS015592.4__PBINJN_01650 but kept for subsequent analysis
+NOTE: MEGAHIT-MetaBAT2Refined-SRS147128.1__FOGIAB_01033 is identical to MEGAHIT-MetaBAT2Refined-SRS146830.8__BMKKMN_02186 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000473976 secs using 1893% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.019 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 20.882 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -64447
+Threads: 2 / Time: 11.165 sec / Speedup: 1.870 / Efficiency: 94% / LogL: -64447
+Threads: 3 / Time: 10.273 sec / Speedup: 2.033 / Efficiency: 68% / LogL: -64447
+Threads: 4 / Time: 9.465 sec / Speedup: 2.206 / Efficiency: 55% / LogL: -64447
+Threads: 5 / Time: 7.798 sec / Speedup: 2.678 / Efficiency: 54% / LogL: -64447
+Threads: 6 / Time: 7.055 sec / Speedup: 2.960 / Efficiency: 49% / LogL: -64447
+Determining AUTO threadcount: done in 66.6409 secs using 291.6% CPU
+BEST NUMBER OF THREADS: 5
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -21027.795
+Optimal log-likelihood: -21027.779
+Proportion of invariable sites: 0.011
+Gamma shape alpha: 1.663
+Parameters optimization took 1 rounds (0.113 sec)
+Time for fast ML tree search: 1.337 seconds
+
+NOTE: ModelFinder requires 74 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 375 epsilon: 0.100) ...
+Akaike Information Criterion:           Q.PFAM+I+R3
+Corrected Akaike Information Criterion: Q.PFAM+I+G4
+Bayesian Information Criterion:         Q.PFAM+I+R3
+Best-fit model: Q.PFAM+I+R3 chosen according to BIC
+
+All model information printed to rox_tree.model.gz
+CPU time for ModelFinder: 716.867 seconds (0h:11m:56s)
+Wall-clock time for ModelFinder: 172.616 seconds (0h:2m:52s)
+Generating 1000 samples for ultrafast bootstrap (seed: 634298)...
+
+NOTE: 23 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -20981.898
+2. Current log-likelihood: -20975.521
+3. Current log-likelihood: -20975.127
+Optimal log-likelihood: -20975.123
+Proportion of invariable sites: 0.012
+Site proportion and rates:  (0.176,0.209) (0.444,0.728) (0.368,1.738)
+Parameters optimization took 3 rounds (0.538 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.186448 secs using 497.7% CPU
+Computing ML distances took 0.186613 sec (of wall-clock time) 0.928694 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000241995 secs using 535.5% CPU
+Constructing RapidNJ tree: done in 0.00484705 secs using 496.5% CPU
+Computing RapidNJ tree took 0.005176 sec (of wall-clock time) 0.028083 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -21149.888
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.050 second
+Computing log-likelihood of 98 initial trees ... 3.086 seconds
+Current best score: -20975.123
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -20975.122
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -20973.033
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -20972.200
+Iteration 10 / LogL: -20976.750 / Time: 0h:3m:6s
+Iteration 20 / LogL: -20975.159 / Time: 0h:3m:14s
+Finish initializing candidate tree set (20)
+Current best tree score: -20972.200 / CPU time: 20.502
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -20971.918
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -20971.844
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -20971.339
+Iteration 30 / LogL: -20972.910 / Time: 0h:3m:26s (0h:1m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -20971.210
+Iteration 40 / LogL: -21067.455 / Time: 0h:3m:37s (0h:1m:50s left)
+Iteration 50 / LogL: -20972.037 / Time: 0h:3m:48s (0h:1m:38s left)
+Log-likelihood cutoff on original alignment: -21005.208
+Iteration 60 / LogL: -20971.455 / Time: 0h:3m:59s (0h:1m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -20970.943
+Iteration 70 / LogL: -20970.943 / Time: 0h:4m:11s (0h:1m:53s left)
+Iteration 80 / LogL: -20977.274 / Time: 0h:4m:22s (0h:1m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -20970.706
+Iteration 90 / LogL: -21006.814 / Time: 0h:4m:34s (0h:1m:51s left)
+Iteration 100 / LogL: -21059.365 / Time: 0h:4m:45s (0h:1m:40s left)
+Log-likelihood cutoff on original alignment: -21002.363
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -20971.359 / Time: 0h:4m:57s (0h:1m:42s left)
+Iteration 120 / LogL: -20972.995 / Time: 0h:5m:8s (0h:1m:31s left)
+Iteration 130 / LogL: -20992.740 / Time: 0h:5m:20s (0h:1m:20s left)
+Iteration 140 / LogL: -20972.135 / Time: 0h:5m:32s (0h:1m:9s left)
+Iteration 150 / LogL: -20972.650 / Time: 0h:5m:43s (0h:0m:57s left)
+Log-likelihood cutoff on original alignment: -21002.363
+Iteration 160 / LogL: -20972.038 / Time: 0h:5m:55s (0h:0m:46s left)
+Iteration 170 / LogL: -20972.413 / Time: 0h:6m:7s (0h:0m:34s left)
+Iteration 180 / LogL: -20978.745 / Time: 0h:6m:18s (0h:0m:23s left)
+TREE SEARCH COMPLETED AFTER 189 ITERATIONS / Time: 0h:6m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -20970.706
+Optimal log-likelihood: -20970.706
+Proportion of invariable sites: 0.012
+Site proportion and rates:  (0.177,0.209) (0.446,0.729) (0.366,1.745)
+Parameters optimization took 1 rounds (0.143 sec)
+BEST SCORE FOUND : -20970.706
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.386 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file rox_tree.splits.nex
+Total tree length: 26.319
+
+Total number of iterations: 189
+CPU time used for tree search: 1056.438 sec (0h:17m:36s)
+Wall-clock time used for tree search: 214.936 sec (0h:3m:34s)
+Total CPU time used: 1782.743 sec (0h:29m:42s)
+Total wall-clock time used: 389.455 sec (0h:6m:29s)
+
+Computing bootstrap consensus tree...
+Reading input file rox_tree.splits.nex...
+120 taxa and 705 splits.
+Consensus tree written to rox_tree.contree
+Reading input trees file rox_tree.contree
+Log-likelihood of consensus tree: -20971.725
+
+Analysis results written to: 
+  IQ-TREE report:                rox_tree.iqtree
+  Maximum-likelihood tree:       rox_tree.treefile
+  Likelihood distances:          rox_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          rox_tree.splits.nex
+  Consensus tree:                rox_tree.contree
+  Screen log file:               rox_tree.log
+
+Date and Time: Fri Nov 20 16:00:00 2026
